@@ -1,0 +1,7582 @@
+[
+  {
+    "amount": {
+      "__decimal__": "28390.21"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28390.21"
+    },
+    "payment_id": "PAY-00001",
+    "settled_at": "2026-06-06T18:07:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00001",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00001PAY00001"
+  },
+  {
+    "amount": {
+      "__decimal__": "26853.89"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26853.89"
+    },
+    "payment_id": "PAY-00002",
+    "settled_at": "2026-06-06T09:16:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00002",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 02P AY0 000 2"
+  },
+  {
+    "amount": {
+      "__decimal__": "38885.04"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "38885.04"
+    },
+    "payment_id": "PAY-00003",
+    "settled_at": "2026-07-15T17:03:00",
+    "settlement_batch_id": "BATCH-20260715",
+    "settlement_id": "STL-00003",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00003PAY00003"
+  },
+  {
+    "amount": {
+      "__decimal__": "37254.33"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "37254.33"
+    },
+    "payment_id": "PAY-00004",
+    "settled_at": "2026-07-21T06:15:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00004",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00004PAY00004"
+  },
+  {
+    "amount": {
+      "__decimal__": "11780.54"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11780.54"
+    },
+    "payment_id": "PAY-00005",
+    "settled_at": "2026-07-12T02:47:00",
+    "settlement_batch_id": "BATCH-20260712",
+    "settlement_id": "STL-00005",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00005PAY00005"
+  },
+  {
+    "amount": {
+      "__decimal__": "48335.25"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "48335.25"
+    },
+    "payment_id": "PAY-00006",
+    "settled_at": "2026-07-31T07:17:00",
+    "settlement_batch_id": "BATCH-20260731",
+    "settlement_id": "STL-00006",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00006PAY00006"
+  },
+  {
+    "amount": {
+      "__decimal__": "47030.92"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47030.92"
+    },
+    "payment_id": "PAY-00007",
+    "settled_at": "2026-06-04T03:25:00",
+    "settlement_batch_id": "BATCH-20260604",
+    "settlement_id": "STL-00007",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00007PAY00007"
+  },
+  {
+    "amount": {
+      "__decimal__": "30219.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30219.19"
+    },
+    "payment_id": "PAY-00008",
+    "settled_at": "2026-07-26T23:58:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00008",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00008PAY00008"
+  },
+  {
+    "amount": {
+      "__decimal__": "29401.24"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "29401.24"
+    },
+    "payment_id": "PAY-00009",
+    "settled_at": "2026-06-24T18:30:00",
+    "settlement_batch_id": "BATCH-20260624",
+    "settlement_id": "STL-00009",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 09P AY0 000 9"
+  },
+  {
+    "amount": {
+      "__decimal__": "34727.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34727.31"
+    },
+    "payment_id": "PAY-00010",
+    "settled_at": "2026-07-09T10:50:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00010",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00010PAY00010"
+  },
+  {
+    "amount": {
+      "__decimal__": "33459.82"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33459.82"
+    },
+    "payment_id": "PAY-00011",
+    "settled_at": "2026-06-25T10:08:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00011",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00011PAY00011"
+  },
+  {
+    "amount": {
+      "__decimal__": "47010.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47010.16"
+    },
+    "payment_id": "PAY-00012",
+    "settled_at": "2026-07-09T06:50:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00012",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00012PAY00012"
+  },
+  {
+    "amount": {
+      "__decimal__": "30129.85"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30129.85"
+    },
+    "payment_id": "PAY-00013",
+    "settled_at": "2026-06-18T03:07:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00013",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00013PAY00013"
+  },
+  {
+    "amount": {
+      "__decimal__": "5731.37"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5731.37"
+    },
+    "payment_id": "PAY-00014",
+    "settled_at": "2026-07-23T00:07:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00014",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00014PAY00014"
+  },
+  {
+    "amount": {
+      "__decimal__": "10558.37"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10558.37"
+    },
+    "payment_id": "PAY-00015",
+    "settled_at": "2026-07-04T18:55:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00015",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00015PAY00015"
+  },
+  {
+    "amount": {
+      "__decimal__": "46803.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "46803.19"
+    },
+    "payment_id": "PAY-00016",
+    "settled_at": "2026-07-12T19:33:00",
+    "settlement_batch_id": "BATCH-20260712",
+    "settlement_id": "STL-00016",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00016PAY00016"
+  },
+  {
+    "amount": {
+      "__decimal__": "30237.15"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30237.15"
+    },
+    "payment_id": "PAY-00017",
+    "settled_at": "2026-06-30T20:41:00",
+    "settlement_batch_id": "BATCH-20260630",
+    "settlement_id": "STL-00017",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00017PAY00017"
+  },
+  {
+    "amount": {
+      "__decimal__": "49575.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "49575.50"
+    },
+    "payment_id": "PAY-00018",
+    "settled_at": "2026-07-18T17:22:00",
+    "settlement_batch_id": "BATCH-20260718",
+    "settlement_id": "STL-00018",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00018PAY00018"
+  },
+  {
+    "amount": {
+      "__decimal__": "41983.17"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41983.17"
+    },
+    "payment_id": "PAY-00019",
+    "settled_at": "2026-07-23T19:56:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00019",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00019PAY00019"
+  },
+  {
+    "amount": {
+      "__decimal__": "34879.98"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34879.98"
+    },
+    "payment_id": "PAY-00020",
+    "settled_at": "2026-07-30T13:15:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00020",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00020PAY00020"
+  },
+  {
+    "amount": {
+      "__decimal__": "49087.03"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "49087.03"
+    },
+    "payment_id": "PAY-00021",
+    "settled_at": "2026-06-19T00:26:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00021",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00021PAY00021"
+  },
+  {
+    "amount": {
+      "__decimal__": "4906.91"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4906.91"
+    },
+    "payment_id": "PAY-00022",
+    "settled_at": "2026-07-17T18:15:00",
+    "settlement_batch_id": "BATCH-20260717",
+    "settlement_id": "STL-00022",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00022PAY00022"
+  },
+  {
+    "amount": {
+      "__decimal__": "42709.02"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42709.02"
+    },
+    "payment_id": "PAY-00023",
+    "settled_at": "2026-07-09T20:10:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00023",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 000 23p ay0 002 3"
+  },
+  {
+    "amount": {
+      "__decimal__": "18229.96"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "18229.96"
+    },
+    "payment_id": "PAY-00024",
+    "settled_at": "2026-07-12T11:52:00",
+    "settlement_batch_id": "BATCH-20260712",
+    "settlement_id": "STL-00024",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 000 24p ay0 002 4"
+  },
+  {
+    "amount": {
+      "__decimal__": "33897.20"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33897.20"
+    },
+    "payment_id": "PAY-00025",
+    "settled_at": "2026-06-02T11:14:00",
+    "settlement_batch_id": "BATCH-20260602",
+    "settlement_id": "STL-00025",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00025PAY00025"
+  },
+  {
+    "amount": {
+      "__decimal__": "43538.83"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43538.83"
+    },
+    "payment_id": "PAY-00026",
+    "settled_at": "2026-07-30T03:23:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00026",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00026PAY00026"
+  },
+  {
+    "amount": {
+      "__decimal__": "45667.56"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45667.56"
+    },
+    "payment_id": "PAY-00027",
+    "settled_at": "2026-07-21T23:30:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00027",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00027PAY00027"
+  },
+  {
+    "amount": {
+      "__decimal__": "23480.61"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23480.61"
+    },
+    "payment_id": "PAY-00028",
+    "settled_at": "2026-07-31T08:10:00",
+    "settlement_batch_id": "BATCH-20260731",
+    "settlement_id": "STL-00028",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00028PAY00028"
+  },
+  {
+    "amount": {
+      "__decimal__": "44794.13"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "44794.13"
+    },
+    "payment_id": "PAY-00029",
+    "settled_at": "2026-07-17T06:53:00",
+    "settlement_batch_id": "BATCH-20260717",
+    "settlement_id": "STL-00029",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00029PAY00029"
+  },
+  {
+    "amount": {
+      "__decimal__": "38111.43"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "38111.43"
+    },
+    "payment_id": "PAY-00030",
+    "settled_at": "2026-07-31T21:57:00",
+    "settlement_batch_id": "BATCH-20260731",
+    "settlement_id": "STL-00030",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00030PAY00030"
+  },
+  {
+    "amount": {
+      "__decimal__": "32887.03"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "32887.03"
+    },
+    "payment_id": "PAY-00031",
+    "settled_at": "2026-07-09T09:52:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00031",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00031PAY00031"
+  },
+  {
+    "amount": {
+      "__decimal__": "32146.46"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "32146.46"
+    },
+    "payment_id": "PAY-00032",
+    "settled_at": "2026-06-25T16:01:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00032",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00032PAY00032"
+  },
+  {
+    "amount": {
+      "__decimal__": "20149.15"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "20149.15"
+    },
+    "payment_id": "PAY-00033",
+    "settled_at": "2026-07-14T21:38:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00033",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00033PAY00033"
+  },
+  {
+    "amount": {
+      "__decimal__": "191.73"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "191.73"
+    },
+    "payment_id": "PAY-00034",
+    "settled_at": "2026-06-30T22:02:00",
+    "settlement_batch_id": "BATCH-20260630",
+    "settlement_id": "STL-00034",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00034PAY00034"
+  },
+  {
+    "amount": {
+      "__decimal__": "44994.11"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "44994.11"
+    },
+    "payment_id": "PAY-00035",
+    "settled_at": "2026-07-16T09:57:00",
+    "settlement_batch_id": "BATCH-20260716",
+    "settlement_id": "STL-00035",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 35P AY0 003 5"
+  },
+  {
+    "amount": {
+      "__decimal__": "28041.44"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28041.44"
+    },
+    "payment_id": "PAY-00036",
+    "settled_at": "2026-06-08T22:50:00",
+    "settlement_batch_id": "BATCH-20260608",
+    "settlement_id": "STL-00036",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00036PAY00036"
+  },
+  {
+    "amount": {
+      "__decimal__": "6088.35"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6088.35"
+    },
+    "payment_id": "PAY-00037",
+    "settled_at": "2026-06-29T07:41:00",
+    "settlement_batch_id": "BATCH-20260629",
+    "settlement_id": "STL-00037",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00037PAY00037"
+  },
+  {
+    "amount": {
+      "__decimal__": "727.01"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "727.01"
+    },
+    "payment_id": "PAY-00038",
+    "settled_at": "2026-06-13T16:03:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00038",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00038PAY00038"
+  },
+  {
+    "amount": {
+      "__decimal__": "38892.75"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "38892.75"
+    },
+    "payment_id": "PAY-00039",
+    "settled_at": "2026-06-20T01:09:00",
+    "settlement_batch_id": "BATCH-20260620",
+    "settlement_id": "STL-00039",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00039PAY00039"
+  },
+  {
+    "amount": {
+      "__decimal__": "41727.64"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41727.64"
+    },
+    "payment_id": "PAY-00040",
+    "settled_at": "2026-06-15T20:37:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00040",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00040PAY00040"
+  },
+  {
+    "amount": {
+      "__decimal__": "11808.05"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11808.05"
+    },
+    "payment_id": "PAY-00041",
+    "settled_at": "2026-07-10T15:55:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00041",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00041PAY00041"
+  },
+  {
+    "amount": {
+      "__decimal__": "8456.23"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8456.23"
+    },
+    "payment_id": "PAY-00042",
+    "settled_at": "2026-06-27T07:33:00",
+    "settlement_batch_id": "BATCH-20260627",
+    "settlement_id": "STL-00042",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00042PAY00042"
+  },
+  {
+    "amount": {
+      "__decimal__": "27202.95"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27202.95"
+    },
+    "payment_id": "PAY-00043",
+    "settled_at": "2026-06-17T09:53:00",
+    "settlement_batch_id": "BATCH-20260617",
+    "settlement_id": "STL-00043",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00043PAY00043"
+  },
+  {
+    "amount": {
+      "__decimal__": "13365.89"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13365.89"
+    },
+    "payment_id": "PAY-00044",
+    "settled_at": "2026-07-01T00:29:00",
+    "settlement_batch_id": "BATCH-20260701",
+    "settlement_id": "STL-00044",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00044PAY00044"
+  },
+  {
+    "amount": {
+      "__decimal__": "45639.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45639.63"
+    },
+    "payment_id": "PAY-00045",
+    "settled_at": "2026-06-03T14:29:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00045",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00045PAY00045"
+  },
+  {
+    "amount": {
+      "__decimal__": "22139.86"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22139.86"
+    },
+    "payment_id": "PAY-00046",
+    "settled_at": "2026-07-03T02:04:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00046",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00046PAY00046"
+  },
+  {
+    "amount": {
+      "__decimal__": "13272.23"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13272.23"
+    },
+    "payment_id": "PAY-00047",
+    "settled_at": "2026-07-15T10:20:00",
+    "settlement_batch_id": "BATCH-20260715",
+    "settlement_id": "STL-00047",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00047PAY00047"
+  },
+  {
+    "amount": {
+      "__decimal__": "25875.66"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25875.66"
+    },
+    "payment_id": "PAY-00048",
+    "settled_at": "2026-07-27T19:34:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00048",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00048PAY00048"
+  },
+  {
+    "amount": {
+      "__decimal__": "2040.82"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2040.82"
+    },
+    "payment_id": "PAY-00049",
+    "settled_at": "2026-06-24T21:42:00",
+    "settlement_batch_id": "BATCH-20260624",
+    "settlement_id": "STL-00049",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00049PAY00049"
+  },
+  {
+    "amount": {
+      "__decimal__": "17401.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "17401.16"
+    },
+    "payment_id": "PAY-00050",
+    "settled_at": "2026-07-23T05:01:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00050",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00050PAY00050"
+  },
+  {
+    "amount": {
+      "__decimal__": "45482.58"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45482.58"
+    },
+    "payment_id": "PAY-00051",
+    "settled_at": "2026-07-25T11:50:00",
+    "settlement_batch_id": "BATCH-20260725",
+    "settlement_id": "STL-00051",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 51P AY0 005 1"
+  },
+  {
+    "amount": {
+      "__decimal__": "22902.17"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22902.17"
+    },
+    "payment_id": "PAY-00052",
+    "settled_at": "2026-07-04T19:14:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00052",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00052PAY00052"
+  },
+  {
+    "amount": {
+      "__decimal__": "26483.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26483.31"
+    },
+    "payment_id": "PAY-00053",
+    "settled_at": "2026-07-26T13:16:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00053",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00053PAY00053"
+  },
+  {
+    "amount": {
+      "__decimal__": "47781.35"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47781.35"
+    },
+    "payment_id": "PAY-00054",
+    "settled_at": "2026-06-28T22:37:00",
+    "settlement_batch_id": "BATCH-20260628",
+    "settlement_id": "STL-00054",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 54P AY0 005 4"
+  },
+  {
+    "amount": {
+      "__decimal__": "14124.90"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "14124.90"
+    },
+    "payment_id": "PAY-00055",
+    "settled_at": "2026-07-17T01:40:00",
+    "settlement_batch_id": "BATCH-20260717",
+    "settlement_id": "STL-00055",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00055PAY00055"
+  },
+  {
+    "amount": {
+      "__decimal__": "7062.10"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7062.10"
+    },
+    "payment_id": "PAY-00056",
+    "settled_at": "2026-07-17T12:44:00",
+    "settlement_batch_id": "BATCH-20260717",
+    "settlement_id": "STL-00056",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00056PAY00056"
+  },
+  {
+    "amount": {
+      "__decimal__": "10182.37"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10182.37"
+    },
+    "payment_id": "PAY-00057",
+    "settled_at": "2026-07-26T11:22:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00057",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00057PAY00057"
+  },
+  {
+    "amount": {
+      "__decimal__": "2992.79"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2992.79"
+    },
+    "payment_id": "PAY-00058",
+    "settled_at": "2026-07-30T00:41:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00058",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00058PAY00058"
+  },
+  {
+    "amount": {
+      "__decimal__": "23323.01"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23323.01"
+    },
+    "payment_id": "PAY-00059",
+    "settled_at": "2026-06-16T11:06:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00059",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00059PAY00059"
+  },
+  {
+    "amount": {
+      "__decimal__": "32887.01"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "32887.01"
+    },
+    "payment_id": "PAY-00060",
+    "settled_at": "2026-06-12T14:44:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00060",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 000 60p ay0 006 0"
+  },
+  {
+    "amount": {
+      "__decimal__": "1151.34"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1151.34"
+    },
+    "payment_id": "PAY-00061",
+    "settled_at": "2026-07-03T04:42:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00061",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00061PAY00061"
+  },
+  {
+    "amount": {
+      "__decimal__": "23751.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23751.28"
+    },
+    "payment_id": "PAY-00062",
+    "settled_at": "2026-07-22T11:27:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00062",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00062PAY00062"
+  },
+  {
+    "amount": {
+      "__decimal__": "47609.83"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47609.83"
+    },
+    "payment_id": "PAY-00063",
+    "settled_at": "2026-06-02T13:25:00",
+    "settlement_batch_id": "BATCH-20260602",
+    "settlement_id": "STL-00063",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00063PAY00063"
+  },
+  {
+    "amount": {
+      "__decimal__": "14904.90"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "14904.90"
+    },
+    "payment_id": "PAY-00064",
+    "settled_at": "2026-07-27T20:26:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00064",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00064PAY00064"
+  },
+  {
+    "amount": {
+      "__decimal__": "16590.10"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "16590.10"
+    },
+    "payment_id": "PAY-00065",
+    "settled_at": "2026-07-14T19:36:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00065",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00065PAY00065"
+  },
+  {
+    "amount": {
+      "__decimal__": "26196.59"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26196.59"
+    },
+    "payment_id": "PAY-00066",
+    "settled_at": "2026-07-16T15:56:00",
+    "settlement_batch_id": "BATCH-20260716",
+    "settlement_id": "STL-00066",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00066PAY00066"
+  },
+  {
+    "amount": {
+      "__decimal__": "11667.32"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11667.32"
+    },
+    "payment_id": "PAY-00067",
+    "settled_at": "2026-06-10T05:53:00",
+    "settlement_batch_id": "BATCH-20260610",
+    "settlement_id": "STL-00067",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00067PAY00067"
+  },
+  {
+    "amount": {
+      "__decimal__": "34648.47"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34648.47"
+    },
+    "payment_id": "PAY-00068",
+    "settled_at": "2026-07-14T12:21:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00068",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00068PAY00068"
+  },
+  {
+    "amount": {
+      "__decimal__": "36190.53"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "36190.53"
+    },
+    "payment_id": "PAY-00069",
+    "settled_at": "2026-06-11T09:35:00",
+    "settlement_batch_id": "BATCH-20260611",
+    "settlement_id": "STL-00069",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00069PAY00069"
+  },
+  {
+    "amount": {
+      "__decimal__": "20238.24"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "20238.24"
+    },
+    "payment_id": "PAY-00070",
+    "settled_at": "2026-06-28T00:52:00",
+    "settlement_batch_id": "BATCH-20260628",
+    "settlement_id": "STL-00070",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00070PAY00070"
+  },
+  {
+    "amount": {
+      "__decimal__": "29227.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "29227.40"
+    },
+    "payment_id": "PAY-00071",
+    "settled_at": "2026-07-21T19:33:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00071",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 000 71p ay0 007 1"
+  },
+  {
+    "amount": {
+      "__decimal__": "37715.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "37715.71"
+    },
+    "payment_id": "PAY-00072",
+    "settled_at": "2026-06-10T20:44:00",
+    "settlement_batch_id": "BATCH-20260610",
+    "settlement_id": "STL-00072",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00072PAY00072"
+  },
+  {
+    "amount": {
+      "__decimal__": "39481.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "39481.31"
+    },
+    "payment_id": "PAY-00073",
+    "settled_at": "2026-07-21T21:32:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00073",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00073PAY00073"
+  },
+  {
+    "amount": {
+      "__decimal__": "27633.98"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27633.98"
+    },
+    "payment_id": "PAY-00074",
+    "settled_at": "2026-06-20T03:23:00",
+    "settlement_batch_id": "BATCH-20260620",
+    "settlement_id": "STL-00074",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 74P AY0 007 4"
+  },
+  {
+    "amount": {
+      "__decimal__": "29773.95"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "29773.95"
+    },
+    "payment_id": "PAY-00075",
+    "settled_at": "2026-06-20T18:11:00",
+    "settlement_batch_id": "BATCH-20260620",
+    "settlement_id": "STL-00075",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00075PAY00075"
+  },
+  {
+    "amount": {
+      "__decimal__": "36361.79"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "36361.79"
+    },
+    "payment_id": "PAY-00076",
+    "settled_at": "2026-06-19T15:14:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00076",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00076PAY00076"
+  },
+  {
+    "amount": {
+      "__decimal__": "21454.61"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "21454.61"
+    },
+    "payment_id": "PAY-00077",
+    "settled_at": "2026-07-20T22:14:00",
+    "settlement_batch_id": "BATCH-20260720",
+    "settlement_id": "STL-00077",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00077PAY00077"
+  },
+  {
+    "amount": {
+      "__decimal__": "42846.96"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42846.96"
+    },
+    "payment_id": "PAY-00078",
+    "settled_at": "2026-06-16T22:10:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00078",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00078PAY00078"
+  },
+  {
+    "amount": {
+      "__decimal__": "48217.51"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "48217.51"
+    },
+    "payment_id": "PAY-00079",
+    "settled_at": "2026-06-14T09:50:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00079",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00079PAY00079"
+  },
+  {
+    "amount": {
+      "__decimal__": "47178.92"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47178.92"
+    },
+    "payment_id": "PAY-00080",
+    "settled_at": "2026-06-22T07:44:00",
+    "settlement_batch_id": "BATCH-20260622",
+    "settlement_id": "STL-00080",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00080PAY00080"
+  },
+  {
+    "amount": {
+      "__decimal__": "19087.59"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "19087.59"
+    },
+    "payment_id": "PAY-00081",
+    "settled_at": "2026-06-10T08:49:00",
+    "settlement_batch_id": "BATCH-20260610",
+    "settlement_id": "STL-00081",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 81P AY0 008 1"
+  },
+  {
+    "amount": {
+      "__decimal__": "37945.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "37945.40"
+    },
+    "payment_id": "PAY-00082",
+    "settled_at": "2026-07-06T16:50:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00082",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00082PAY00082"
+  },
+  {
+    "amount": {
+      "__decimal__": "9722.13"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9722.13"
+    },
+    "payment_id": "PAY-00083",
+    "settled_at": "2026-07-27T16:00:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00083",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00083PAY00083"
+  },
+  {
+    "amount": {
+      "__decimal__": "34158.89"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34158.89"
+    },
+    "payment_id": "PAY-00084",
+    "settled_at": "2026-07-10T04:09:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00084",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00084PAY00084"
+  },
+  {
+    "amount": {
+      "__decimal__": "25176.06"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25176.06"
+    },
+    "payment_id": "PAY-00085",
+    "settled_at": "2026-07-29T13:59:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00085",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00085PAY00085"
+  },
+  {
+    "amount": {
+      "__decimal__": "7192.57"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7192.57"
+    },
+    "payment_id": "PAY-00086",
+    "settled_at": "2026-06-25T01:55:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00086",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00086PAY00086"
+  },
+  {
+    "amount": {
+      "__decimal__": "24038.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "24038.16"
+    },
+    "payment_id": "PAY-00087",
+    "settled_at": "2026-06-27T15:16:00",
+    "settlement_batch_id": "BATCH-20260627",
+    "settlement_id": "STL-00087",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00087PAY00087"
+  },
+  {
+    "amount": {
+      "__decimal__": "5730.65"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5730.65"
+    },
+    "payment_id": "PAY-00088",
+    "settled_at": "2026-06-29T22:15:00",
+    "settlement_batch_id": "BATCH-20260629",
+    "settlement_id": "STL-00088",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00088PAY00088"
+  },
+  {
+    "amount": {
+      "__decimal__": "30072.27"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30072.27"
+    },
+    "payment_id": "PAY-00089",
+    "settled_at": "2026-06-16T11:02:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00089",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 89P AY0 008 9"
+  },
+  {
+    "amount": {
+      "__decimal__": "37491.87"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "37491.87"
+    },
+    "payment_id": "PAY-00090",
+    "settled_at": "2026-06-14T23:49:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00090",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 000 90P AY0 009 0"
+  },
+  {
+    "amount": {
+      "__decimal__": "21898.81"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "21898.81"
+    },
+    "payment_id": "PAY-00091",
+    "settled_at": "2026-07-06T08:29:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00091",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00091PAY00091"
+  },
+  {
+    "amount": {
+      "__decimal__": "43802.04"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43802.04"
+    },
+    "payment_id": "PAY-00092",
+    "settled_at": "2026-06-12T12:30:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00092",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00092PAY00092"
+  },
+  {
+    "amount": {
+      "__decimal__": "13491.10"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13491.10"
+    },
+    "payment_id": "PAY-00093",
+    "settled_at": "2026-06-19T01:19:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00093",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00093PAY00093"
+  },
+  {
+    "amount": {
+      "__decimal__": "20262.90"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "20262.90"
+    },
+    "payment_id": "PAY-00094",
+    "settled_at": "2026-07-18T16:40:00",
+    "settlement_batch_id": "BATCH-20260718",
+    "settlement_id": "STL-00094",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00094PAY00094"
+  },
+  {
+    "amount": {
+      "__decimal__": "41406.55"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41406.55"
+    },
+    "payment_id": "PAY-00095",
+    "settled_at": "2026-07-03T23:35:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00095",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00095PAY00095"
+  },
+  {
+    "amount": {
+      "__decimal__": "5609.34"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5609.34"
+    },
+    "payment_id": "PAY-00096",
+    "settled_at": "2026-07-29T15:34:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00096",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00096PAY00096"
+  },
+  {
+    "amount": {
+      "__decimal__": "1355.93"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1355.93"
+    },
+    "payment_id": "PAY-00097",
+    "settled_at": "2026-07-29T21:21:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00097",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00097PAY00097"
+  },
+  {
+    "amount": {
+      "__decimal__": "47623.10"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47623.10"
+    },
+    "payment_id": "PAY-00098",
+    "settled_at": "2026-06-21T02:50:00",
+    "settlement_batch_id": "BATCH-20260621",
+    "settlement_id": "STL-00098",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00098PAY00098"
+  },
+  {
+    "amount": {
+      "__decimal__": "21866.53"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "21866.53"
+    },
+    "payment_id": "PAY-00099",
+    "settled_at": "2026-07-23T02:59:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00099",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00099PAY00099"
+  },
+  {
+    "amount": {
+      "__decimal__": "48754.06"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "48754.06"
+    },
+    "payment_id": "PAY-00100",
+    "settled_at": "2026-06-08T15:43:00",
+    "settlement_batch_id": "BATCH-20260608",
+    "settlement_id": "STL-00100",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00100PAY00100"
+  },
+  {
+    "amount": {
+      "__decimal__": "35073.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "35073.19"
+    },
+    "payment_id": "PAY-00101",
+    "settled_at": "2026-07-14T05:15:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00101",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00101PAY00101"
+  },
+  {
+    "amount": {
+      "__decimal__": "396.99"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "396.99"
+    },
+    "payment_id": "PAY-00102",
+    "settled_at": "2026-06-14T03:44:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00102",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00102PAY00102"
+  },
+  {
+    "amount": {
+      "__decimal__": "33217.97"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33217.97"
+    },
+    "payment_id": "PAY-00103",
+    "settled_at": "2026-06-06T19:04:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00103",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00103PAY00103"
+  },
+  {
+    "amount": {
+      "__decimal__": "46963.89"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "46963.89"
+    },
+    "payment_id": "PAY-00104",
+    "settled_at": "2026-07-18T19:11:00",
+    "settlement_batch_id": "BATCH-20260718",
+    "settlement_id": "STL-00104",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00104PAY00104"
+  },
+  {
+    "amount": {
+      "__decimal__": "14403.61"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "14403.61"
+    },
+    "payment_id": "PAY-00105",
+    "settled_at": "2026-08-01T07:39:00",
+    "settlement_batch_id": "BATCH-20260801",
+    "settlement_id": "STL-00105",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00105PAY00105"
+  },
+  {
+    "amount": {
+      "__decimal__": "25176.69"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25176.69"
+    },
+    "payment_id": "PAY-00106",
+    "settled_at": "2026-06-14T08:06:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00106",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00106PAY00106"
+  },
+  {
+    "amount": {
+      "__decimal__": "46568.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "46568.62"
+    },
+    "payment_id": "PAY-00107",
+    "settled_at": "2026-07-27T22:49:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00107",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR 001 07P AY0 010 7"
+  },
+  {
+    "amount": {
+      "__decimal__": "5219.55"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5219.55"
+    },
+    "payment_id": "PAY-00108",
+    "settled_at": "2026-07-11T05:10:00",
+    "settlement_batch_id": "BATCH-20260711",
+    "settlement_id": "STL-00108",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00108PAY00108"
+  },
+  {
+    "amount": {
+      "__decimal__": "13019.79"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13019.79"
+    },
+    "payment_id": "PAY-00109",
+    "settled_at": "2026-07-22T17:20:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00109",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00109PAY00109"
+  },
+  {
+    "amount": {
+      "__decimal__": "26060.43"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26060.43"
+    },
+    "payment_id": "PAY-00110",
+    "settled_at": "2026-06-03T15:32:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00110",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00110PAY00110"
+  },
+  {
+    "amount": {
+      "__decimal__": "33731.64"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33731.64"
+    },
+    "payment_id": "PAY-00111",
+    "settled_at": "2026-07-10T17:30:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00111",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 001 11p ay0 011 1"
+  },
+  {
+    "amount": {
+      "__decimal__": "7432.32"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7432.32"
+    },
+    "payment_id": "PAY-00112",
+    "settled_at": "2026-07-14T18:03:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00112",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00112PAY00112"
+  },
+  {
+    "amount": {
+      "__decimal__": "899.85"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "899.85"
+    },
+    "payment_id": "PAY-00113",
+    "settled_at": "2026-07-07T20:43:00",
+    "settlement_batch_id": "BATCH-20260707",
+    "settlement_id": "STL-00113",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00113PAY00113"
+  },
+  {
+    "amount": {
+      "__decimal__": "6500.21"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6500.21"
+    },
+    "payment_id": "PAY-00114",
+    "settled_at": "2026-06-26T18:16:00",
+    "settlement_batch_id": "BATCH-20260626",
+    "settlement_id": "STL-00114",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00114PAY00114"
+  },
+  {
+    "amount": {
+      "__decimal__": "44708.82"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "44708.82"
+    },
+    "payment_id": "PAY-00115",
+    "settled_at": "2026-07-27T15:05:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00115",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00115PAY00115"
+  },
+  {
+    "amount": {
+      "__decimal__": "4142.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4142.50"
+    },
+    "payment_id": "PAY-00116",
+    "settled_at": "2026-07-05T11:40:00",
+    "settlement_batch_id": "BATCH-20260705",
+    "settlement_id": "STL-00116",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00116PAY00116"
+  },
+  {
+    "amount": {
+      "__decimal__": "33292.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33292.31"
+    },
+    "payment_id": "PAY-00117",
+    "settled_at": "2026-07-28T11:04:00",
+    "settlement_batch_id": "BATCH-20260728",
+    "settlement_id": "STL-00117",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00117PAY00117"
+  },
+  {
+    "amount": {
+      "__decimal__": "43701.26"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43701.26"
+    },
+    "payment_id": "PAY-00118",
+    "settled_at": "2026-07-03T15:11:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00118",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00118PAY00118"
+  },
+  {
+    "amount": {
+      "__decimal__": "12681.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "12681.29"
+    },
+    "payment_id": "PAY-00119",
+    "settled_at": "2026-06-29T18:43:00",
+    "settlement_batch_id": "BATCH-20260629",
+    "settlement_id": "STL-00119",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00119PAY00119"
+  },
+  {
+    "amount": {
+      "__decimal__": "818.48"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "818.48"
+    },
+    "payment_id": "PAY-00120",
+    "settled_at": "2026-06-18T18:40:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00120",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00120PAY00120"
+  },
+  {
+    "amount": {
+      "__decimal__": "10486.88"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10486.88"
+    },
+    "payment_id": "PAY-00121",
+    "settled_at": "2026-06-03T08:17:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00121",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00121PAY00121"
+  },
+  {
+    "amount": {
+      "__decimal__": "27800.99"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27800.99"
+    },
+    "payment_id": "PAY-00122",
+    "settled_at": "2026-06-24T02:47:00",
+    "settlement_batch_id": "BATCH-20260624",
+    "settlement_id": "STL-00122",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00122PAY00122"
+  },
+  {
+    "amount": {
+      "__decimal__": "2455.53"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2455.53"
+    },
+    "payment_id": "PAY-00123",
+    "settled_at": "2026-06-15T16:29:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00123",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00123PAY00123"
+  },
+  {
+    "amount": {
+      "__decimal__": "47464.20"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47464.20"
+    },
+    "payment_id": "PAY-00124",
+    "settled_at": "2026-07-01T03:26:00",
+    "settlement_batch_id": "BATCH-20260701",
+    "settlement_id": "STL-00124",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00124PAY00124"
+  },
+  {
+    "amount": {
+      "__decimal__": "23121.64"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23121.64"
+    },
+    "payment_id": "PAY-00125",
+    "settled_at": "2026-06-06T18:04:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00125",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00125PAY00125"
+  },
+  {
+    "amount": {
+      "__decimal__": "11279.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11279.29"
+    },
+    "payment_id": "PAY-00126",
+    "settled_at": "2026-06-08T05:55:00",
+    "settlement_batch_id": "BATCH-20260608",
+    "settlement_id": "STL-00126",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00126PAY00126"
+  },
+  {
+    "amount": {
+      "__decimal__": "22130.04"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22130.04"
+    },
+    "payment_id": "PAY-00127",
+    "settled_at": "2026-06-21T16:51:00",
+    "settlement_batch_id": "BATCH-20260621",
+    "settlement_id": "STL-00127",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00127PAY00127"
+  },
+  {
+    "amount": {
+      "__decimal__": "49198.13"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "49198.13"
+    },
+    "payment_id": "PAY-00128",
+    "settled_at": "2026-07-29T20:55:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00128",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00128PAY00128"
+  },
+  {
+    "amount": {
+      "__decimal__": "9542.20"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9542.20"
+    },
+    "payment_id": "PAY-00129",
+    "settled_at": "2026-07-18T19:29:00",
+    "settlement_batch_id": "BATCH-20260718",
+    "settlement_id": "STL-00129",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00129PAY00129"
+  },
+  {
+    "amount": {
+      "__decimal__": "42747.68"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42747.68"
+    },
+    "payment_id": "PAY-00130",
+    "settled_at": "2026-06-06T11:05:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00130",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00130PAY00130"
+  },
+  {
+    "amount": {
+      "__decimal__": "40317.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "40317.50"
+    },
+    "payment_id": "PAY-00131",
+    "settled_at": "2026-07-23T10:55:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00131",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 001 31p ay0 013 1"
+  },
+  {
+    "amount": {
+      "__decimal__": "16288.30"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "16288.30"
+    },
+    "payment_id": "PAY-00132",
+    "settled_at": "2026-06-10T17:24:00",
+    "settlement_batch_id": "BATCH-20260610",
+    "settlement_id": "STL-00132",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00132PAY00132"
+  },
+  {
+    "amount": {
+      "__decimal__": "20270.84"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "20270.84"
+    },
+    "payment_id": "PAY-00133",
+    "settled_at": "2026-06-29T14:51:00",
+    "settlement_batch_id": "BATCH-20260629",
+    "settlement_id": "STL-00133",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00133PAY00133"
+  },
+  {
+    "amount": {
+      "__decimal__": "42069.01"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42069.01"
+    },
+    "payment_id": "PAY-00134",
+    "settled_at": "2026-06-04T04:27:00",
+    "settlement_batch_id": "BATCH-20260604",
+    "settlement_id": "STL-00134",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "utr 001 34p ay0 013 4"
+  },
+  {
+    "amount": {
+      "__decimal__": "38050.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "38050.16"
+    },
+    "payment_id": "PAY-00135",
+    "settled_at": "2026-07-20T18:20:00",
+    "settlement_batch_id": "BATCH-20260720",
+    "settlement_id": "STL-00135",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00135PAY00135"
+  },
+  {
+    "amount": {
+      "__decimal__": "36272.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "36272.31"
+    },
+    "payment_id": "PAY-00136",
+    "settled_at": "2026-07-19T11:35:00",
+    "settlement_batch_id": "BATCH-20260719",
+    "settlement_id": "STL-00136",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00136PAY00136"
+  },
+  {
+    "amount": {
+      "__decimal__": "22643.09"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22643.09"
+    },
+    "payment_id": "PAY-00137",
+    "settled_at": "2026-06-18T13:50:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00137",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00137PAY00137"
+  },
+  {
+    "amount": {
+      "__decimal__": "19345.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "19345.31"
+    },
+    "payment_id": "PAY-00138",
+    "settled_at": "2026-07-16T07:12:00",
+    "settlement_batch_id": "BATCH-20260716",
+    "settlement_id": "STL-00138",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00138PAY00138"
+  },
+  {
+    "amount": {
+      "__decimal__": "30307.73"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30307.73"
+    },
+    "payment_id": "PAY-00139",
+    "settled_at": "2026-06-13T11:09:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00139",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00139PAY00139"
+  },
+  {
+    "amount": {
+      "__decimal__": "35908.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "35908.28"
+    },
+    "payment_id": "PAY-00140",
+    "settled_at": "2026-07-28T04:17:00",
+    "settlement_batch_id": "BATCH-20260728",
+    "settlement_id": "STL-00140",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00140PAY00140"
+  },
+  {
+    "amount": {
+      "__decimal__": "43869.21"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43869.21"
+    },
+    "payment_id": "PAY-00141",
+    "settled_at": "2026-07-21T09:08:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00141",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00141PAY00141"
+  },
+  {
+    "amount": {
+      "__decimal__": "24789.33"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "24789.33"
+    },
+    "payment_id": "PAY-00142",
+    "settled_at": "2026-06-14T00:02:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00142",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00142PAY00142"
+  },
+  {
+    "amount": {
+      "__decimal__": "32337.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "32337.28"
+    },
+    "payment_id": "PAY-00143",
+    "settled_at": "2026-06-16T08:54:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00143",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00143PAY00143"
+  },
+  {
+    "amount": {
+      "__decimal__": "8105.74"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8105.74"
+    },
+    "payment_id": "PAY-00144",
+    "settled_at": "2026-07-26T10:26:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00144",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00144PAY00144"
+  },
+  {
+    "amount": {
+      "__decimal__": "33148.72"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33148.72"
+    },
+    "payment_id": "PAY-00145",
+    "settled_at": "2026-07-06T16:52:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00145",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00145PAY00145"
+  },
+  {
+    "amount": {
+      "__decimal__": "16198.58"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "16198.58"
+    },
+    "payment_id": "PAY-00146",
+    "settled_at": "2026-07-26T05:54:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00146",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00146PAY00146"
+  },
+  {
+    "amount": {
+      "__decimal__": "18703.78"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "18703.78"
+    },
+    "payment_id": "PAY-00147",
+    "settled_at": "2026-07-04T03:36:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00147",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00147PAY00147"
+  },
+  {
+    "amount": {
+      "__decimal__": "10726.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10726.40"
+    },
+    "payment_id": "PAY-00148",
+    "settled_at": "2026-06-14T08:30:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00148",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00148PAY00148"
+  },
+  {
+    "amount": {
+      "__decimal__": "47381.60"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47381.60"
+    },
+    "payment_id": "PAY-00149",
+    "settled_at": "2026-06-11T13:25:00",
+    "settlement_batch_id": "BATCH-20260611",
+    "settlement_id": "STL-00149",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00149PAY00149"
+  },
+  {
+    "amount": {
+      "__decimal__": "6489.98"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6489.98"
+    },
+    "payment_id": "PAY-00150",
+    "settled_at": "2026-06-25T05:29:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00150",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00150PAY00150"
+  },
+  {
+    "amount": {
+      "__decimal__": "12403.22"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "12403.22"
+    },
+    "payment_id": "PAY-00151",
+    "settled_at": "2026-06-30T15:42:00",
+    "settlement_batch_id": "BATCH-20260630",
+    "settlement_id": "STL-00151",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00151PAY00151"
+  },
+  {
+    "amount": {
+      "__decimal__": "45697.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45697.76"
+    },
+    "payment_id": "PAY-00152",
+    "settled_at": "2026-06-11T18:45:00",
+    "settlement_batch_id": "BATCH-20260611",
+    "settlement_id": "STL-00152",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00152PAY00152"
+  },
+  {
+    "amount": {
+      "__decimal__": "25278.69"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25278.69"
+    },
+    "payment_id": "PAY-00153",
+    "settled_at": "2026-07-30T01:43:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00153",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00153PAY00153"
+  },
+  {
+    "amount": {
+      "__decimal__": "43311.78"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43311.78"
+    },
+    "payment_id": "PAY-00154",
+    "settled_at": "2026-06-16T04:52:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00154",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00154PAY00154"
+  },
+  {
+    "amount": {
+      "__decimal__": "41940.14"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41940.14"
+    },
+    "payment_id": "PAY-00155",
+    "settled_at": "2026-06-25T21:30:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00155",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00155PAY00155"
+  },
+  {
+    "amount": {
+      "__decimal__": "29265.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "29265.71"
+    },
+    "payment_id": "PAY-00156",
+    "settled_at": "2026-07-12T22:48:00",
+    "settlement_batch_id": "BATCH-20260712",
+    "settlement_id": "STL-00156",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00156PAY00156"
+  },
+  {
+    "amount": {
+      "__decimal__": "7842.54"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "143.17"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7663.77"
+    },
+    "payment_id": "PAY-00157",
+    "settled_at": "2026-06-12T00:53:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00157",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "25.77"
+    },
+    "utr_reference": "UTR00157PAY00157"
+  },
+  {
+    "amount": {
+      "__decimal__": "6097.38"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "111.75"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5959.04"
+    },
+    "payment_id": "PAY-00158",
+    "settled_at": "2026-06-17T12:38:00",
+    "settlement_batch_id": "BATCH-20260617",
+    "settlement_id": "STL-00158",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "20.12"
+    },
+    "utr_reference": "UTR00158PAY00158"
+  },
+  {
+    "amount": {
+      "__decimal__": "19401.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "351.23"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "18987.18"
+    },
+    "payment_id": "PAY-00159",
+    "settled_at": "2026-06-12T07:34:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00159",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "63.22"
+    },
+    "utr_reference": "UTR00159PAY00159"
+  },
+  {
+    "amount": {
+      "__decimal__": "8138.24"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "148.49"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7963.02"
+    },
+    "payment_id": "PAY-00160",
+    "settled_at": "2026-07-30T23:55:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00160",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "26.73"
+    },
+    "utr_reference": "UTR00160PAY00160"
+  },
+  {
+    "amount": {
+      "__decimal__": "13407.60"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "243.34"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13120.46"
+    },
+    "payment_id": "PAY-00161",
+    "settled_at": "2026-07-03T23:41:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00161",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "43.80"
+    },
+    "utr_reference": "UTR00161PAY00161"
+  },
+  {
+    "amount": {
+      "__decimal__": "15472.64"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "280.51"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "15141.64"
+    },
+    "payment_id": "PAY-00162",
+    "settled_at": "2026-06-18T02:01:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00162",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "50.49"
+    },
+    "utr_reference": "UTR00162PAY00162"
+  },
+  {
+    "amount": {
+      "__decimal__": "13408.32"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "243.35"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13121.17"
+    },
+    "payment_id": "PAY-00163",
+    "settled_at": "2026-06-05T08:20:00",
+    "settlement_batch_id": "BATCH-20260605",
+    "settlement_id": "STL-00163",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "43.80"
+    },
+    "utr_reference": "UTR00163PAY00163"
+  },
+  {
+    "amount": {
+      "__decimal__": "12885.51"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "233.94"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "12609.46"
+    },
+    "payment_id": "PAY-00164",
+    "settled_at": "2026-07-04T14:00:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00164",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "42.11"
+    },
+    "utr_reference": "UTR00164PAY00164"
+  },
+  {
+    "amount": {
+      "__decimal__": "4654.35"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "85.78"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4553.13"
+    },
+    "payment_id": "PAY-00165",
+    "settled_at": "2026-06-19T13:45:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00165",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "15.44"
+    },
+    "utr_reference": "UTR00165PAY00165"
+  },
+  {
+    "amount": {
+      "__decimal__": "6836.41"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "125.06"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6688.84"
+    },
+    "payment_id": "PAY-00166",
+    "settled_at": "2026-06-18T21:06:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00166",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "22.51"
+    },
+    "utr_reference": "UTR00166PAY00166"
+  },
+  {
+    "amount": {
+      "__decimal__": "9547.53"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "173.86"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9342.38"
+    },
+    "payment_id": "PAY-00167",
+    "settled_at": "2026-07-13T06:31:00",
+    "settlement_batch_id": "BATCH-20260713",
+    "settlement_id": "STL-00167",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "31.29"
+    },
+    "utr_reference": "UTR00167PAY00167"
+  },
+  {
+    "amount": {
+      "__decimal__": "14628.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "265.32"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "14315.68"
+    },
+    "payment_id": "PAY-00168",
+    "settled_at": "2026-06-08T21:03:00",
+    "settlement_batch_id": "BATCH-20260608",
+    "settlement_id": "STL-00168",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "47.76"
+    },
+    "utr_reference": "UTR00168PAY00168"
+  },
+  {
+    "amount": {
+      "__decimal__": "1857.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "35.43"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1815.47"
+    },
+    "payment_id": "PAY-00169",
+    "settled_at": "2026-07-20T18:33:00",
+    "settlement_batch_id": "BATCH-20260720",
+    "settlement_id": "STL-00169",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "6.38"
+    },
+    "utr_reference": "UTR00169PAY00169"
+  },
+  {
+    "amount": {
+      "__decimal__": "5338.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "98.10"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5222.95"
+    },
+    "payment_id": "PAY-00170",
+    "settled_at": "2026-07-29T07:02:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00170",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "17.66"
+    },
+    "utr_reference": "UTR00170PAY00170"
+  },
+  {
+    "amount": {
+      "__decimal__": "14310.08"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "259.58"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "14003.78"
+    },
+    "payment_id": "PAY-00171",
+    "settled_at": "2026-07-25T18:01:00",
+    "settlement_batch_id": "BATCH-20260725",
+    "settlement_id": "STL-00171",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "46.72"
+    },
+    "utr_reference": "UTR00171PAY00171"
+  },
+  {
+    "amount": {
+      "__decimal__": "8115.92"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "148.09"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7941.17"
+    },
+    "payment_id": "PAY-00172",
+    "settled_at": "2026-07-10T22:58:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00172",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "26.66"
+    },
+    "utr_reference": "UTR00172PAY00172"
+  },
+  {
+    "amount": {
+      "__decimal__": "13598.59"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "246.77"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13307.40"
+    },
+    "payment_id": "PAY-00173",
+    "settled_at": "2026-06-18T14:22:00",
+    "settlement_batch_id": "BATCH-20260618",
+    "settlement_id": "STL-00173",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "44.42"
+    },
+    "utr_reference": "UTR00173PAY00173"
+  },
+  {
+    "amount": {
+      "__decimal__": "10306.17"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "187.51"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10084.91"
+    },
+    "payment_id": "PAY-00174",
+    "settled_at": "2026-07-29T15:24:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00174",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "33.75"
+    },
+    "utr_reference": "UTR00174PAY00174"
+  },
+  {
+    "amount": {
+      "__decimal__": "4173.38"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4173.38"
+    },
+    "payment_id": "PAY-00175",
+    "settled_at": "2026-07-28T20:36:00",
+    "settlement_batch_id": "BATCH-20260728",
+    "settlement_id": "STL-00175",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00175PAY00175"
+  },
+  {
+    "amount": {
+      "__decimal__": "4974.34"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4974.34"
+    },
+    "payment_id": "PAY-00176",
+    "settled_at": "2026-06-02T19:51:00",
+    "settlement_batch_id": "BATCH-20260602",
+    "settlement_id": "STL-00176",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00176PAY00176"
+  },
+  {
+    "amount": {
+      "__decimal__": "970.52"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "970.52"
+    },
+    "payment_id": "PAY-00177",
+    "settled_at": "2026-07-21T23:42:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00177",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00177PAY00177"
+  },
+  {
+    "amount": {
+      "__decimal__": "1821.09"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1821.09"
+    },
+    "payment_id": "PAY-00178",
+    "settled_at": "2026-07-01T12:31:00",
+    "settlement_batch_id": "BATCH-20260701",
+    "settlement_id": "STL-00178",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00178PAY00178"
+  },
+  {
+    "amount": {
+      "__decimal__": "4889.15"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4889.15"
+    },
+    "payment_id": "PAY-00179",
+    "settled_at": "2026-07-03T00:07:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00179",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00179PAY00179"
+  },
+  {
+    "amount": {
+      "__decimal__": "1550.10"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1550.10"
+    },
+    "payment_id": "PAY-00180",
+    "settled_at": "2026-07-06T01:14:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00180",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00180PAY00180"
+  },
+  {
+    "amount": {
+      "__decimal__": "694.87"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "694.87"
+    },
+    "payment_id": "PAY-00181",
+    "settled_at": "2026-07-21T21:21:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00181",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00181PAY00181"
+  },
+  {
+    "amount": {
+      "__decimal__": "5485.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5485.40"
+    },
+    "payment_id": "PAY-00182",
+    "settled_at": "2026-07-05T12:57:00",
+    "settlement_batch_id": "BATCH-20260705",
+    "settlement_id": "STL-00182",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00182PAY00182"
+  },
+  {
+    "amount": {
+      "__decimal__": "7564.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7564.63"
+    },
+    "payment_id": "PAY-00183",
+    "settled_at": "2026-07-24T06:30:00",
+    "settlement_batch_id": "BATCH-20260724",
+    "settlement_id": "STL-00183",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00183PAY00183"
+  },
+  {
+    "amount": {
+      "__decimal__": "8106.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8106.63"
+    },
+    "payment_id": "PAY-00184",
+    "settled_at": "2026-06-03T15:53:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00184",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00184PAY00184"
+  },
+  {
+    "amount": {
+      "__decimal__": "9018.86"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9018.86"
+    },
+    "payment_id": "PAY-00185",
+    "settled_at": "2026-06-20T23:11:00",
+    "settlement_batch_id": "BATCH-20260620",
+    "settlement_id": "STL-00185",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00185PAY00185"
+  },
+  {
+    "amount": {
+      "__decimal__": "2623.37"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2623.37"
+    },
+    "payment_id": "PAY-00186",
+    "settled_at": "2026-07-24T17:35:00",
+    "settlement_batch_id": "BATCH-20260724",
+    "settlement_id": "STL-00186",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00186PAY00186"
+  },
+  {
+    "amount": {
+      "__decimal__": "9472.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9472.62"
+    },
+    "payment_id": "PAY-00187",
+    "settled_at": "2026-07-13T20:54:00",
+    "settlement_batch_id": "BATCH-20260713",
+    "settlement_id": "STL-00187",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00187PAY00187"
+  },
+  {
+    "amount": {
+      "__decimal__": "2009.45"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2009.45"
+    },
+    "payment_id": "PAY-00188",
+    "settled_at": "2026-07-31T04:38:00",
+    "settlement_batch_id": "BATCH-20260731",
+    "settlement_id": "STL-00188",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00188PAY00188"
+  },
+  {
+    "amount": {
+      "__decimal__": "8549.75"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8549.75"
+    },
+    "payment_id": "PAY-00189",
+    "settled_at": "2026-06-09T03:53:00",
+    "settlement_batch_id": "BATCH-20260609",
+    "settlement_id": "STL-00189",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00189PAY00189"
+  },
+  {
+    "amount": {
+      "__decimal__": "21654.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "21654.62"
+    },
+    "payment_id": "PAY-00190",
+    "settled_at": "2026-07-01T23:02:00",
+    "settlement_batch_id": "BATCH-20260701",
+    "settlement_id": "STL-00190",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00190PAY00190"
+  },
+  {
+    "amount": {
+      "__decimal__": "21655.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "21655.62"
+    },
+    "payment_id": "PAY-00190",
+    "settled_at": "2026-07-02T23:02:00",
+    "settlement_batch_id": "BATCH-20260702",
+    "settlement_id": "STL-00191",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00191PAY00190"
+  },
+  {
+    "amount": {
+      "__decimal__": "13492.17"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13492.17"
+    },
+    "payment_id": "PAY-00191",
+    "settled_at": "2026-06-25T19:10:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00192",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00192PAY00191"
+  },
+  {
+    "amount": {
+      "__decimal__": "13493.17"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "13493.17"
+    },
+    "payment_id": "PAY-00191",
+    "settled_at": "2026-06-26T19:10:00",
+    "settlement_batch_id": "BATCH-20260626",
+    "settlement_id": "STL-00193",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00193PAY00191"
+  },
+  {
+    "amount": {
+      "__decimal__": "27223.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27223.29"
+    },
+    "payment_id": "PAY-00192",
+    "settled_at": "2026-06-28T05:56:00",
+    "settlement_batch_id": "BATCH-20260628",
+    "settlement_id": "STL-00194",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00194PAY00192"
+  },
+  {
+    "amount": {
+      "__decimal__": "27223.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27223.29"
+    },
+    "payment_id": "PAY-00192",
+    "settled_at": "2026-06-29T05:56:00",
+    "settlement_batch_id": "BATCH-20260629",
+    "settlement_id": "STL-00195",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00195PAY00192"
+  },
+  {
+    "amount": {
+      "__decimal__": "27532.73"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27532.73"
+    },
+    "payment_id": "PAY-00193",
+    "settled_at": "2026-07-09T05:21:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00196",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00196PAY00193"
+  },
+  {
+    "amount": {
+      "__decimal__": "27532.73"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27532.73"
+    },
+    "payment_id": "PAY-00193",
+    "settled_at": "2026-07-10T05:21:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00197",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00197PAY00193"
+  },
+  {
+    "amount": {
+      "__decimal__": "45752.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45752.50"
+    },
+    "payment_id": "PAY-00194",
+    "settled_at": "2026-06-12T11:02:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00198",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00198PAY00194"
+  },
+  {
+    "amount": {
+      "__decimal__": "45752.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45752.50"
+    },
+    "payment_id": "PAY-00194",
+    "settled_at": "2026-06-13T11:02:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00199",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00199PAY00194"
+  },
+  {
+    "amount": {
+      "__decimal__": "23488.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23488.62"
+    },
+    "payment_id": "PAY-00195",
+    "settled_at": "2026-06-03T13:05:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00200",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00200PAY00195"
+  },
+  {
+    "amount": {
+      "__decimal__": "23488.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23488.62"
+    },
+    "payment_id": "PAY-00195",
+    "settled_at": "2026-06-04T13:05:00",
+    "settlement_batch_id": "BATCH-20260604",
+    "settlement_id": "STL-00201",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00201PAY00195"
+  },
+  {
+    "amount": {
+      "__decimal__": "44584.22"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "44584.22"
+    },
+    "payment_id": "PAY-00196",
+    "settled_at": "2026-06-21T17:57:00",
+    "settlement_batch_id": "BATCH-20260621",
+    "settlement_id": "STL-00202",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00202PAY00196"
+  },
+  {
+    "amount": {
+      "__decimal__": "44584.22"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "44584.22"
+    },
+    "payment_id": "PAY-00196",
+    "settled_at": "2026-06-22T17:57:00",
+    "settlement_batch_id": "BATCH-20260622",
+    "settlement_id": "STL-00203",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00203PAY00196"
+  },
+  {
+    "amount": {
+      "__decimal__": "11246.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11246.63"
+    },
+    "payment_id": "PAY-00197",
+    "settled_at": "2026-07-29T10:37:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00204",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00204PAY00197"
+  },
+  {
+    "amount": {
+      "__decimal__": "11246.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11246.63"
+    },
+    "payment_id": "PAY-00197",
+    "settled_at": "2026-07-30T10:37:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00205",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00205PAY00197"
+  },
+  {
+    "amount": {
+      "__decimal__": "5738.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5738.70"
+    },
+    "payment_id": "PAY-00198",
+    "settled_at": "2026-07-23T10:47:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00206",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00206PAY00198"
+  },
+  {
+    "amount": {
+      "__decimal__": "5738.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5738.70"
+    },
+    "payment_id": "PAY-00198",
+    "settled_at": "2026-07-24T10:47:00",
+    "settlement_batch_id": "BATCH-20260724",
+    "settlement_id": "STL-00207",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00207PAY00198"
+  },
+  {
+    "amount": {
+      "__decimal__": "25770.74"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25770.74"
+    },
+    "payment_id": "PAY-00199",
+    "settled_at": "2026-07-21T04:11:00",
+    "settlement_batch_id": "BATCH-20260721",
+    "settlement_id": "STL-00208",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00208PAY00199"
+  },
+  {
+    "amount": {
+      "__decimal__": "25770.74"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25770.74"
+    },
+    "payment_id": "PAY-00199",
+    "settled_at": "2026-07-22T04:11:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00209",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00209PAY00199"
+  },
+  {
+    "amount": {
+      "__decimal__": "48773.14"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "48773.14"
+    },
+    "payment_id": "PAY-00200",
+    "settled_at": "2026-06-13T08:10:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00210",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00210PAY00200"
+  },
+  {
+    "amount": {
+      "__decimal__": "48773.14"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "48773.14"
+    },
+    "payment_id": "PAY-00200",
+    "settled_at": "2026-06-14T08:10:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00211",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00211PAY00200"
+  },
+  {
+    "amount": {
+      "__decimal__": "17113.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "17113.76"
+    },
+    "payment_id": "PAY-00201",
+    "settled_at": "2026-06-13T00:25:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00212",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00212PAY00201"
+  },
+  {
+    "amount": {
+      "__decimal__": "17113.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "17113.76"
+    },
+    "payment_id": "PAY-00201",
+    "settled_at": "2026-06-14T00:25:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00213",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00213PAY00201"
+  },
+  {
+    "amount": {
+      "__decimal__": "9567.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9567.70"
+    },
+    "payment_id": "PAY-00214",
+    "settled_at": "2026-07-16T07:19:00",
+    "settlement_batch_id": "BATCH-20260716",
+    "settlement_id": "STL-00214",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00214PAY00214"
+  },
+  {
+    "amount": {
+      "__decimal__": "3279.26"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3279.26"
+    },
+    "payment_id": "PAY-00215",
+    "settled_at": "2026-06-23T00:37:00",
+    "settlement_batch_id": "BATCH-20260623",
+    "settlement_id": "STL-00215",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00215PAY00215"
+  },
+  {
+    "amount": {
+      "__decimal__": "6725.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6725.29"
+    },
+    "payment_id": "PAY-00216",
+    "settled_at": "2026-06-08T17:56:00",
+    "settlement_batch_id": "BATCH-20260608",
+    "settlement_id": "STL-00216",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00216PAY00216"
+  },
+  {
+    "amount": {
+      "__decimal__": "2794.69"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2794.69"
+    },
+    "payment_id": "PAY-00217",
+    "settled_at": "2026-06-16T20:00:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00217",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00217PAY00217"
+  },
+  {
+    "amount": {
+      "__decimal__": "5272.07"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5272.07"
+    },
+    "payment_id": "PAY-00218",
+    "settled_at": "2026-07-24T00:01:00",
+    "settlement_batch_id": "BATCH-20260724",
+    "settlement_id": "STL-00218",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00218PAY00218"
+  },
+  {
+    "amount": {
+      "__decimal__": "4664.51"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4664.51"
+    },
+    "payment_id": "PAY-00219",
+    "settled_at": "2026-07-06T15:02:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00219",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00219PAY00219"
+  },
+  {
+    "amount": {
+      "__decimal__": "4912.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4912.62"
+    },
+    "payment_id": "PAY-00220",
+    "settled_at": "2026-06-12T04:59:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00220",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00220PAY00220"
+  },
+  {
+    "amount": {
+      "__decimal__": "3774.02"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3774.02"
+    },
+    "payment_id": "PAY-00221",
+    "settled_at": "2026-07-09T00:04:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00221",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00221PAY00221"
+  },
+  {
+    "amount": {
+      "__decimal__": "9900.87"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9900.87"
+    },
+    "payment_id": "PAY-00222",
+    "settled_at": "2026-07-14T21:24:00",
+    "settlement_batch_id": "BATCH-20260714",
+    "settlement_id": "STL-00222",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00222PAY00222"
+  },
+  {
+    "amount": {
+      "__decimal__": "9422.49"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9422.49"
+    },
+    "payment_id": "PAY-00223",
+    "settled_at": "2026-06-17T13:27:00",
+    "settlement_batch_id": "BATCH-20260617",
+    "settlement_id": "STL-00223",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00223PAY00223"
+  },
+  {
+    "amount": {
+      "__decimal__": "4966.31"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4966.31"
+    },
+    "payment_id": "PAY-00224",
+    "settled_at": "2026-06-15T18:37:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00224",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00224PAY00224"
+  },
+  {
+    "amount": {
+      "__decimal__": "4696.65"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4696.65"
+    },
+    "payment_id": "PAY-00225",
+    "settled_at": "2026-06-14T04:24:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00225",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00225PAY00225"
+  },
+  {
+    "amount": {
+      "__decimal__": "47711.51"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47711.51"
+    },
+    "payment_id": "PAY-00226",
+    "settled_at": "2026-06-17T09:38:00",
+    "settlement_batch_id": "BATCH-20260617",
+    "settlement_id": "STL-00226",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00226PAY00226"
+  },
+  {
+    "amount": {
+      "__decimal__": "7575.06"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7575.06"
+    },
+    "payment_id": "PAY-00227",
+    "settled_at": "2026-06-16T07:38:00",
+    "settlement_batch_id": "BATCH-20260616",
+    "settlement_id": "STL-00227",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00227PAY00227"
+  },
+  {
+    "amount": {
+      "__decimal__": "41976.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41976.40"
+    },
+    "payment_id": "PAY-00228",
+    "settled_at": "2026-06-02T16:34:00",
+    "settlement_batch_id": "BATCH-20260602",
+    "settlement_id": "STL-00228",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00228PAY00228"
+  },
+  {
+    "amount": {
+      "__decimal__": "22780.92"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22780.92"
+    },
+    "payment_id": "PAY-00229",
+    "settled_at": "2026-06-07T06:46:00",
+    "settlement_batch_id": "BATCH-20260607",
+    "settlement_id": "STL-00229",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00229PAY00229"
+  },
+  {
+    "amount": {
+      "__decimal__": "34995.92"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34995.92"
+    },
+    "payment_id": "PAY-00230",
+    "settled_at": "2026-06-12T11:38:00",
+    "settlement_batch_id": "BATCH-20260612",
+    "settlement_id": "STL-00230",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00230PAY00230"
+  },
+  {
+    "amount": {
+      "__decimal__": "15332.53"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "15332.53"
+    },
+    "payment_id": "PAY-00231",
+    "settled_at": "2026-06-05T02:33:00",
+    "settlement_batch_id": "BATCH-20260605",
+    "settlement_id": "STL-00231",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00231PAY00231"
+  },
+  {
+    "amount": {
+      "__decimal__": "34252.07"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34252.07"
+    },
+    "payment_id": "PAY-00232",
+    "settled_at": "2026-07-03T13:00:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00232",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00232PAY00232"
+  },
+  {
+    "amount": {
+      "__decimal__": "26921.03"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26921.03"
+    },
+    "payment_id": "PAY-00233",
+    "settled_at": "2026-07-06T02:33:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00233",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00233PAY00233"
+  },
+  {
+    "amount": {
+      "__decimal__": "28821.56"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28821.56"
+    },
+    "payment_id": "PAY-00234",
+    "settled_at": "2026-07-26T21:12:00",
+    "settlement_batch_id": "BATCH-20260726",
+    "settlement_id": "STL-00234",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00234PAY00234"
+  },
+  {
+    "amount": {
+      "__decimal__": "23881.54"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "23881.54"
+    },
+    "payment_id": "PAY-00235",
+    "settled_at": "2026-07-19T05:37:00",
+    "settlement_batch_id": "BATCH-20260719",
+    "settlement_id": "STL-00235",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00235PAY00235"
+  },
+  {
+    "amount": {
+      "__decimal__": "11447.78"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11447.78"
+    },
+    "payment_id": "PAY-00236",
+    "settled_at": "2026-06-17T00:07:00",
+    "settlement_batch_id": "BATCH-20260617",
+    "settlement_id": "STL-00236",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00236PAY00236"
+  },
+  {
+    "amount": {
+      "__decimal__": "25859.59"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25859.59"
+    },
+    "payment_id": "PAY-00237",
+    "settled_at": "2026-06-14T04:07:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00237",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00237PAY00237"
+  },
+  {
+    "amount": {
+      "__decimal__": "6718.67"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6718.67"
+    },
+    "payment_id": "PAY-00238",
+    "settled_at": "2026-07-30T03:42:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00238",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00238PAY00238"
+  },
+  {
+    "amount": {
+      "__decimal__": "45374.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45374.16"
+    },
+    "payment_id": "PAY-00239",
+    "settled_at": "2026-07-27T22:42:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00239",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00239PAY00239"
+  },
+  {
+    "amount": {
+      "__decimal__": "26143.62"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26143.62"
+    },
+    "payment_id": "PAY-00240",
+    "settled_at": "2026-06-06T01:25:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00240",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00240PAY00240"
+  },
+  {
+    "amount": {
+      "__decimal__": "26404.84"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26404.84"
+    },
+    "payment_id": "PAY-00241",
+    "settled_at": "2026-06-04T21:33:00",
+    "settlement_batch_id": "BATCH-20260604",
+    "settlement_id": "STL-00241",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00241PAY00241"
+  },
+  {
+    "amount": {
+      "__decimal__": "18244.48"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "18244.48"
+    },
+    "payment_id": "PAY-00242",
+    "settled_at": "2026-06-09T22:55:00",
+    "settlement_batch_id": "BATCH-20260609",
+    "settlement_id": "STL-00242",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED720545"
+  },
+  {
+    "amount": {
+      "__decimal__": "4646.37"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4646.37"
+    },
+    "payment_id": "PAY-00243",
+    "settled_at": "2026-06-09T15:58:00",
+    "settlement_batch_id": "BATCH-20260609",
+    "settlement_id": "STL-00243",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED247743"
+  },
+  {
+    "amount": {
+      "__decimal__": "30014.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30014.71"
+    },
+    "payment_id": "PAY-00244",
+    "settled_at": "2026-07-08T20:51:00",
+    "settlement_batch_id": "BATCH-20260708",
+    "settlement_id": "STL-00244",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED272151"
+  },
+  {
+    "amount": {
+      "__decimal__": "30886.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "30886.29"
+    },
+    "payment_id": "PAY-00245",
+    "settled_at": "2026-07-30T22:41:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00245",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED259889"
+  },
+  {
+    "amount": {
+      "__decimal__": "26570.25"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "26570.25"
+    },
+    "payment_id": "PAY-00246",
+    "settled_at": "2026-07-27T17:53:00",
+    "settlement_batch_id": "BATCH-20260727",
+    "settlement_id": "STL-00246",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED140703"
+  },
+  {
+    "amount": {
+      "__decimal__": "34811.07"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "34811.07"
+    },
+    "payment_id": "PAY-00247",
+    "settled_at": "2026-06-26T05:16:00",
+    "settlement_batch_id": "BATCH-20260626",
+    "settlement_id": "STL-00247",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED958648"
+  },
+  {
+    "amount": {
+      "__decimal__": "39052.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "39052.63"
+    },
+    "payment_id": "PAY-00248",
+    "settled_at": "2026-07-22T16:11:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00248",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED665230"
+  },
+  {
+    "amount": {
+      "__decimal__": "41927.48"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "41927.48"
+    },
+    "payment_id": "PAY-00249",
+    "settled_at": "2026-06-09T16:06:00",
+    "settlement_batch_id": "BATCH-20260609",
+    "settlement_id": "STL-00249",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED541898"
+  },
+  {
+    "amount": {
+      "__decimal__": "3009.90"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3009.90"
+    },
+    "payment_id": "PAY-00250",
+    "settled_at": "2026-07-23T07:17:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00250",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED574422"
+  },
+  {
+    "amount": {
+      "__decimal__": "2416.79"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2416.79"
+    },
+    "payment_id": "PAY-00251",
+    "settled_at": "2026-07-15T01:38:00",
+    "settlement_batch_id": "BATCH-20260715",
+    "settlement_id": "STL-00251",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED515442"
+  },
+  {
+    "amount": {
+      "__decimal__": "35704.30"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "35704.30"
+    },
+    "payment_id": "PAY-00252",
+    "settled_at": "2026-07-31T13:27:00",
+    "settlement_batch_id": "BATCH-20260731",
+    "settlement_id": "STL-00252",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED226633"
+  },
+  {
+    "amount": {
+      "__decimal__": "27462.45"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "27462.45"
+    },
+    "payment_id": "PAY-00253",
+    "settled_at": "2026-06-26T09:33:00",
+    "settlement_batch_id": "BATCH-20260626",
+    "settlement_id": "STL-00253",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRUNRELATED641901"
+  },
+  {
+    "amount": {
+      "__decimal__": "5926.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5926.19"
+    },
+    "payment_id": "PAY-00254",
+    "settled_at": "2026-07-03T07:17:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00254",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00254PAY00254"
+  },
+  {
+    "amount": {
+      "__decimal__": "3950.79"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3950.79"
+    },
+    "payment_id": "PAY-00254",
+    "settled_at": "2026-07-03T07:17:00",
+    "settlement_batch_id": "BATCH-20260703",
+    "settlement_id": "STL-00255",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00255PAY00254"
+  },
+  {
+    "amount": {
+      "__decimal__": "3356.86"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3356.86"
+    },
+    "payment_id": "PAY-00255",
+    "settled_at": "2026-06-15T02:24:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00256",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00256PAY00255"
+  },
+  {
+    "amount": {
+      "__decimal__": "2237.91"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2237.91"
+    },
+    "payment_id": "PAY-00255",
+    "settled_at": "2026-06-15T02:24:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00257",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00257PAY00255"
+  },
+  {
+    "amount": {
+      "__decimal__": "2153.16"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2153.16"
+    },
+    "payment_id": "PAY-00256",
+    "settled_at": "2026-07-15T09:28:00",
+    "settlement_batch_id": "BATCH-20260715",
+    "settlement_id": "STL-00258",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00258PAY00256"
+  },
+  {
+    "amount": {
+      "__decimal__": "3229.73"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3229.73"
+    },
+    "payment_id": "PAY-00256",
+    "settled_at": "2026-07-15T09:28:00",
+    "settlement_batch_id": "BATCH-20260715",
+    "settlement_id": "STL-00259",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00259PAY00256"
+  },
+  {
+    "amount": {
+      "__decimal__": "6802.13"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6802.13"
+    },
+    "payment_id": "PAY-00257",
+    "settled_at": "2026-06-24T16:06:00",
+    "settlement_batch_id": "BATCH-20260624",
+    "settlement_id": "STL-00260",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00260PAY00257"
+  },
+  {
+    "amount": {
+      "__decimal__": "4534.75"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4534.75"
+    },
+    "payment_id": "PAY-00257",
+    "settled_at": "2026-06-24T16:06:00",
+    "settlement_batch_id": "BATCH-20260624",
+    "settlement_id": "STL-00261",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00261PAY00257"
+  },
+  {
+    "amount": {
+      "__decimal__": "2517.57"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2517.57"
+    },
+    "payment_id": "PAY-00258",
+    "settled_at": "2026-07-10T12:38:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00262",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00262PAY00258"
+  },
+  {
+    "amount": {
+      "__decimal__": "3776.36"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "3776.36"
+    },
+    "payment_id": "PAY-00258",
+    "settled_at": "2026-07-10T12:38:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00263",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00263PAY00258"
+  },
+  {
+    "amount": {
+      "__decimal__": "1421.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1421.19"
+    },
+    "payment_id": "PAY-00259",
+    "settled_at": "2026-06-14T20:22:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00264",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00264PAY00259"
+  },
+  {
+    "amount": {
+      "__decimal__": "1421.19"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1421.19"
+    },
+    "payment_id": "PAY-00259",
+    "settled_at": "2026-06-14T20:22:00",
+    "settlement_batch_id": "BATCH-20260614",
+    "settlement_id": "STL-00265",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00265PAY00259"
+  },
+  {
+    "amount": {
+      "__decimal__": "2869.82"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "2869.82"
+    },
+    "payment_id": "PAY-00260",
+    "settled_at": "2026-07-10T06:47:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00266",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00266PAY00260"
+  },
+  {
+    "amount": {
+      "__decimal__": "4304.74"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4304.74"
+    },
+    "payment_id": "PAY-00260",
+    "settled_at": "2026-07-10T06:47:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00267",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00267PAY00260"
+  },
+  {
+    "amount": {
+      "__decimal__": "6479.38"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6479.38"
+    },
+    "payment_id": "PAY-00261",
+    "settled_at": "2026-06-25T17:14:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00268",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00268PAY00261"
+  },
+  {
+    "amount": {
+      "__decimal__": "9719.08"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "9719.08"
+    },
+    "payment_id": "PAY-00261",
+    "settled_at": "2026-06-25T17:14:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00269",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00269PAY00261"
+  },
+  {
+    "amount": {
+      "__decimal__": "6840.29"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6840.29"
+    },
+    "payment_id": "PAY-00262",
+    "settled_at": "2026-06-15T03:01:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00270",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00270PAY00262"
+  },
+  {
+    "amount": {
+      "__decimal__": "6840.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6840.28"
+    },
+    "payment_id": "PAY-00262",
+    "settled_at": "2026-06-15T03:01:00",
+    "settlement_batch_id": "BATCH-20260615",
+    "settlement_id": "STL-00271",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00271PAY00262"
+  },
+  {
+    "amount": {
+      "__decimal__": "11942.12"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11942.12"
+    },
+    "payment_id": "PAY-00263",
+    "settled_at": "2026-06-21T16:16:00",
+    "settlement_batch_id": "BATCH-20260621",
+    "settlement_id": "STL-00272",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00272PAY00263"
+  },
+  {
+    "amount": {
+      "__decimal__": "7961.42"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7961.42"
+    },
+    "payment_id": "PAY-00263",
+    "settled_at": "2026-06-21T16:16:00",
+    "settlement_batch_id": "BATCH-20260621",
+    "settlement_id": "STL-00273",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00273PAY00263"
+  },
+  {
+    "amount": {
+      "__decimal__": "7157.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "7157.70"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-29T17:00:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00274",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00274NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "10219.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "10219.70"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-29T13:30:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00275",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00275NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "8409.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8409.70"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-29T08:44:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00276",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00276NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "8409.13"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "8409.13"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-06T15:39:00",
+    "settlement_batch_id": "BATCH-20260706",
+    "settlement_id": "STL-00277",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00277NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "11131.40"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11131.40"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-03T07:09:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00278",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00278NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "28868.63"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28868.63"
+    },
+    "payment_id": "PAY-00274",
+    "settled_at": "2026-06-20T09:09:00",
+    "settlement_batch_id": "BATCH-20260620",
+    "settlement_id": "STL-00279",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00279PAY00274"
+  },
+  {
+    "amount": {
+      "__decimal__": "40687.87"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "40687.87"
+    },
+    "payment_id": "PAY-00275",
+    "settled_at": "2026-07-16T16:00:00",
+    "settlement_batch_id": "BATCH-20260716",
+    "settlement_id": "STL-00280",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00280PAY00275"
+  },
+  {
+    "amount": {
+      "__decimal__": "5086.95"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "5086.95"
+    },
+    "payment_id": "PAY-00276",
+    "settled_at": "2026-06-30T04:54:00",
+    "settlement_batch_id": "BATCH-20260630",
+    "settlement_id": "STL-00281",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00281PAY00276"
+  },
+  {
+    "amount": {
+      "__decimal__": "43184.80"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43184.80"
+    },
+    "payment_id": "PAY-00277",
+    "settled_at": "2026-07-01T23:49:00",
+    "settlement_batch_id": "BATCH-20260701",
+    "settlement_id": "STL-00282",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00282PAY00277"
+  },
+  {
+    "amount": {
+      "__decimal__": "43479.87"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43479.87"
+    },
+    "payment_id": "PAY-00278",
+    "settled_at": "2026-07-23T21:47:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00283",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00283PAY00278"
+  },
+  {
+    "amount": {
+      "__decimal__": "43043.77"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "43043.77"
+    },
+    "payment_id": "PAY-00279",
+    "settled_at": "2026-06-11T03:23:00",
+    "settlement_batch_id": "BATCH-20260611",
+    "settlement_id": "STL-00284",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00284PAY00279"
+  },
+  {
+    "amount": {
+      "__decimal__": "6334.84"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6334.84"
+    },
+    "payment_id": "PAY-00280",
+    "settled_at": "2026-06-30T17:33:00",
+    "settlement_batch_id": "BATCH-20260630",
+    "settlement_id": "STL-00285",
+    "status": "reversed",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00285PAY00280"
+  },
+  {
+    "amount": {
+      "__decimal__": "39112.77"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "39112.77"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-25T22:44:00",
+    "settlement_batch_id": "BATCH-20260725",
+    "settlement_id": "STL-00286",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT471582"
+  },
+  {
+    "amount": {
+      "__decimal__": "39112.77"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "39112.77"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-22T22:44:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00287",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00287NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "42468.55"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42468.55"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-06T12:13:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00288",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT521824"
+  },
+  {
+    "amount": {
+      "__decimal__": "42468.55"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "42468.55"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-03T12:13:00",
+    "settlement_batch_id": "BATCH-20260603",
+    "settlement_id": "STL-00289",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00289NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "45672.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45672.70"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-09T13:35:00",
+    "settlement_batch_id": "BATCH-20260609",
+    "settlement_id": "STL-00290",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT204526"
+  },
+  {
+    "amount": {
+      "__decimal__": "45672.70"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "45672.70"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-06T13:35:00",
+    "settlement_batch_id": "BATCH-20260606",
+    "settlement_id": "STL-00291",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00291NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "11950.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11950.76"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-07T10:26:00",
+    "settlement_batch_id": "BATCH-20260707",
+    "settlement_id": "STL-00292",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT996043"
+  },
+  {
+    "amount": {
+      "__decimal__": "11950.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "11950.76"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-04T10:26:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00293",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00293NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "35398.45"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "35398.45"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-11T18:37:00",
+    "settlement_batch_id": "BATCH-20260711",
+    "settlement_id": "STL-00294",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT258907"
+  },
+  {
+    "amount": {
+      "__decimal__": "35398.45"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "35398.45"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-08T18:37:00",
+    "settlement_batch_id": "BATCH-20260708",
+    "settlement_id": "STL-00295",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00295NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "28509.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28509.76"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-25T05:46:00",
+    "settlement_batch_id": "BATCH-20260725",
+    "settlement_id": "STL-00296",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT768019"
+  },
+  {
+    "amount": {
+      "__decimal__": "28509.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "28509.76"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-22T05:46:00",
+    "settlement_batch_id": "BATCH-20260722",
+    "settlement_id": "STL-00297",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00297NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "6476.04"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6476.04"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-28T10:52:00",
+    "settlement_batch_id": "BATCH-20260628",
+    "settlement_id": "STL-00298",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT367818"
+  },
+  {
+    "amount": {
+      "__decimal__": "6476.04"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "6476.04"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-25T10:52:00",
+    "settlement_batch_id": "BATCH-20260625",
+    "settlement_id": "STL-00299",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00299NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "17543.39"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "17543.39"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-22T19:51:00",
+    "settlement_batch_id": "BATCH-20260622",
+    "settlement_id": "STL-00300",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT866000"
+  },
+  {
+    "amount": {
+      "__decimal__": "17543.39"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "17543.39"
+    },
+    "payment_id": null,
+    "settled_at": "2026-06-19T19:51:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00301",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00301NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "33025.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33025.71"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-07T10:10:00",
+    "settlement_batch_id": "BATCH-20260707",
+    "settlement_id": "STL-00302",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT411910"
+  },
+  {
+    "amount": {
+      "__decimal__": "33025.71"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "33025.71"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-04T10:10:00",
+    "settlement_batch_id": "BATCH-20260704",
+    "settlement_id": "STL-00303",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00303NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "15827.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-B",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "15827.50"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-28T19:03:00",
+    "settlement_batch_id": "BATCH-20260728",
+    "settlement_id": "STL-00304",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTRALT894883"
+  },
+  {
+    "amount": {
+      "__decimal__": "15827.50"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "merchant": "Merchant-A",
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "15827.50"
+    },
+    "payment_id": null,
+    "settled_at": "2026-07-25T19:03:00",
+    "settlement_batch_id": "BATCH-20260725",
+    "settlement_id": "STL-00305",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00305NA"
+  },
+  {
+    "amount": {
+      "__decimal__": "25056.38"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "25052.63"
+    },
+    "payment_id": "PAY-00291",
+    "settled_at": "2026-07-09T19:08:00",
+    "settlement_batch_id": "BATCH-20260709",
+    "settlement_id": "STL-00306",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00306PAY00291"
+  },
+  {
+    "amount": {
+      "__decimal__": "1634.45"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "1628.46"
+    },
+    "payment_id": "PAY-00292",
+    "settled_at": "2026-07-02T18:16:00",
+    "settlement_batch_id": "BATCH-20260702",
+    "settlement_id": "STL-00307",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00307PAY00292"
+  },
+  {
+    "amount": {
+      "__decimal__": "29023.76"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "29018.30"
+    },
+    "payment_id": "PAY-00293",
+    "settled_at": "2026-07-23T05:22:00",
+    "settlement_batch_id": "BATCH-20260723",
+    "settlement_id": "STL-00308",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00308PAY00293"
+  },
+  {
+    "amount": {
+      "__decimal__": "15718.28"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "15710.26"
+    },
+    "payment_id": "PAY-00294",
+    "settled_at": "2026-07-30T11:37:00",
+    "settlement_batch_id": "BATCH-20260730",
+    "settlement_id": "STL-00309",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00309PAY00294"
+  },
+  {
+    "amount": {
+      "__decimal__": "4870.75"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "4867.50"
+    },
+    "payment_id": "PAY-00295",
+    "settled_at": "2026-06-28T07:37:00",
+    "settlement_batch_id": "BATCH-20260628",
+    "settlement_id": "STL-00310",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00310PAY00295"
+  },
+  {
+    "amount": {
+      "__decimal__": "39175.02"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "39167.60"
+    },
+    "payment_id": "PAY-00296",
+    "settled_at": "2026-06-13T13:00:00",
+    "settlement_batch_id": "BATCH-20260613",
+    "settlement_id": "STL-00311",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00311PAY00296"
+  },
+  {
+    "amount": {
+      "__decimal__": "22322.78"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "22316.82"
+    },
+    "payment_id": "PAY-00297",
+    "settled_at": "2026-07-10T03:13:00",
+    "settlement_batch_id": "BATCH-20260710",
+    "settlement_id": "STL-00312",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00312PAY00297"
+  },
+  {
+    "amount": {
+      "__decimal__": "19589.80"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "19585.01"
+    },
+    "payment_id": "PAY-00298",
+    "settled_at": "2026-07-20T11:18:00",
+    "settlement_batch_id": "BATCH-20260720",
+    "settlement_id": "STL-00313",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00313PAY00298"
+  },
+  {
+    "amount": {
+      "__decimal__": "38191.30"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "38185.66"
+    },
+    "payment_id": "PAY-00299",
+    "settled_at": "2026-06-19T04:05:00",
+    "settlement_batch_id": "BATCH-20260619",
+    "settlement_id": "STL-00314",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00314PAY00299"
+  },
+  {
+    "amount": {
+      "__decimal__": "47172.82"
+    },
+    "currency": "INR",
+    "fee": {
+      "__decimal__": "0.00"
+    },
+    "metadata": {
+      "simulated": true
+    },
+    "net_amount": {
+      "__decimal__": "47164.42"
+    },
+    "payment_id": "PAY-00300",
+    "settled_at": "2026-07-29T05:44:00",
+    "settlement_batch_id": "BATCH-20260729",
+    "settlement_id": "STL-00315",
+    "status": "settled",
+    "tax": {
+      "__decimal__": "0.00"
+    },
+    "utr_reference": "UTR00315PAY00300"
+  }
+]

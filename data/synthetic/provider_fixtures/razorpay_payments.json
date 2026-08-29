@@ -1,0 +1,38 @@
+[
+  {
+    "id": "pay_RAZ0000001AA",
+    "entity": "payment",
+    "amount": 497037,
+    "currency": "INR",
+    "status": "captured",
+    "order_id": "order_RAZ0000001AA",
+    "method": "upi",
+    "captured": true,
+    "created_at": 1785574800,
+    "notes": {}
+  },
+  {
+    "id": "pay_RAZ0000002BB",
+    "entity": "payment",
+    "amount": 899900,
+    "currency": "INR",
+    "status": "captured",
+    "order_id": "order_RAZ0000002BB",
+    "method": "upi",
+    "captured": true,
+    "created_at": 1785664800,
+    "notes": {}
+  },
+  {
+    "id": "pay_RAZ0000003CC",
+    "entity": "payment",
+    "amount": 125050,
+    "currency": "INR",
+    "status": "captured",
+    "order_id": "order_RAZ0000003CC",
+    "method": "upi",
+    "captured": true,
+    "created_at": 1785754800,
+    "notes": {}
+  }
+]

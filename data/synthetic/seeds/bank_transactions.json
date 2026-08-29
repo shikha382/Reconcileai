@@ -1,0 +1,4412 @@
+[
+  {
+    "amount": {
+      "__decimal__": "28390.21"
+    },
+    "bank_txn_id": "BANKTXN-00001",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00001",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00001PAY00001",
+    "value_date": "2026-06-07T18:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26853.89"
+    },
+    "bank_txn_id": "BANKTXN-00002",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00002",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 02P AY0 000 2",
+    "value_date": "2026-06-07T09:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "38885.04"
+    },
+    "bank_txn_id": "BANKTXN-00003",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00003",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00003PAY00003",
+    "value_date": "2026-07-16T17:03:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "37254.33"
+    },
+    "bank_txn_id": "BANKTXN-00004",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00004",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00004PAY00004",
+    "value_date": "2026-07-22T06:15:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11780.54"
+    },
+    "bank_txn_id": "BANKTXN-00005",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00005",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00005PAY00005",
+    "value_date": "2026-07-13T02:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "48335.25"
+    },
+    "bank_txn_id": "BANKTXN-00006",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00006",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00006PAY00006",
+    "value_date": "2026-08-01T07:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47030.92"
+    },
+    "bank_txn_id": "BANKTXN-00007",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00007",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00007PAY00007",
+    "value_date": "2026-06-05T03:25:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30219.19"
+    },
+    "bank_txn_id": "BANKTXN-00008",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00008",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00008PAY00008",
+    "value_date": "2026-07-27T23:58:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "29401.24"
+    },
+    "bank_txn_id": "BANKTXN-00009",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00009",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 09P AY0 000 9",
+    "value_date": "2026-06-25T18:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34727.31"
+    },
+    "bank_txn_id": "BANKTXN-00010",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00010",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00010PAY00010",
+    "value_date": "2026-07-10T10:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33459.82"
+    },
+    "bank_txn_id": "BANKTXN-00011",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00011",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00011PAY00011",
+    "value_date": "2026-06-26T10:08:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47010.16"
+    },
+    "bank_txn_id": "BANKTXN-00012",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00012",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00012PAY00012",
+    "value_date": "2026-07-10T06:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30129.85"
+    },
+    "bank_txn_id": "BANKTXN-00013",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00013",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00013PAY00013",
+    "value_date": "2026-06-19T03:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5731.37"
+    },
+    "bank_txn_id": "BANKTXN-00014",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00014",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00014PAY00014",
+    "value_date": "2026-07-24T00:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10558.37"
+    },
+    "bank_txn_id": "BANKTXN-00015",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00015",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00015PAY00015",
+    "value_date": "2026-07-05T18:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "46803.19"
+    },
+    "bank_txn_id": "BANKTXN-00016",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00016",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00016PAY00016",
+    "value_date": "2026-07-13T19:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30237.15"
+    },
+    "bank_txn_id": "BANKTXN-00017",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00017",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00017PAY00017",
+    "value_date": "2026-07-01T20:41:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "49575.50"
+    },
+    "bank_txn_id": "BANKTXN-00018",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00018",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00018PAY00018",
+    "value_date": "2026-07-19T17:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41983.17"
+    },
+    "bank_txn_id": "BANKTXN-00019",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00019",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00019PAY00019",
+    "value_date": "2026-07-24T19:56:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34879.98"
+    },
+    "bank_txn_id": "BANKTXN-00020",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00020",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00020PAY00020",
+    "value_date": "2026-07-31T13:15:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "49087.03"
+    },
+    "bank_txn_id": "BANKTXN-00021",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00021",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00021PAY00021",
+    "value_date": "2026-06-20T00:26:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4906.91"
+    },
+    "bank_txn_id": "BANKTXN-00022",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00022",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00022PAY00022",
+    "value_date": "2026-07-18T18:15:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "42709.02"
+    },
+    "bank_txn_id": "BANKTXN-00023",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00023",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 000 23p ay0 002 3",
+    "value_date": "2026-07-10T20:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "18229.96"
+    },
+    "bank_txn_id": "BANKTXN-00024",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00024",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 000 24p ay0 002 4",
+    "value_date": "2026-07-13T11:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33897.20"
+    },
+    "bank_txn_id": "BANKTXN-00025",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00025",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00025PAY00025",
+    "value_date": "2026-06-03T11:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43538.83"
+    },
+    "bank_txn_id": "BANKTXN-00026",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00026",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00026PAY00026",
+    "value_date": "2026-07-31T03:23:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45667.56"
+    },
+    "bank_txn_id": "BANKTXN-00027",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00027",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00027PAY00027",
+    "value_date": "2026-07-22T23:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23480.61"
+    },
+    "bank_txn_id": "BANKTXN-00028",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00028",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00028PAY00028",
+    "value_date": "2026-08-01T08:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "44794.13"
+    },
+    "bank_txn_id": "BANKTXN-00029",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00029",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00029PAY00029",
+    "value_date": "2026-07-18T06:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "38111.43"
+    },
+    "bank_txn_id": "BANKTXN-00030",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00030",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00030PAY00030",
+    "value_date": "2026-08-01T21:57:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "32887.03"
+    },
+    "bank_txn_id": "BANKTXN-00031",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00031",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00031PAY00031",
+    "value_date": "2026-07-10T09:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "32146.46"
+    },
+    "bank_txn_id": "BANKTXN-00032",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00032",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00032PAY00032",
+    "value_date": "2026-06-26T16:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "20149.15"
+    },
+    "bank_txn_id": "BANKTXN-00033",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00033",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00033PAY00033",
+    "value_date": "2026-07-15T21:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "191.73"
+    },
+    "bank_txn_id": "BANKTXN-00034",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00034",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00034PAY00034",
+    "value_date": "2026-07-01T22:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "44994.11"
+    },
+    "bank_txn_id": "BANKTXN-00035",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00035",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 35P AY0 003 5",
+    "value_date": "2026-07-17T09:57:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "28041.44"
+    },
+    "bank_txn_id": "BANKTXN-00036",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00036",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00036PAY00036",
+    "value_date": "2026-06-09T22:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6088.35"
+    },
+    "bank_txn_id": "BANKTXN-00037",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00037",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00037PAY00037",
+    "value_date": "2026-06-30T07:41:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "727.01"
+    },
+    "bank_txn_id": "BANKTXN-00038",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00038",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00038PAY00038",
+    "value_date": "2026-06-14T16:03:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "38892.75"
+    },
+    "bank_txn_id": "BANKTXN-00039",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00039",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00039PAY00039",
+    "value_date": "2026-06-21T01:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41727.64"
+    },
+    "bank_txn_id": "BANKTXN-00040",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00040",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00040PAY00040",
+    "value_date": "2026-06-16T20:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11808.05"
+    },
+    "bank_txn_id": "BANKTXN-00041",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00041",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00041PAY00041",
+    "value_date": "2026-07-11T15:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8456.23"
+    },
+    "bank_txn_id": "BANKTXN-00042",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00042",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00042PAY00042",
+    "value_date": "2026-06-28T07:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27202.95"
+    },
+    "bank_txn_id": "BANKTXN-00043",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00043",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00043PAY00043",
+    "value_date": "2026-06-18T09:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13365.89"
+    },
+    "bank_txn_id": "BANKTXN-00044",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00044",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00044PAY00044",
+    "value_date": "2026-07-02T00:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45639.63"
+    },
+    "bank_txn_id": "BANKTXN-00045",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00045",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00045PAY00045",
+    "value_date": "2026-06-04T14:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22139.86"
+    },
+    "bank_txn_id": "BANKTXN-00046",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00046",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00046PAY00046",
+    "value_date": "2026-07-04T02:04:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13272.23"
+    },
+    "bank_txn_id": "BANKTXN-00047",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00047",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00047PAY00047",
+    "value_date": "2026-07-16T10:20:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25875.66"
+    },
+    "bank_txn_id": "BANKTXN-00048",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00048",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00048PAY00048",
+    "value_date": "2026-07-28T19:34:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2040.82"
+    },
+    "bank_txn_id": "BANKTXN-00049",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00049",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00049PAY00049",
+    "value_date": "2026-06-25T21:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "17401.16"
+    },
+    "bank_txn_id": "BANKTXN-00050",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00050",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00050PAY00050",
+    "value_date": "2026-07-24T05:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45482.58"
+    },
+    "bank_txn_id": "BANKTXN-00051",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00051",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 51P AY0 005 1",
+    "value_date": "2026-07-26T11:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22902.17"
+    },
+    "bank_txn_id": "BANKTXN-00052",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00052",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00052PAY00052",
+    "value_date": "2026-07-05T19:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26483.31"
+    },
+    "bank_txn_id": "BANKTXN-00053",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00053",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00053PAY00053",
+    "value_date": "2026-07-27T13:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47781.35"
+    },
+    "bank_txn_id": "BANKTXN-00054",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00054",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 54P AY0 005 4",
+    "value_date": "2026-06-29T22:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "14124.90"
+    },
+    "bank_txn_id": "BANKTXN-00055",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00055",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00055PAY00055",
+    "value_date": "2026-07-18T01:40:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7062.10"
+    },
+    "bank_txn_id": "BANKTXN-00056",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00056",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00056PAY00056",
+    "value_date": "2026-07-18T12:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10182.37"
+    },
+    "bank_txn_id": "BANKTXN-00057",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00057",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00057PAY00057",
+    "value_date": "2026-07-27T11:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2992.79"
+    },
+    "bank_txn_id": "BANKTXN-00058",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00058",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00058PAY00058",
+    "value_date": "2026-07-31T00:41:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23323.01"
+    },
+    "bank_txn_id": "BANKTXN-00059",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00059",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00059PAY00059",
+    "value_date": "2026-06-17T11:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "32887.01"
+    },
+    "bank_txn_id": "BANKTXN-00060",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00060",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 000 60p ay0 006 0",
+    "value_date": "2026-06-13T14:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1151.34"
+    },
+    "bank_txn_id": "BANKTXN-00061",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00061",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00061PAY00061",
+    "value_date": "2026-07-04T04:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23751.28"
+    },
+    "bank_txn_id": "BANKTXN-00062",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00062",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00062PAY00062",
+    "value_date": "2026-07-23T11:27:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47609.83"
+    },
+    "bank_txn_id": "BANKTXN-00063",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00063",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00063PAY00063",
+    "value_date": "2026-06-03T13:25:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "14904.90"
+    },
+    "bank_txn_id": "BANKTXN-00064",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00064",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00064PAY00064",
+    "value_date": "2026-07-28T20:26:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "16590.10"
+    },
+    "bank_txn_id": "BANKTXN-00065",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00065",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00065PAY00065",
+    "value_date": "2026-07-15T19:36:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26196.59"
+    },
+    "bank_txn_id": "BANKTXN-00066",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00066",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00066PAY00066",
+    "value_date": "2026-07-17T15:56:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11667.32"
+    },
+    "bank_txn_id": "BANKTXN-00067",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00067",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00067PAY00067",
+    "value_date": "2026-06-11T05:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34648.47"
+    },
+    "bank_txn_id": "BANKTXN-00068",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00068",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00068PAY00068",
+    "value_date": "2026-07-15T12:21:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "36190.53"
+    },
+    "bank_txn_id": "BANKTXN-00069",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00069",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00069PAY00069",
+    "value_date": "2026-06-12T09:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "20238.24"
+    },
+    "bank_txn_id": "BANKTXN-00070",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00070",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00070PAY00070",
+    "value_date": "2026-06-29T00:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "29227.40"
+    },
+    "bank_txn_id": "BANKTXN-00071",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00071",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 000 71p ay0 007 1",
+    "value_date": "2026-07-22T19:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "37715.71"
+    },
+    "bank_txn_id": "BANKTXN-00072",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00072",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00072PAY00072",
+    "value_date": "2026-06-11T20:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "39481.31"
+    },
+    "bank_txn_id": "BANKTXN-00073",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00073",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00073PAY00073",
+    "value_date": "2026-07-22T21:32:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27633.98"
+    },
+    "bank_txn_id": "BANKTXN-00074",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00074",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 74P AY0 007 4",
+    "value_date": "2026-06-21T03:23:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "29773.95"
+    },
+    "bank_txn_id": "BANKTXN-00075",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00075",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00075PAY00075",
+    "value_date": "2026-06-21T18:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "36361.79"
+    },
+    "bank_txn_id": "BANKTXN-00076",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00076",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00076PAY00076",
+    "value_date": "2026-06-20T15:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "21454.61"
+    },
+    "bank_txn_id": "BANKTXN-00077",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00077",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00077PAY00077",
+    "value_date": "2026-07-21T22:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "42846.96"
+    },
+    "bank_txn_id": "BANKTXN-00078",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00078",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00078PAY00078",
+    "value_date": "2026-06-17T22:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "48217.51"
+    },
+    "bank_txn_id": "BANKTXN-00079",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00079",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00079PAY00079",
+    "value_date": "2026-06-15T09:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47178.92"
+    },
+    "bank_txn_id": "BANKTXN-00080",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00080",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00080PAY00080",
+    "value_date": "2026-06-23T07:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "19087.59"
+    },
+    "bank_txn_id": "BANKTXN-00081",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00081",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 81P AY0 008 1",
+    "value_date": "2026-06-11T08:49:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "37945.40"
+    },
+    "bank_txn_id": "BANKTXN-00082",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00082",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00082PAY00082",
+    "value_date": "2026-07-07T16:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9722.13"
+    },
+    "bank_txn_id": "BANKTXN-00083",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00083",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00083PAY00083",
+    "value_date": "2026-07-28T16:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34158.89"
+    },
+    "bank_txn_id": "BANKTXN-00084",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00084",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00084PAY00084",
+    "value_date": "2026-07-11T04:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25176.06"
+    },
+    "bank_txn_id": "BANKTXN-00085",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00085",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00085PAY00085",
+    "value_date": "2026-07-30T13:59:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7192.57"
+    },
+    "bank_txn_id": "BANKTXN-00086",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00086",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00086PAY00086",
+    "value_date": "2026-06-26T01:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "24038.16"
+    },
+    "bank_txn_id": "BANKTXN-00087",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00087",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00087PAY00087",
+    "value_date": "2026-06-28T15:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5730.65"
+    },
+    "bank_txn_id": "BANKTXN-00088",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00088",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00088PAY00088",
+    "value_date": "2026-06-30T22:15:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30072.27"
+    },
+    "bank_txn_id": "BANKTXN-00089",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00089",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 89P AY0 008 9",
+    "value_date": "2026-06-17T11:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "37491.87"
+    },
+    "bank_txn_id": "BANKTXN-00090",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00090",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 000 90P AY0 009 0",
+    "value_date": "2026-06-15T23:49:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "21898.81"
+    },
+    "bank_txn_id": "BANKTXN-00091",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00091",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00091PAY00091",
+    "value_date": "2026-07-07T08:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43802.04"
+    },
+    "bank_txn_id": "BANKTXN-00092",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00092",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00092PAY00092",
+    "value_date": "2026-06-13T12:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13491.10"
+    },
+    "bank_txn_id": "BANKTXN-00093",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00093",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00093PAY00093",
+    "value_date": "2026-06-20T01:19:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "20262.90"
+    },
+    "bank_txn_id": "BANKTXN-00094",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00094",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00094PAY00094",
+    "value_date": "2026-07-19T16:40:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41406.55"
+    },
+    "bank_txn_id": "BANKTXN-00095",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00095",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00095PAY00095",
+    "value_date": "2026-07-04T23:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5609.34"
+    },
+    "bank_txn_id": "BANKTXN-00096",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00096",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00096PAY00096",
+    "value_date": "2026-07-30T15:34:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1355.93"
+    },
+    "bank_txn_id": "BANKTXN-00097",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00097",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00097PAY00097",
+    "value_date": "2026-07-30T21:21:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47623.10"
+    },
+    "bank_txn_id": "BANKTXN-00098",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00098",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00098PAY00098",
+    "value_date": "2026-06-22T02:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "21866.53"
+    },
+    "bank_txn_id": "BANKTXN-00099",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00099",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00099PAY00099",
+    "value_date": "2026-07-24T02:59:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "48754.06"
+    },
+    "bank_txn_id": "BANKTXN-00100",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00100",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00100PAY00100",
+    "value_date": "2026-06-09T15:43:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "35073.19"
+    },
+    "bank_txn_id": "BANKTXN-00101",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00101",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00101PAY00101",
+    "value_date": "2026-07-15T05:15:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "396.99"
+    },
+    "bank_txn_id": "BANKTXN-00102",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00102",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00102PAY00102",
+    "value_date": "2026-06-15T03:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33217.97"
+    },
+    "bank_txn_id": "BANKTXN-00103",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00103",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00103PAY00103",
+    "value_date": "2026-06-07T19:04:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "46963.89"
+    },
+    "bank_txn_id": "BANKTXN-00104",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00104",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00104PAY00104",
+    "value_date": "2026-07-19T19:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "14403.61"
+    },
+    "bank_txn_id": "BANKTXN-00105",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00105",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00105PAY00105",
+    "value_date": "2026-08-02T07:39:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25176.69"
+    },
+    "bank_txn_id": "BANKTXN-00106",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00106",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00106PAY00106",
+    "value_date": "2026-06-15T08:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "46568.62"
+    },
+    "bank_txn_id": "BANKTXN-00107",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00107",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR 001 07P AY0 010 7",
+    "value_date": "2026-07-28T22:49:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5219.55"
+    },
+    "bank_txn_id": "BANKTXN-00108",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00108",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00108PAY00108",
+    "value_date": "2026-07-12T05:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13019.79"
+    },
+    "bank_txn_id": "BANKTXN-00109",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00109",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00109PAY00109",
+    "value_date": "2026-07-23T17:20:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26060.43"
+    },
+    "bank_txn_id": "BANKTXN-00110",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00110",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00110PAY00110",
+    "value_date": "2026-06-04T15:32:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33731.64"
+    },
+    "bank_txn_id": "BANKTXN-00111",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00111",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 001 11p ay0 011 1",
+    "value_date": "2026-07-11T17:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7432.32"
+    },
+    "bank_txn_id": "BANKTXN-00112",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00112",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00112PAY00112",
+    "value_date": "2026-07-15T18:03:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "899.85"
+    },
+    "bank_txn_id": "BANKTXN-00113",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00113",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00113PAY00113",
+    "value_date": "2026-07-08T20:43:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6500.21"
+    },
+    "bank_txn_id": "BANKTXN-00114",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00114",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00114PAY00114",
+    "value_date": "2026-06-27T18:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "44708.82"
+    },
+    "bank_txn_id": "BANKTXN-00115",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00115",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00115PAY00115",
+    "value_date": "2026-07-28T15:05:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4142.50"
+    },
+    "bank_txn_id": "BANKTXN-00116",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00116",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00116PAY00116",
+    "value_date": "2026-07-06T11:40:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33292.31"
+    },
+    "bank_txn_id": "BANKTXN-00117",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00117",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00117PAY00117",
+    "value_date": "2026-07-29T11:04:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43701.26"
+    },
+    "bank_txn_id": "BANKTXN-00118",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00118",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00118PAY00118",
+    "value_date": "2026-07-04T15:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "12681.29"
+    },
+    "bank_txn_id": "BANKTXN-00119",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00119",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00119PAY00119",
+    "value_date": "2026-06-30T18:43:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "818.48"
+    },
+    "bank_txn_id": "BANKTXN-00120",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00120",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00120PAY00120",
+    "value_date": "2026-06-19T18:40:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10486.88"
+    },
+    "bank_txn_id": "BANKTXN-00121",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00121",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00121PAY00121",
+    "value_date": "2026-06-04T08:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27800.99"
+    },
+    "bank_txn_id": "BANKTXN-00122",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00122",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00122PAY00122",
+    "value_date": "2026-06-25T02:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2455.53"
+    },
+    "bank_txn_id": "BANKTXN-00123",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00123",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00123PAY00123",
+    "value_date": "2026-06-16T16:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47464.20"
+    },
+    "bank_txn_id": "BANKTXN-00124",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00124",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00124PAY00124",
+    "value_date": "2026-07-02T03:26:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23121.64"
+    },
+    "bank_txn_id": "BANKTXN-00125",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00125",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00125PAY00125",
+    "value_date": "2026-06-07T18:04:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11279.29"
+    },
+    "bank_txn_id": "BANKTXN-00126",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00126",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00126PAY00126",
+    "value_date": "2026-06-09T05:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22130.04"
+    },
+    "bank_txn_id": "BANKTXN-00127",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00127",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00127PAY00127",
+    "value_date": "2026-06-22T16:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "49198.13"
+    },
+    "bank_txn_id": "BANKTXN-00128",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00128",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00128PAY00128",
+    "value_date": "2026-07-30T20:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9542.20"
+    },
+    "bank_txn_id": "BANKTXN-00129",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00129",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00129PAY00129",
+    "value_date": "2026-07-19T19:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "42747.68"
+    },
+    "bank_txn_id": "BANKTXN-00130",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00130",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00130PAY00130",
+    "value_date": "2026-06-07T11:05:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "40317.50"
+    },
+    "bank_txn_id": "BANKTXN-00131",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00131",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 001 31p ay0 013 1",
+    "value_date": "2026-07-24T10:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "16288.30"
+    },
+    "bank_txn_id": "BANKTXN-00132",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00132",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00132PAY00132",
+    "value_date": "2026-06-11T17:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "20270.84"
+    },
+    "bank_txn_id": "BANKTXN-00133",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00133",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00133PAY00133",
+    "value_date": "2026-06-30T14:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "42069.01"
+    },
+    "bank_txn_id": "BANKTXN-00134",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00134",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT utr 001 34p ay0 013 4",
+    "value_date": "2026-06-05T04:27:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "38050.16"
+    },
+    "bank_txn_id": "BANKTXN-00135",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00135",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00135PAY00135",
+    "value_date": "2026-07-21T18:20:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "36272.31"
+    },
+    "bank_txn_id": "BANKTXN-00136",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00136",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00136PAY00136",
+    "value_date": "2026-07-20T11:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22643.09"
+    },
+    "bank_txn_id": "BANKTXN-00137",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00137",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00137PAY00137",
+    "value_date": "2026-06-19T13:50:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "19345.31"
+    },
+    "bank_txn_id": "BANKTXN-00138",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00138",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00138PAY00138",
+    "value_date": "2026-07-17T07:12:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30307.73"
+    },
+    "bank_txn_id": "BANKTXN-00139",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00139",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00139PAY00139",
+    "value_date": "2026-06-14T11:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "35908.28"
+    },
+    "bank_txn_id": "BANKTXN-00140",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00140",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00140PAY00140",
+    "value_date": "2026-07-29T04:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43869.21"
+    },
+    "bank_txn_id": "BANKTXN-00141",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00141",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00141PAY00141",
+    "value_date": "2026-07-22T09:08:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "24789.33"
+    },
+    "bank_txn_id": "BANKTXN-00142",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00142",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00142PAY00142",
+    "value_date": "2026-06-15T00:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "32337.28"
+    },
+    "bank_txn_id": "BANKTXN-00143",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00143",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00143PAY00143",
+    "value_date": "2026-06-17T08:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8105.74"
+    },
+    "bank_txn_id": "BANKTXN-00144",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00144",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00144PAY00144",
+    "value_date": "2026-07-27T10:26:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33148.72"
+    },
+    "bank_txn_id": "BANKTXN-00145",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00145",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00145PAY00145",
+    "value_date": "2026-07-07T16:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "16198.58"
+    },
+    "bank_txn_id": "BANKTXN-00146",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00146",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00146PAY00146",
+    "value_date": "2026-07-27T05:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "18703.78"
+    },
+    "bank_txn_id": "BANKTXN-00147",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00147",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00147PAY00147",
+    "value_date": "2026-07-05T03:36:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10726.40"
+    },
+    "bank_txn_id": "BANKTXN-00148",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00148",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00148PAY00148",
+    "value_date": "2026-06-15T08:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47381.60"
+    },
+    "bank_txn_id": "BANKTXN-00149",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00149",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00149PAY00149",
+    "value_date": "2026-06-12T13:25:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6489.98"
+    },
+    "bank_txn_id": "BANKTXN-00150",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00150",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00150PAY00150",
+    "value_date": "2026-06-26T05:29:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "12403.22"
+    },
+    "bank_txn_id": "BANKTXN-00151",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00151",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00151PAY00151",
+    "value_date": "2026-07-01T15:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45697.76"
+    },
+    "bank_txn_id": "BANKTXN-00152",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00152",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00152PAY00152",
+    "value_date": "2026-06-12T18:45:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25278.69"
+    },
+    "bank_txn_id": "BANKTXN-00153",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00153",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00153PAY00153",
+    "value_date": "2026-07-31T01:43:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43311.78"
+    },
+    "bank_txn_id": "BANKTXN-00154",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00154",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00154PAY00154",
+    "value_date": "2026-06-17T04:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41940.14"
+    },
+    "bank_txn_id": "BANKTXN-00155",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00155",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00155PAY00155",
+    "value_date": "2026-06-26T21:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "29265.71"
+    },
+    "bank_txn_id": "BANKTXN-00156",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00156",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00156PAY00156",
+    "value_date": "2026-07-13T22:48:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7663.77"
+    },
+    "bank_txn_id": "BANKTXN-00157",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00157",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00157PAY00157",
+    "value_date": "2026-06-13T00:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5959.04"
+    },
+    "bank_txn_id": "BANKTXN-00158",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00158",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00158PAY00158",
+    "value_date": "2026-06-18T12:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "18987.18"
+    },
+    "bank_txn_id": "BANKTXN-00159",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00159",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00159PAY00159",
+    "value_date": "2026-06-13T07:34:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7963.02"
+    },
+    "bank_txn_id": "BANKTXN-00160",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00160",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00160PAY00160",
+    "value_date": "2026-07-31T23:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13120.46"
+    },
+    "bank_txn_id": "BANKTXN-00161",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00161",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00161PAY00161",
+    "value_date": "2026-07-04T23:41:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "15141.64"
+    },
+    "bank_txn_id": "BANKTXN-00162",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00162",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00162PAY00162",
+    "value_date": "2026-06-19T02:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13121.17"
+    },
+    "bank_txn_id": "BANKTXN-00163",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00163",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00163PAY00163",
+    "value_date": "2026-06-06T08:20:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "12609.46"
+    },
+    "bank_txn_id": "BANKTXN-00164",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00164",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00164PAY00164",
+    "value_date": "2026-07-05T14:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4553.13"
+    },
+    "bank_txn_id": "BANKTXN-00165",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00165",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00165PAY00165",
+    "value_date": "2026-06-20T13:45:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6688.84"
+    },
+    "bank_txn_id": "BANKTXN-00166",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00166",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00166PAY00166",
+    "value_date": "2026-06-19T21:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9342.38"
+    },
+    "bank_txn_id": "BANKTXN-00167",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00167",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00167PAY00167",
+    "value_date": "2026-07-14T06:31:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "14315.68"
+    },
+    "bank_txn_id": "BANKTXN-00168",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00168",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00168PAY00168",
+    "value_date": "2026-06-09T21:03:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1815.47"
+    },
+    "bank_txn_id": "BANKTXN-00169",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00169",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00169PAY00169",
+    "value_date": "2026-07-21T18:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5222.95"
+    },
+    "bank_txn_id": "BANKTXN-00170",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00170",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00170PAY00170",
+    "value_date": "2026-07-30T07:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "14003.78"
+    },
+    "bank_txn_id": "BANKTXN-00171",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00171",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00171PAY00171",
+    "value_date": "2026-07-26T18:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7941.17"
+    },
+    "bank_txn_id": "BANKTXN-00172",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00172",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00172PAY00172",
+    "value_date": "2026-07-11T22:58:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13307.40"
+    },
+    "bank_txn_id": "BANKTXN-00173",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00173",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00173PAY00173",
+    "value_date": "2026-06-19T14:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10084.91"
+    },
+    "bank_txn_id": "BANKTXN-00174",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00174",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00174PAY00174",
+    "value_date": "2026-07-30T15:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4173.38"
+    },
+    "bank_txn_id": "BANKTXN-00175",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00175",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00175PAY00175",
+    "value_date": "2026-07-29T20:36:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4173.38"
+    },
+    "bank_txn_id": "BANKTXN-00176",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00175",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00175PAY00175",
+    "value_date": "2026-08-01T20:36:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4974.34"
+    },
+    "bank_txn_id": "BANKTXN-00177",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00176",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00176PAY00176",
+    "value_date": "2026-06-03T19:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1243.59"
+    },
+    "bank_txn_id": "BANKTXN-00178",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00176",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00176PAY00176",
+    "value_date": "2026-06-06T19:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "970.52"
+    },
+    "bank_txn_id": "BANKTXN-00179",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00177",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00177PAY00177",
+    "value_date": "2026-07-22T23:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "970.52"
+    },
+    "bank_txn_id": "BANKTXN-00180",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00177",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00177PAY00177",
+    "value_date": "2026-07-25T23:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1821.09"
+    },
+    "bank_txn_id": "BANKTXN-00181",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00178",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00178PAY00178",
+    "value_date": "2026-07-02T12:31:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1821.09"
+    },
+    "bank_txn_id": "BANKTXN-00182",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00178",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00178PAY00178",
+    "value_date": "2026-07-05T12:31:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4889.15"
+    },
+    "bank_txn_id": "BANKTXN-00183",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00179",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00179PAY00179",
+    "value_date": "2026-07-04T00:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4889.15"
+    },
+    "bank_txn_id": "BANKTXN-00184",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00179",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00179PAY00179",
+    "value_date": "2026-07-07T00:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1550.10"
+    },
+    "bank_txn_id": "BANKTXN-00185",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00180",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00180PAY00180",
+    "value_date": "2026-07-07T01:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "387.53"
+    },
+    "bank_txn_id": "BANKTXN-00186",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00180",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00180PAY00180",
+    "value_date": "2026-07-10T01:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "694.87"
+    },
+    "bank_txn_id": "BANKTXN-00187",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00181",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00181PAY00181",
+    "value_date": "2026-07-22T21:21:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "173.72"
+    },
+    "bank_txn_id": "BANKTXN-00188",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00181",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00181PAY00181",
+    "value_date": "2026-07-25T21:21:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5485.40"
+    },
+    "bank_txn_id": "BANKTXN-00189",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00182",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00182PAY00182",
+    "value_date": "2026-07-06T12:57:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2742.70"
+    },
+    "bank_txn_id": "BANKTXN-00190",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00182",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00182PAY00182",
+    "value_date": "2026-07-09T12:57:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7564.63"
+    },
+    "bank_txn_id": "BANKTXN-00191",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00183",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00183PAY00183",
+    "value_date": "2026-07-25T06:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3782.32"
+    },
+    "bank_txn_id": "BANKTXN-00192",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00183",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00183PAY00183",
+    "value_date": "2026-07-28T06:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8106.63"
+    },
+    "bank_txn_id": "BANKTXN-00193",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00184",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00184PAY00184",
+    "value_date": "2026-06-04T15:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8106.63"
+    },
+    "bank_txn_id": "BANKTXN-00194",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00184",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00184PAY00184",
+    "value_date": "2026-06-07T15:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9018.86"
+    },
+    "bank_txn_id": "BANKTXN-00195",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00185",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00185PAY00185",
+    "value_date": "2026-06-21T23:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2254.72"
+    },
+    "bank_txn_id": "BANKTXN-00196",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00185",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00185PAY00185",
+    "value_date": "2026-06-24T23:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2623.37"
+    },
+    "bank_txn_id": "BANKTXN-00197",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00186",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00186PAY00186",
+    "value_date": "2026-07-25T17:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2623.37"
+    },
+    "bank_txn_id": "BANKTXN-00198",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00186",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00186PAY00186",
+    "value_date": "2026-07-28T17:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9472.62"
+    },
+    "bank_txn_id": "BANKTXN-00199",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00187",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00187PAY00187",
+    "value_date": "2026-07-14T20:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2368.16"
+    },
+    "bank_txn_id": "BANKTXN-00200",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00187",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00187PAY00187",
+    "value_date": "2026-07-17T20:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2009.45"
+    },
+    "bank_txn_id": "BANKTXN-00201",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00188",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00188PAY00188",
+    "value_date": "2026-08-01T04:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "502.36"
+    },
+    "bank_txn_id": "BANKTXN-00202",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00188",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00188PAY00188",
+    "value_date": "2026-08-04T04:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8549.75"
+    },
+    "bank_txn_id": "BANKTXN-00203",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00189",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00189PAY00189",
+    "value_date": "2026-06-10T03:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8549.75"
+    },
+    "bank_txn_id": "BANKTXN-00204",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00189",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00189PAY00189",
+    "value_date": "2026-06-13T03:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "21654.62"
+    },
+    "bank_txn_id": "BANKTXN-00205",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00190",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00190PAY00190",
+    "value_date": "2026-07-02T23:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "13492.17"
+    },
+    "bank_txn_id": "BANKTXN-00206",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00192",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00192PAY00191",
+    "value_date": "2026-06-26T19:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27223.29"
+    },
+    "bank_txn_id": "BANKTXN-00207",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00194",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00194PAY00192",
+    "value_date": "2026-06-29T05:56:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27532.73"
+    },
+    "bank_txn_id": "BANKTXN-00208",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00196",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00196PAY00193",
+    "value_date": "2026-07-10T05:21:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45752.50"
+    },
+    "bank_txn_id": "BANKTXN-00209",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00198",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00198PAY00194",
+    "value_date": "2026-06-13T11:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23488.62"
+    },
+    "bank_txn_id": "BANKTXN-00210",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00200",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00200PAY00195",
+    "value_date": "2026-06-04T13:05:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "44584.22"
+    },
+    "bank_txn_id": "BANKTXN-00211",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00202",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00202PAY00196",
+    "value_date": "2026-06-22T17:57:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11246.63"
+    },
+    "bank_txn_id": "BANKTXN-00212",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00204",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00204PAY00197",
+    "value_date": "2026-07-30T10:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5738.70"
+    },
+    "bank_txn_id": "BANKTXN-00213",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00206",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00206PAY00198",
+    "value_date": "2026-07-24T10:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25770.74"
+    },
+    "bank_txn_id": "BANKTXN-00214",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00208",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00208PAY00199",
+    "value_date": "2026-07-22T04:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "48773.14"
+    },
+    "bank_txn_id": "BANKTXN-00215",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00210",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00210PAY00200",
+    "value_date": "2026-06-14T08:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "17113.76"
+    },
+    "bank_txn_id": "BANKTXN-00216",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00212",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00212PAY00201",
+    "value_date": "2026-06-14T00:25:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9567.70"
+    },
+    "bank_txn_id": "BANKTXN-00217",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00214",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00214PAY00214",
+    "value_date": "2026-07-17T07:19:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3279.26"
+    },
+    "bank_txn_id": "BANKTXN-00218",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00215",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00215PAY00215",
+    "value_date": "2026-06-24T00:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6725.29"
+    },
+    "bank_txn_id": "BANKTXN-00219",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00216",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00216PAY00216",
+    "value_date": "2026-06-09T17:56:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2794.69"
+    },
+    "bank_txn_id": "BANKTXN-00220",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00217",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00217PAY00217",
+    "value_date": "2026-06-17T20:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5272.07"
+    },
+    "bank_txn_id": "BANKTXN-00221",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00218",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00218PAY00218",
+    "value_date": "2026-07-25T00:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4664.51"
+    },
+    "bank_txn_id": "BANKTXN-00222",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00219",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00219PAY00219",
+    "value_date": "2026-07-07T15:02:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4912.62"
+    },
+    "bank_txn_id": "BANKTXN-00223",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00220",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00220PAY00220",
+    "value_date": "2026-06-13T04:59:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3774.02"
+    },
+    "bank_txn_id": "BANKTXN-00224",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00221",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00221PAY00221",
+    "value_date": "2026-07-10T00:04:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9900.87"
+    },
+    "bank_txn_id": "BANKTXN-00225",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00222",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00222PAY00222",
+    "value_date": "2026-07-15T21:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9422.49"
+    },
+    "bank_txn_id": "BANKTXN-00226",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00223",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00223PAY00223",
+    "value_date": "2026-06-18T13:27:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4966.31"
+    },
+    "bank_txn_id": "BANKTXN-00227",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00224",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00224PAY00224",
+    "value_date": "2026-06-16T18:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4696.65"
+    },
+    "bank_txn_id": "BANKTXN-00228",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00225",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00225PAY00225",
+    "value_date": "2026-06-15T04:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47711.51"
+    },
+    "bank_txn_id": "BANKTXN-00229",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00226",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00226PAY00226",
+    "value_date": "2026-06-18T09:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7575.06"
+    },
+    "bank_txn_id": "BANKTXN-00230",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00227",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00227PAY00227",
+    "value_date": "2026-06-17T07:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41976.40"
+    },
+    "bank_txn_id": "BANKTXN-00231",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00228",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00228PAY00228",
+    "value_date": "2026-06-03T16:34:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22780.92"
+    },
+    "bank_txn_id": "BANKTXN-00232",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00229",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00229PAY00229",
+    "value_date": "2026-06-08T06:46:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34995.92"
+    },
+    "bank_txn_id": "BANKTXN-00233",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00230",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00230PAY00230",
+    "value_date": "2026-06-13T11:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "15332.53"
+    },
+    "bank_txn_id": "BANKTXN-00234",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00231",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00231PAY00231",
+    "value_date": "2026-06-06T02:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34252.07"
+    },
+    "bank_txn_id": "BANKTXN-00235",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00232",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00232PAY00232",
+    "value_date": "2026-07-04T13:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26921.03"
+    },
+    "bank_txn_id": "BANKTXN-00236",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00233",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00233PAY00233",
+    "value_date": "2026-07-07T02:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "28821.56"
+    },
+    "bank_txn_id": "BANKTXN-00237",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00234",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00234PAY00234",
+    "value_date": "2026-07-27T21:12:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "23881.54"
+    },
+    "bank_txn_id": "BANKTXN-00238",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00235",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00235PAY00235",
+    "value_date": "2026-07-20T05:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11447.78"
+    },
+    "bank_txn_id": "BANKTXN-00239",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00236",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00236PAY00236",
+    "value_date": "2026-06-18T00:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25859.59"
+    },
+    "bank_txn_id": "BANKTXN-00240",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00237",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00237PAY00237",
+    "value_date": "2026-06-15T04:07:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6718.67"
+    },
+    "bank_txn_id": "BANKTXN-00241",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00238",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00238PAY00238",
+    "value_date": "2026-07-31T03:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45374.16"
+    },
+    "bank_txn_id": "BANKTXN-00242",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00239",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00239PAY00239",
+    "value_date": "2026-07-28T22:42:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26143.62"
+    },
+    "bank_txn_id": "BANKTXN-00243",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00240",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00240PAY00240",
+    "value_date": "2026-06-07T01:25:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26404.84"
+    },
+    "bank_txn_id": "BANKTXN-00244",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00241",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00241PAY00241",
+    "value_date": "2026-06-05T21:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "18244.48"
+    },
+    "bank_txn_id": "BANKTXN-00245",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00242",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED720545",
+    "value_date": "2026-06-10T22:55:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4646.37"
+    },
+    "bank_txn_id": "BANKTXN-00246",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00243",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED247743",
+    "value_date": "2026-06-10T15:58:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30014.71"
+    },
+    "bank_txn_id": "BANKTXN-00247",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00244",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED272151",
+    "value_date": "2026-07-09T20:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "30886.29"
+    },
+    "bank_txn_id": "BANKTXN-00248",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00245",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED259889",
+    "value_date": "2026-07-31T22:41:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "26570.25"
+    },
+    "bank_txn_id": "BANKTXN-00249",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00246",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED140703",
+    "value_date": "2026-07-28T17:53:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "34811.07"
+    },
+    "bank_txn_id": "BANKTXN-00250",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00247",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED958648",
+    "value_date": "2026-06-27T05:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "39052.63"
+    },
+    "bank_txn_id": "BANKTXN-00251",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00248",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED665230",
+    "value_date": "2026-07-23T16:11:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "41927.48"
+    },
+    "bank_txn_id": "BANKTXN-00252",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00249",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED541898",
+    "value_date": "2026-06-10T16:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3009.90"
+    },
+    "bank_txn_id": "BANKTXN-00253",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00250",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED574422",
+    "value_date": "2026-07-24T07:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2416.79"
+    },
+    "bank_txn_id": "BANKTXN-00254",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00251",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED515442",
+    "value_date": "2026-07-16T01:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "35704.30"
+    },
+    "bank_txn_id": "BANKTXN-00255",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00252",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED226633",
+    "value_date": "2026-08-01T13:27:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "27462.45"
+    },
+    "bank_txn_id": "BANKTXN-00256",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00253",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTRUNRELATED641901",
+    "value_date": "2026-06-27T09:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5926.19"
+    },
+    "bank_txn_id": "BANKTXN-00257",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00254",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00254PAY00254",
+    "value_date": "2026-07-04T07:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3950.79"
+    },
+    "bank_txn_id": "BANKTXN-00258",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00255",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00255PAY00254",
+    "value_date": "2026-07-04T07:17:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3356.86"
+    },
+    "bank_txn_id": "BANKTXN-00259",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00256",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00256PAY00255",
+    "value_date": "2026-06-16T02:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2237.91"
+    },
+    "bank_txn_id": "BANKTXN-00260",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00257",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00257PAY00255",
+    "value_date": "2026-06-16T02:24:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2153.16"
+    },
+    "bank_txn_id": "BANKTXN-00261",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00258",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00258PAY00256",
+    "value_date": "2026-07-16T09:28:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3229.73"
+    },
+    "bank_txn_id": "BANKTXN-00262",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00259",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00259PAY00256",
+    "value_date": "2026-07-16T09:28:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6802.13"
+    },
+    "bank_txn_id": "BANKTXN-00263",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00260",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00260PAY00257",
+    "value_date": "2026-06-25T16:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4534.75"
+    },
+    "bank_txn_id": "BANKTXN-00264",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00261",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00261PAY00257",
+    "value_date": "2026-06-25T16:06:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2517.57"
+    },
+    "bank_txn_id": "BANKTXN-00265",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00262",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00262PAY00258",
+    "value_date": "2026-07-11T12:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "3776.36"
+    },
+    "bank_txn_id": "BANKTXN-00266",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00263",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00263PAY00258",
+    "value_date": "2026-07-11T12:38:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1421.19"
+    },
+    "bank_txn_id": "BANKTXN-00267",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00264",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00264PAY00259",
+    "value_date": "2026-06-15T20:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1421.19"
+    },
+    "bank_txn_id": "BANKTXN-00268",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00265",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00265PAY00259",
+    "value_date": "2026-06-15T20:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "2869.82"
+    },
+    "bank_txn_id": "BANKTXN-00269",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00266",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00266PAY00260",
+    "value_date": "2026-07-11T06:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4304.74"
+    },
+    "bank_txn_id": "BANKTXN-00270",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00267",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00267PAY00260",
+    "value_date": "2026-07-11T06:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6479.38"
+    },
+    "bank_txn_id": "BANKTXN-00271",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00268",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00268PAY00261",
+    "value_date": "2026-06-26T17:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "9719.08"
+    },
+    "bank_txn_id": "BANKTXN-00272",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00269",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00269PAY00261",
+    "value_date": "2026-06-26T17:14:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6840.29"
+    },
+    "bank_txn_id": "BANKTXN-00273",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00270",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00270PAY00262",
+    "value_date": "2026-06-16T03:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6840.28"
+    },
+    "bank_txn_id": "BANKTXN-00274",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00271",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00271PAY00262",
+    "value_date": "2026-06-16T03:01:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11942.12"
+    },
+    "bank_txn_id": "BANKTXN-00275",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00272",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00272PAY00263",
+    "value_date": "2026-06-22T16:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7961.42"
+    },
+    "bank_txn_id": "BANKTXN-00276",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00273",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00273PAY00263",
+    "value_date": "2026-06-22T16:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "7157.70"
+    },
+    "bank_txn_id": "BANKTXN-00277",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00274",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00274NA",
+    "value_date": "2026-07-30T17:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "10219.70"
+    },
+    "bank_txn_id": "BANKTXN-00278",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00275",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00275NA",
+    "value_date": "2026-07-30T13:30:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8409.70"
+    },
+    "bank_txn_id": "BANKTXN-00279",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00276",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00276NA",
+    "value_date": "2026-07-30T08:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "8409.13"
+    },
+    "bank_txn_id": "BANKTXN-00280",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00277",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00277NA",
+    "value_date": "2026-07-07T15:39:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11131.40"
+    },
+    "bank_txn_id": "BANKTXN-00281",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00278",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00278NA",
+    "value_date": "2026-06-04T07:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "28868.63"
+    },
+    "bank_txn_id": "BANKTXN-00282",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00279",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00279PAY00274",
+    "value_date": "2026-06-21T09:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "28868.63"
+    },
+    "bank_txn_id": "BANKTXN-00283",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00279",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00279PAY00274",
+    "value_date": "2026-06-23T09:09:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "40687.87"
+    },
+    "bank_txn_id": "BANKTXN-00284",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00280",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00280PAY00275",
+    "value_date": "2026-07-17T16:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "40687.87"
+    },
+    "bank_txn_id": "BANKTXN-00285",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00280",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00280PAY00275",
+    "value_date": "2026-07-19T16:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5086.95"
+    },
+    "bank_txn_id": "BANKTXN-00286",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00281",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00281PAY00276",
+    "value_date": "2026-07-01T04:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "5086.95"
+    },
+    "bank_txn_id": "BANKTXN-00287",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00281",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00281PAY00276",
+    "value_date": "2026-07-03T04:54:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43184.80"
+    },
+    "bank_txn_id": "BANKTXN-00288",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00282",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00282PAY00277",
+    "value_date": "2026-07-02T23:49:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43184.80"
+    },
+    "bank_txn_id": "BANKTXN-00289",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00282",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00282PAY00277",
+    "value_date": "2026-07-04T23:49:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43479.87"
+    },
+    "bank_txn_id": "BANKTXN-00290",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00283",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00283PAY00278",
+    "value_date": "2026-07-24T21:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43479.87"
+    },
+    "bank_txn_id": "BANKTXN-00291",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00283",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00283PAY00278",
+    "value_date": "2026-07-26T21:47:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43043.77"
+    },
+    "bank_txn_id": "BANKTXN-00292",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00284",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00284PAY00279",
+    "value_date": "2026-06-12T03:23:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "43043.77"
+    },
+    "bank_txn_id": "BANKTXN-00293",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00284",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00284PAY00279",
+    "value_date": "2026-06-14T03:23:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6334.84"
+    },
+    "bank_txn_id": "BANKTXN-00294",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00285",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00285PAY00280",
+    "value_date": "2026-07-01T17:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6334.84"
+    },
+    "bank_txn_id": "BANKTXN-00295",
+    "currency": "INR",
+    "direction": "debit",
+    "matched_settlement_id": "STL-00285",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00285PAY00280",
+    "value_date": "2026-07-03T17:33:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "39112.77"
+    },
+    "bank_txn_id": "BANKTXN-00296",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00287",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00287NA",
+    "value_date": "2026-07-23T22:44:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "42468.55"
+    },
+    "bank_txn_id": "BANKTXN-00297",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00289",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00289NA",
+    "value_date": "2026-06-04T12:13:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "45672.70"
+    },
+    "bank_txn_id": "BANKTXN-00298",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00291",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00291NA",
+    "value_date": "2026-06-07T13:35:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "11950.76"
+    },
+    "bank_txn_id": "BANKTXN-00299",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00293",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00293NA",
+    "value_date": "2026-07-05T10:26:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "35398.45"
+    },
+    "bank_txn_id": "BANKTXN-00300",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00295",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00295NA",
+    "value_date": "2026-07-09T18:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "28509.76"
+    },
+    "bank_txn_id": "BANKTXN-00301",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00297",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00297NA",
+    "value_date": "2026-07-23T05:46:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "6476.04"
+    },
+    "bank_txn_id": "BANKTXN-00302",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00299",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00299NA",
+    "value_date": "2026-06-26T10:52:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "17543.39"
+    },
+    "bank_txn_id": "BANKTXN-00303",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00301",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00301NA",
+    "value_date": "2026-06-20T19:51:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "33025.71"
+    },
+    "bank_txn_id": "BANKTXN-00304",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00303",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00303NA",
+    "value_date": "2026-07-05T10:10:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "15827.50"
+    },
+    "bank_txn_id": "BANKTXN-00305",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00305",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00305NA",
+    "value_date": "2026-07-26T19:03:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "25052.63"
+    },
+    "bank_txn_id": "BANKTXN-00306",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00306",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00306PAY00291",
+    "value_date": "2026-07-10T19:08:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "1628.46"
+    },
+    "bank_txn_id": "BANKTXN-00307",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00307",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00307PAY00292",
+    "value_date": "2026-07-03T18:16:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "29018.30"
+    },
+    "bank_txn_id": "BANKTXN-00308",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00308",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00308PAY00293",
+    "value_date": "2026-07-24T05:22:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "15710.26"
+    },
+    "bank_txn_id": "BANKTXN-00309",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00309",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00309PAY00294",
+    "value_date": "2026-07-31T11:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "4867.50"
+    },
+    "bank_txn_id": "BANKTXN-00310",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00310",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00310PAY00295",
+    "value_date": "2026-06-29T07:37:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "39167.60"
+    },
+    "bank_txn_id": "BANKTXN-00311",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00311",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00311PAY00296",
+    "value_date": "2026-06-14T13:00:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "22316.82"
+    },
+    "bank_txn_id": "BANKTXN-00312",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00312",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00312PAY00297",
+    "value_date": "2026-07-11T03:13:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "19585.01"
+    },
+    "bank_txn_id": "BANKTXN-00313",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00313",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00313PAY00298",
+    "value_date": "2026-07-21T11:18:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "38185.66"
+    },
+    "bank_txn_id": "BANKTXN-00314",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00314",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00314PAY00299",
+    "value_date": "2026-06-20T04:05:00"
+  },
+  {
+    "amount": {
+      "__decimal__": "47164.42"
+    },
+    "bank_txn_id": "BANKTXN-00315",
+    "currency": "INR",
+    "direction": "credit",
+    "matched_settlement_id": "STL-00315",
+    "metadata": {
+      "simulated": true
+    },
+    "narration": "NEFT SETTLEMENT UTR00315PAY00300",
+    "value_date": "2026-07-30T05:44:00"
+  }
+]

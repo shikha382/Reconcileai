@@ -1,0 +1,13 @@
+[
+  {
+    "id": "rfnd_RAZ0000002BB",
+    "entity": "refund",
+    "amount": 50000,
+    "currency": "INR",
+    "payment_id": "pay_RAZ0000002BB",
+    "status": "processed",
+    "created_at": 1785672000,
+    "speed_processed": "normal",
+    "notes": {}
+  }
+]

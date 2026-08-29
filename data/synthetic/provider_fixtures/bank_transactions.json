@@ -1,0 +1,29 @@
+[
+  {
+    "txn_id": "TXN0000001AA",
+    "value_date": "2026-08-01T09:10:00+05:30",
+    "narration": "NEFT-UTR0000001AA-SETTLEMENT",
+    "type": "CR",
+    "amount": "4970.37",
+    "currency": "INR",
+    "linked_reference": "setl_RAZ0000001AA"
+  },
+  {
+    "txn_id": "TXN0000002BB",
+    "value_date": "2026-08-02T10:10:00+05:30",
+    "narration": "NEFT-UTR0000002BB-SETTLEMENT",
+    "type": "CR",
+    "amount": "8999.00",
+    "currency": "INR",
+    "linked_reference": "setl_RAZ0000002BB"
+  },
+  {
+    "txn_id": "TXN0000003CC",
+    "value_date": "2026-08-03T11:10:00+05:30",
+    "narration": "NEFT-UTR0000003CC-SETTLEMENT",
+    "type": "CR",
+    "amount": "1250.50",
+    "currency": "INR",
+    "linked_reference": "setl_RAZ0000003CC"
+  }
+]

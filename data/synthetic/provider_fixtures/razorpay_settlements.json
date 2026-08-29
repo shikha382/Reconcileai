@@ -1,0 +1,35 @@
+[
+  {
+    "id": "setl_RAZ0000001AA",
+    "entity": "settlement",
+    "payment_id": "pay_RAZ0000001AA",
+    "amount": 497037,
+    "fees": 0,
+    "tax": 0,
+    "utr": "UTR0000001AA",
+    "status": "processed",
+    "created_at": 1785575100
+  },
+  {
+    "id": "setl_RAZ0000002BB",
+    "entity": "settlement",
+    "payment_id": "pay_RAZ0000002BB",
+    "amount": 899900,
+    "fees": 0,
+    "tax": 0,
+    "utr": "UTR0000002BB",
+    "status": "processed",
+    "created_at": 1785665100
+  },
+  {
+    "id": "setl_RAZ0000003CC",
+    "entity": "settlement",
+    "payment_id": "pay_RAZ0000003CC",
+    "amount": 125050,
+    "fees": 0,
+    "tax": 0,
+    "utr": "UTR0000003CC",
+    "status": "processed",
+    "created_at": 1785755100
+  }
+]

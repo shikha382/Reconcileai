@@ -1,0 +1,227 @@
+[
+  {
+    "amount": {
+      "__decimal__": "4173.38"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-30T20:36:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00175",
+    "processed_at": "2026-07-31T20:36:00",
+    "reference": "RFND00001",
+    "refund_id": "REF-00001",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "1243.59"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-06-04T19:51:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00176",
+    "processed_at": "2026-06-05T19:51:00",
+    "reference": "RFND00002",
+    "refund_id": "REF-00002",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "970.52"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-23T23:42:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00177",
+    "processed_at": "2026-07-24T23:42:00",
+    "reference": "RFND00003",
+    "refund_id": "REF-00003",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "1821.09"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-03T12:31:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00178",
+    "processed_at": "2026-07-04T12:31:00",
+    "reference": "RFND00004",
+    "refund_id": "REF-00004",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "4889.15"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-05T00:07:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00179",
+    "processed_at": "2026-07-06T00:07:00",
+    "reference": "RFND00005",
+    "refund_id": "REF-00005",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "387.53"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-08T01:14:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00180",
+    "processed_at": "2026-07-09T01:14:00",
+    "reference": "RFND00006",
+    "refund_id": "REF-00006",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "173.72"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-23T21:21:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00181",
+    "processed_at": "2026-07-24T21:21:00",
+    "reference": "RFND00007",
+    "refund_id": "REF-00007",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "2742.70"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-07T12:57:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00182",
+    "processed_at": "2026-07-08T12:57:00",
+    "reference": "RFND00008",
+    "refund_id": "REF-00008",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "3782.32"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-26T06:30:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00183",
+    "processed_at": "2026-07-27T06:30:00",
+    "reference": "RFND00009",
+    "refund_id": "REF-00009",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "8106.63"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-06-05T15:53:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00184",
+    "processed_at": "2026-06-06T15:53:00",
+    "reference": "RFND00010",
+    "refund_id": "REF-00010",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "2254.72"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-06-22T23:11:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00185",
+    "processed_at": "2026-06-23T23:11:00",
+    "reference": "RFND00011",
+    "refund_id": "REF-00011",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "2623.37"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-26T17:35:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00186",
+    "processed_at": "2026-07-27T17:35:00",
+    "reference": "RFND00012",
+    "refund_id": "REF-00012",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "2368.16"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-07-15T20:54:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00187",
+    "processed_at": "2026-07-16T20:54:00",
+    "reference": "RFND00013",
+    "refund_id": "REF-00013",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "502.36"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-08-02T04:38:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00188",
+    "processed_at": "2026-08-03T04:38:00",
+    "reference": "RFND00014",
+    "refund_id": "REF-00014",
+    "status": "processed"
+  },
+  {
+    "amount": {
+      "__decimal__": "8549.75"
+    },
+    "currency": "INR",
+    "initiated_at": "2026-06-11T03:53:00",
+    "metadata": {
+      "simulated": true
+    },
+    "payment_id": "PAY-00189",
+    "processed_at": "2026-06-12T03:53:00",
+    "reference": "RFND00015",
+    "refund_id": "REF-00015",
+    "status": "processed"
+  }
+]

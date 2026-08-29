@@ -1,0 +1,47 @@
+[
+  {
+    "effective_from": "2025-06-01T09:00:00",
+    "effective_to": null,
+    "fee_rule_id": "FEE-UPI-001",
+    "fixed_fee": {
+      "__decimal__": "0.00"
+    },
+    "mdr_percent": {
+      "__decimal__": "0.000"
+    },
+    "method": "upi",
+    "tax_percent": {
+      "__decimal__": "0.000"
+    }
+  },
+  {
+    "effective_from": "2025-06-01T09:00:00",
+    "effective_to": null,
+    "fee_rule_id": "FEE-CARD-001",
+    "fixed_fee": {
+      "__decimal__": "2.00"
+    },
+    "mdr_percent": {
+      "__decimal__": "0.018"
+    },
+    "method": "card",
+    "tax_percent": {
+      "__decimal__": "0.180"
+    }
+  },
+  {
+    "effective_from": "2025-06-01T09:00:00",
+    "effective_to": null,
+    "fee_rule_id": "FEE-NETBANKING-001",
+    "fixed_fee": {
+      "__decimal__": "0.00"
+    },
+    "mdr_percent": {
+      "__decimal__": "0.009"
+    },
+    "method": "netbanking",
+    "tax_percent": {
+      "__decimal__": "0.180"
+    }
+  }
+]

@@ -1,0 +1,54 @@
+# ReconcileAI -- root .gitignore
+# Excludes caches, build output, environment/secret files, and generated
+# runtime artifacts only. Source code, tests, docs, synthetic datasets,
+# provider fixtures, and evaluation/demo scripts are intentionally tracked.
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+env/
+ENV/
+
+# --- Node / frontend ---
+node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/test-results/
+frontend/playwright-report/
+frontend/playwright/.cache/
+*.tsbuildinfo
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment / secrets (never commit real credentials) ---
+.env
+.env.*
+!.env.example
+credentials*
+*.pem
+*.key
+
+# --- Generated / runtime artifacts (never commit a live demo database) ---
+*.db
+*.sqlite
+*.sqlite3
+logs/
+*.log
+*.tmp
+
+# --- IDE / OS ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# --- This tool's own local session directory (not project source) ---
+.claude/

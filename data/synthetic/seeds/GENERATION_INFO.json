@@ -1,0 +1,22 @@
+{
+  "archetype_counts": {
+    "aggregated_settlement": 10,
+    "ambiguous_match": 10,
+    "duplicate": 12,
+    "exact_match": 138,
+    "fee_mismatch": 18,
+    "missing_transaction": 12,
+    "over_settlement": 8,
+    "partial_settlement": 12,
+    "reference_mismatch": 12,
+    "refund_mismatch": 15,
+    "reversed_transaction": 7,
+    "split_settlement": 10,
+    "timing_mismatch": 18,
+    "under_settlement": 8,
+    "unexplained_difference": 10
+  },
+  "seed": 20260825,
+  "simulated": true,
+  "total_records": 300
+}

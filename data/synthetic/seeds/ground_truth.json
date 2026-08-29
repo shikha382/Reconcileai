@@ -1,0 +1,5468 @@
+[
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00001",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00001"
+      ],
+      "payment_id": "PAY-00001",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00001"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00002",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00002"
+      ],
+      "payment_id": "PAY-00002",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00002"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00003",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00003"
+      ],
+      "payment_id": "PAY-00003",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00003"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00004",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00004"
+      ],
+      "payment_id": "PAY-00004",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00004"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00005",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00005"
+      ],
+      "payment_id": "PAY-00005",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00005"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00006",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00006"
+      ],
+      "payment_id": "PAY-00006",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00006"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00007",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00007"
+      ],
+      "payment_id": "PAY-00007",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00007"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00008",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00008"
+      ],
+      "payment_id": "PAY-00008",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00008"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00009",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00009"
+      ],
+      "payment_id": "PAY-00009",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00009"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00010",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00010"
+      ],
+      "payment_id": "PAY-00010",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00010"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00011",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00011"
+      ],
+      "payment_id": "PAY-00011",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00011"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00012",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00012"
+      ],
+      "payment_id": "PAY-00012",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00012"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00013",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00013"
+      ],
+      "payment_id": "PAY-00013",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00013"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00014",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00014"
+      ],
+      "payment_id": "PAY-00014",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00014"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00015",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00015"
+      ],
+      "payment_id": "PAY-00015",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00015"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00016",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00016"
+      ],
+      "payment_id": "PAY-00016",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00016"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00017",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00017"
+      ],
+      "payment_id": "PAY-00017",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00017"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00018",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00018"
+      ],
+      "payment_id": "PAY-00018",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00018"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00019",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00019"
+      ],
+      "payment_id": "PAY-00019",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00019"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00020",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00020"
+      ],
+      "payment_id": "PAY-00020",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00020"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00021",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00021"
+      ],
+      "payment_id": "PAY-00021",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00021"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00022",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00022"
+      ],
+      "payment_id": "PAY-00022",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00022"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00023",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00023"
+      ],
+      "payment_id": "PAY-00023",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00023"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00024",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00024"
+      ],
+      "payment_id": "PAY-00024",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00024"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00025",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00025"
+      ],
+      "payment_id": "PAY-00025",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00025"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00026",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00026"
+      ],
+      "payment_id": "PAY-00026",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00026"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00027",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00027"
+      ],
+      "payment_id": "PAY-00027",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00027"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00028",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00028"
+      ],
+      "payment_id": "PAY-00028",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00028"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00029",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00029"
+      ],
+      "payment_id": "PAY-00029",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00029"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00030",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00030"
+      ],
+      "payment_id": "PAY-00030",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00030"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00031",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00031"
+      ],
+      "payment_id": "PAY-00031",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00031"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00032",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00032"
+      ],
+      "payment_id": "PAY-00032",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00032"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00033",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00033"
+      ],
+      "payment_id": "PAY-00033",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00033"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00034",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00034"
+      ],
+      "payment_id": "PAY-00034",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00034"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00035",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00035"
+      ],
+      "payment_id": "PAY-00035",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00035"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00036",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00036"
+      ],
+      "payment_id": "PAY-00036",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00036"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00037",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00037"
+      ],
+      "payment_id": "PAY-00037",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00037"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00038",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00038"
+      ],
+      "payment_id": "PAY-00038",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00038"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00039",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00039"
+      ],
+      "payment_id": "PAY-00039",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00039"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00040",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00040"
+      ],
+      "payment_id": "PAY-00040",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00040"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00041",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00041"
+      ],
+      "payment_id": "PAY-00041",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00041"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00042",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00042"
+      ],
+      "payment_id": "PAY-00042",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00042"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00043",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00043"
+      ],
+      "payment_id": "PAY-00043",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00043"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00044",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00044"
+      ],
+      "payment_id": "PAY-00044",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00044"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00045",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00045"
+      ],
+      "payment_id": "PAY-00045",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00045"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00046",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00046"
+      ],
+      "payment_id": "PAY-00046",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00046"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00047",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00047"
+      ],
+      "payment_id": "PAY-00047",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00047"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00048",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00048"
+      ],
+      "payment_id": "PAY-00048",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00048"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00049",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00049"
+      ],
+      "payment_id": "PAY-00049",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00049"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00050",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00050"
+      ],
+      "payment_id": "PAY-00050",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00050"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00051",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00051"
+      ],
+      "payment_id": "PAY-00051",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00051"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00052",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00052"
+      ],
+      "payment_id": "PAY-00052",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00052"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00053",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00053"
+      ],
+      "payment_id": "PAY-00053",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00053"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00054",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00054"
+      ],
+      "payment_id": "PAY-00054",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00054"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00055",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00055"
+      ],
+      "payment_id": "PAY-00055",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00055"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00056",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00056"
+      ],
+      "payment_id": "PAY-00056",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00056"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00057",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00057"
+      ],
+      "payment_id": "PAY-00057",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00057"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00058",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00058"
+      ],
+      "payment_id": "PAY-00058",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00058"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00059",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00059"
+      ],
+      "payment_id": "PAY-00059",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00059"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00060",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00060"
+      ],
+      "payment_id": "PAY-00060",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00060"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00061",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00061"
+      ],
+      "payment_id": "PAY-00061",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00061"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00062",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00062"
+      ],
+      "payment_id": "PAY-00062",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00062"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00063",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00063"
+      ],
+      "payment_id": "PAY-00063",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00063"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00064",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00064"
+      ],
+      "payment_id": "PAY-00064",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00064"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00065",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00065"
+      ],
+      "payment_id": "PAY-00065",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00065"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00066",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00066"
+      ],
+      "payment_id": "PAY-00066",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00066"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00067",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00067"
+      ],
+      "payment_id": "PAY-00067",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00067"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00068",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00068"
+      ],
+      "payment_id": "PAY-00068",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00068"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00069",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00069"
+      ],
+      "payment_id": "PAY-00069",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00069"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00070",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00070"
+      ],
+      "payment_id": "PAY-00070",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00070"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00071",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00071"
+      ],
+      "payment_id": "PAY-00071",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00071"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00072",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00072"
+      ],
+      "payment_id": "PAY-00072",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00072"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00073",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00073"
+      ],
+      "payment_id": "PAY-00073",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00073"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00074",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00074"
+      ],
+      "payment_id": "PAY-00074",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00074"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00075",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00075"
+      ],
+      "payment_id": "PAY-00075",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00075"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00076",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00076"
+      ],
+      "payment_id": "PAY-00076",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00076"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00077",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00077"
+      ],
+      "payment_id": "PAY-00077",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00077"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00078",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00078"
+      ],
+      "payment_id": "PAY-00078",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00078"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00079",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00079"
+      ],
+      "payment_id": "PAY-00079",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00079"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00080",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00080"
+      ],
+      "payment_id": "PAY-00080",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00080"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00081",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00081"
+      ],
+      "payment_id": "PAY-00081",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00081"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00082",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00082"
+      ],
+      "payment_id": "PAY-00082",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00082"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00083",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00083"
+      ],
+      "payment_id": "PAY-00083",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00083"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00084",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00084"
+      ],
+      "payment_id": "PAY-00084",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00084"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00085",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00085"
+      ],
+      "payment_id": "PAY-00085",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00085"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00086",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00086"
+      ],
+      "payment_id": "PAY-00086",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00086"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00087",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00087"
+      ],
+      "payment_id": "PAY-00087",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00087"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00088",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00088"
+      ],
+      "payment_id": "PAY-00088",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00088"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00089",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00089"
+      ],
+      "payment_id": "PAY-00089",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00089"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00090",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00090"
+      ],
+      "payment_id": "PAY-00090",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00090"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00091",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00091"
+      ],
+      "payment_id": "PAY-00091",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00091"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00092",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00092"
+      ],
+      "payment_id": "PAY-00092",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00092"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00093",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00093"
+      ],
+      "payment_id": "PAY-00093",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00093"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00094",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00094"
+      ],
+      "payment_id": "PAY-00094",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00094"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00095",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00095"
+      ],
+      "payment_id": "PAY-00095",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00095"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00096",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00096"
+      ],
+      "payment_id": "PAY-00096",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00096"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00097",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00097"
+      ],
+      "payment_id": "PAY-00097",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00097"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00098",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00098"
+      ],
+      "payment_id": "PAY-00098",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00098"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00099",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00099"
+      ],
+      "payment_id": "PAY-00099",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00099"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00100",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00100"
+      ],
+      "payment_id": "PAY-00100",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00100"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00101",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00101"
+      ],
+      "payment_id": "PAY-00101",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00101"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00102",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00102"
+      ],
+      "payment_id": "PAY-00102",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00102"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00103",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00103"
+      ],
+      "payment_id": "PAY-00103",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00103"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00104",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00104"
+      ],
+      "payment_id": "PAY-00104",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00104"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00105",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00105"
+      ],
+      "payment_id": "PAY-00105",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00105"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00106",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00106"
+      ],
+      "payment_id": "PAY-00106",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00106"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00107",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00107"
+      ],
+      "payment_id": "PAY-00107",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00107"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00108",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00108"
+      ],
+      "payment_id": "PAY-00108",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00108"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00109",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00109"
+      ],
+      "payment_id": "PAY-00109",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00109"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00110",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00110"
+      ],
+      "payment_id": "PAY-00110",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00110"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00111",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00111"
+      ],
+      "payment_id": "PAY-00111",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00111"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00112",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00112"
+      ],
+      "payment_id": "PAY-00112",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00112"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00113",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00113"
+      ],
+      "payment_id": "PAY-00113",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00113"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00114",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00114"
+      ],
+      "payment_id": "PAY-00114",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00114"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00115",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00115"
+      ],
+      "payment_id": "PAY-00115",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00115"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00116",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00116"
+      ],
+      "payment_id": "PAY-00116",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00116"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00117",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00117"
+      ],
+      "payment_id": "PAY-00117",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00117"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00118",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00118"
+      ],
+      "payment_id": "PAY-00118",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00118"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00119",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00119"
+      ],
+      "payment_id": "PAY-00119",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00119"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00120",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00120"
+      ],
+      "payment_id": "PAY-00120",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00120"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00121",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00121"
+      ],
+      "payment_id": "PAY-00121",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00121"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00122",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00122"
+      ],
+      "payment_id": "PAY-00122",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00122"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00123",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00123"
+      ],
+      "payment_id": "PAY-00123",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00123"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00124",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00124"
+      ],
+      "payment_id": "PAY-00124",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00124"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00125",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00125"
+      ],
+      "payment_id": "PAY-00125",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00125"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00126",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00126"
+      ],
+      "payment_id": "PAY-00126",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00126"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00127",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00127"
+      ],
+      "payment_id": "PAY-00127",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00127"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00128",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00128"
+      ],
+      "payment_id": "PAY-00128",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00128"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00129",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00129"
+      ],
+      "payment_id": "PAY-00129",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00129"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00130",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00130"
+      ],
+      "payment_id": "PAY-00130",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00130"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00131",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00131"
+      ],
+      "payment_id": "PAY-00131",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00131"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00132",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00132"
+      ],
+      "payment_id": "PAY-00132",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00132"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00133",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00133"
+      ],
+      "payment_id": "PAY-00133",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00133"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00134",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00134"
+      ],
+      "payment_id": "PAY-00134",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00134"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00135",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00135"
+      ],
+      "payment_id": "PAY-00135",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00135"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00136",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00136"
+      ],
+      "payment_id": "PAY-00136",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00136"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00137",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00137"
+      ],
+      "payment_id": "PAY-00137",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00137"
+      ]
+    }
+  },
+  {
+    "archetype": "exact_match",
+    "category": null,
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Clean match: zero-MDR UPI settlement equals payment amount exactly; bank credit confirms it.",
+    "order_id": "ORD-00138",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00138"
+      ],
+      "payment_id": "PAY-00138",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00138"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00139",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00139"
+      ],
+      "payment_id": "PAY-00139",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00139"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00140",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00140"
+      ],
+      "payment_id": "PAY-00140",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00140"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00141",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00141"
+      ],
+      "payment_id": "PAY-00141",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00141"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00142",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00142"
+      ],
+      "payment_id": "PAY-00142",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00142"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00143",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00143"
+      ],
+      "payment_id": "PAY-00143",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00143"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 4 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00144",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00144"
+      ],
+      "payment_id": "PAY-00144",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00144"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00145",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00145"
+      ],
+      "payment_id": "PAY-00145",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00145"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00146",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00146"
+      ],
+      "payment_id": "PAY-00146",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00146"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00147",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00147"
+      ],
+      "payment_id": "PAY-00147",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00147"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00148",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00148"
+      ],
+      "payment_id": "PAY-00148",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00148"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00149",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00149"
+      ],
+      "payment_id": "PAY-00149",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00149"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 3 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00150",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00150"
+      ],
+      "payment_id": "PAY-00150",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00150"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 4 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00151",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00151"
+      ],
+      "payment_id": "PAY-00151",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00151"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 4 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00152",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00152"
+      ],
+      "payment_id": "PAY-00152",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00152"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00153",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00153"
+      ],
+      "payment_id": "PAY-00153",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00153"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 5 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00154",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00154"
+      ],
+      "payment_id": "PAY-00154",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00154"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 2 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00155",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00155"
+      ],
+      "payment_id": "PAY-00155",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00155"
+      ]
+    }
+  },
+  {
+    "archetype": "timing_mismatch",
+    "category": "timing_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement lagged the payment by 5 days; amount matches exactly, only timing differs.",
+    "order_id": "ORD-00156",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00156"
+      ],
+      "payment_id": "PAY-00156",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00156"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "human_review",
+    "is_adversarial": true,
+    "notes": "ADVERSARIAL: net_amount (7663.77) does not equal payment.amount - FEE-CARD-001 fee/tax (7673.60 expected); a naive system could plausibly explain the difference as 'the card fee' since a fee WAS deducted, but the deterministic verification engine must recompute the exact FEE-CARD-001 formula and reject this as unexplained (short by an extra 9.83).",
+    "order_id": "ORD-00157",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00157"
+      ],
+      "payment_id": "PAY-00157",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00157"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "human_review",
+    "is_adversarial": true,
+    "notes": "ADVERSARIAL: net_amount (5959.04) does not equal payment.amount - FEE-CARD-001 fee/tax (5965.51 expected); a naive system could plausibly explain the difference as 'the card fee' since a fee WAS deducted, but the deterministic verification engine must recompute the exact FEE-CARD-001 formula and reject this as unexplained (short by an extra 6.47).",
+    "order_id": "ORD-00158",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00158"
+      ],
+      "payment_id": "PAY-00158",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00158"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00159",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00159"
+      ],
+      "payment_id": "PAY-00159",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00159"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00160",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00160"
+      ],
+      "payment_id": "PAY-00160",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00160"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00161",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00161"
+      ],
+      "payment_id": "PAY-00161",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00161"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00162",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00162"
+      ],
+      "payment_id": "PAY-00162",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00162"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00163",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00163"
+      ],
+      "payment_id": "PAY-00163",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00163"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00164",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00164"
+      ],
+      "payment_id": "PAY-00164",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00164"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00165",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00165"
+      ],
+      "payment_id": "PAY-00165",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00165"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00166",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00166"
+      ],
+      "payment_id": "PAY-00166",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00166"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00167",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00167"
+      ],
+      "payment_id": "PAY-00167",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00167"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00168",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00168"
+      ],
+      "payment_id": "PAY-00168",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00168"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00169",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00169"
+      ],
+      "payment_id": "PAY-00169",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00169"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00170",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00170"
+      ],
+      "payment_id": "PAY-00170",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00170"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00171",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00171"
+      ],
+      "payment_id": "PAY-00171",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00171"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00172",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00172"
+      ],
+      "payment_id": "PAY-00172",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00172"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00173",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00173"
+      ],
+      "payment_id": "PAY-00173",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00173"
+      ]
+    }
+  },
+  {
+    "archetype": "fee_mismatch",
+    "category": "fee_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Net settlement equals payment amount minus the card MDR + tax per FEE-CARD-001; verifiable exactly.",
+    "order_id": "ORD-00174",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00174"
+      ],
+      "payment_id": "PAY-00174",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00174"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 4173.38 followed by a 4173.38 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00175",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00175",
+        "BANKTXN-00176"
+      ],
+      "payment_id": "PAY-00175",
+      "refund_ids": [
+        "REF-00001"
+      ],
+      "settlement_ids": [
+        "STL-00175"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 4974.34 followed by a 1243.59 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00176",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00177",
+        "BANKTXN-00178"
+      ],
+      "payment_id": "PAY-00176",
+      "refund_ids": [
+        "REF-00002"
+      ],
+      "settlement_ids": [
+        "STL-00176"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 970.52 followed by a 970.52 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00177",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00179",
+        "BANKTXN-00180"
+      ],
+      "payment_id": "PAY-00177",
+      "refund_ids": [
+        "REF-00003"
+      ],
+      "settlement_ids": [
+        "STL-00177"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 1821.09 followed by a 1821.09 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00178",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00181",
+        "BANKTXN-00182"
+      ],
+      "payment_id": "PAY-00178",
+      "refund_ids": [
+        "REF-00004"
+      ],
+      "settlement_ids": [
+        "STL-00178"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 4889.15 followed by a 4889.15 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00179",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00183",
+        "BANKTXN-00184"
+      ],
+      "payment_id": "PAY-00179",
+      "refund_ids": [
+        "REF-00005"
+      ],
+      "settlement_ids": [
+        "STL-00179"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 1550.10 followed by a 387.53 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00180",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00185",
+        "BANKTXN-00186"
+      ],
+      "payment_id": "PAY-00180",
+      "refund_ids": [
+        "REF-00006"
+      ],
+      "settlement_ids": [
+        "STL-00180"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 694.87 followed by a 173.72 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00181",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00187",
+        "BANKTXN-00188"
+      ],
+      "payment_id": "PAY-00181",
+      "refund_ids": [
+        "REF-00007"
+      ],
+      "settlement_ids": [
+        "STL-00181"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 5485.40 followed by a 2742.70 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00182",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00189",
+        "BANKTXN-00190"
+      ],
+      "payment_id": "PAY-00182",
+      "refund_ids": [
+        "REF-00008"
+      ],
+      "settlement_ids": [
+        "STL-00182"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 7564.63 followed by a 3782.32 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00183",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00191",
+        "BANKTXN-00192"
+      ],
+      "payment_id": "PAY-00183",
+      "refund_ids": [
+        "REF-00009"
+      ],
+      "settlement_ids": [
+        "STL-00183"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 8106.63 followed by a 8106.63 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00184",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00193",
+        "BANKTXN-00194"
+      ],
+      "payment_id": "PAY-00184",
+      "refund_ids": [
+        "REF-00010"
+      ],
+      "settlement_ids": [
+        "STL-00184"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 9018.86 followed by a 2254.72 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00185",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00195",
+        "BANKTXN-00196"
+      ],
+      "payment_id": "PAY-00185",
+      "refund_ids": [
+        "REF-00011"
+      ],
+      "settlement_ids": [
+        "STL-00185"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 2623.37 followed by a 2623.37 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00186",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00197",
+        "BANKTXN-00198"
+      ],
+      "payment_id": "PAY-00186",
+      "refund_ids": [
+        "REF-00012"
+      ],
+      "settlement_ids": [
+        "STL-00186"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 9472.62 followed by a 2368.16 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00187",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00199",
+        "BANKTXN-00200"
+      ],
+      "payment_id": "PAY-00187",
+      "refund_ids": [
+        "REF-00013"
+      ],
+      "settlement_ids": [
+        "STL-00187"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 2009.45 followed by a 502.36 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00188",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00201",
+        "BANKTXN-00202"
+      ],
+      "payment_id": "PAY-00188",
+      "refund_ids": [
+        "REF-00014"
+      ],
+      "settlement_ids": [
+        "STL-00188"
+      ]
+    }
+  },
+  {
+    "archetype": "refund_mismatch",
+    "category": "refund_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Full settlement of 8549.75 followed by a 8549.75 refund debit; refund record fully explains the net position.",
+    "order_id": "ORD-00189",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00203",
+        "BANKTXN-00204"
+      ],
+      "payment_id": "PAY-00189",
+      "refund_ids": [
+        "REF-00015"
+      ],
+      "settlement_ids": [
+        "STL-00189"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": true,
+    "notes": "ADVERSARIAL: the duplicate settlement's amount (21655.62) differs from the original (21654.62) by only Rs 1.00, which could tempt a naive system into treating them as two distinct legitimate settlements rather than recognizing settlement_2 as a duplicate with no actual bank credit behind it.",
+    "order_id": "ORD-00190",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00205"
+      ],
+      "payment_id": "PAY-00190",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00190",
+        "STL-00191"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": true,
+    "notes": "ADVERSARIAL: the duplicate settlement's amount (13493.17) differs from the original (13492.17) by only Rs 1.00, which could tempt a naive system into treating them as two distinct legitimate settlements rather than recognizing settlement_2 as a duplicate with no actual bank credit behind it.",
+    "order_id": "ORD-00191",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00206"
+      ],
+      "payment_id": "PAY-00191",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00192",
+        "STL-00193"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00192",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00207"
+      ],
+      "payment_id": "PAY-00192",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00194",
+        "STL-00195"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00193",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00208"
+      ],
+      "payment_id": "PAY-00193",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00196",
+        "STL-00197"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00194",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00209"
+      ],
+      "payment_id": "PAY-00194",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00198",
+        "STL-00199"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00195",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00210"
+      ],
+      "payment_id": "PAY-00195",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00200",
+        "STL-00201"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00196",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00211"
+      ],
+      "payment_id": "PAY-00196",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00202",
+        "STL-00203"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00197",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00212"
+      ],
+      "payment_id": "PAY-00197",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00204",
+        "STL-00205"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00198",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00213"
+      ],
+      "payment_id": "PAY-00198",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00206",
+        "STL-00207"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00199",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00214"
+      ],
+      "payment_id": "PAY-00199",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00208",
+        "STL-00209"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00200",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00215"
+      ],
+      "payment_id": "PAY-00200",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00210",
+        "STL-00211"
+      ]
+    }
+  },
+  {
+    "archetype": "duplicate",
+    "category": "duplicate",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two settlement records reference the same payment; only settlement_1 has a confirmed bank credit -- settlement_2 is an erroneous duplicate and must not be treated as a second legitimate payout.",
+    "order_id": "ORD-00201",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00216"
+      ],
+      "payment_id": "PAY-00201",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00212",
+        "STL-00213"
+      ]
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00202",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00202",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00203",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00203",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00204",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00204",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00205",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00205",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00206",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00206",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00207",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00207",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00208",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00208",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00209",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00209",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00210",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00210",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00211",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00211",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00212",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00212",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "missing_transaction",
+    "category": "missing_transaction",
+    "expected_action": "unresolved",
+    "is_adversarial": false,
+    "notes": "Payment captured but genuinely has no settlement or bank transaction yet -- correctly left unresolved, not force-matched.",
+    "order_id": "ORD-00213",
+    "true_matches": {
+      "bank_txn_ids": [],
+      "payment_id": "PAY-00213",
+      "refund_ids": [],
+      "settlement_ids": []
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 9567.70 of 17395.81 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00214",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00217"
+      ],
+      "payment_id": "PAY-00214",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00214"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 3279.26 of 4372.35 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00215",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00218"
+      ],
+      "payment_id": "PAY-00215",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00215"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 6725.29 of 9607.55 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00216",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00219"
+      ],
+      "payment_id": "PAY-00216",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00216"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 2794.69 of 5081.25 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00217",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00220"
+      ],
+      "payment_id": "PAY-00217",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00217"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 5272.07 of 9585.58 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00218",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00221"
+      ],
+      "payment_id": "PAY-00218",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00218"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 4664.51 of 7774.18 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00219",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00222"
+      ],
+      "payment_id": "PAY-00219",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00219"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 4912.62 of 8187.70 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00220",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00223"
+      ],
+      "payment_id": "PAY-00220",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00220"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 3774.02 of 5391.45 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00221",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00224"
+      ],
+      "payment_id": "PAY-00221",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00221"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 9900.87 of 14144.10 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00222",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00225"
+      ],
+      "payment_id": "PAY-00222",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00222"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 9422.49 of 12563.32 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00223",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00226"
+      ],
+      "payment_id": "PAY-00223",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00223"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 4966.31 of 6621.74 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00224",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00227"
+      ],
+      "payment_id": "PAY-00224",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00224"
+      ]
+    }
+  },
+  {
+    "archetype": "partial_settlement",
+    "category": "partial_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Only 4696.65 of 7827.75 has settled so far; remainder is still outstanding.",
+    "order_id": "ORD-00225",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00228"
+      ],
+      "payment_id": "PAY-00225",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00225"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (47711.51) exceeds the payment (46775.99) by 935.52; overpayment needs human confirmation.",
+    "order_id": "ORD-00226",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00229"
+      ],
+      "payment_id": "PAY-00226",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00226"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (7575.06) exceeds the payment (7426.53) by 148.53; overpayment needs human confirmation.",
+    "order_id": "ORD-00227",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00230"
+      ],
+      "payment_id": "PAY-00227",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00227"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (41976.40) exceeds the payment (39977.52) by 1998.88; overpayment needs human confirmation.",
+    "order_id": "ORD-00228",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00231"
+      ],
+      "payment_id": "PAY-00228",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00228"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (22780.92) exceeds the payment (22334.24) by 446.68; overpayment needs human confirmation.",
+    "order_id": "ORD-00229",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00232"
+      ],
+      "payment_id": "PAY-00229",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00229"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (34995.92) exceeds the payment (33976.62) by 1019.30; overpayment needs human confirmation.",
+    "order_id": "ORD-00230",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00233"
+      ],
+      "payment_id": "PAY-00230",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00230"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (15332.53) exceeds the payment (15031.89) by 300.64; overpayment needs human confirmation.",
+    "order_id": "ORD-00231",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00234"
+      ],
+      "payment_id": "PAY-00231",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00231"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (34252.07) exceeds the payment (33254.44) by 997.63; overpayment needs human confirmation.",
+    "order_id": "ORD-00232",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00235"
+      ],
+      "payment_id": "PAY-00232",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00232"
+      ]
+    }
+  },
+  {
+    "archetype": "over_settlement",
+    "category": "over_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (26921.03) exceeds the payment (26393.17) by 527.86; overpayment needs human confirmation.",
+    "order_id": "ORD-00233",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00236"
+      ],
+      "payment_id": "PAY-00233",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00233"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (28821.56) is short of the payment (30661.23) by 1839.67, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00234",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00237"
+      ],
+      "payment_id": "PAY-00234",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00234"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (23881.54) is short of the payment (25958.20) by 2076.66, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00235",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00238"
+      ],
+      "payment_id": "PAY-00235",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00235"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (11447.78) is short of the payment (12178.49) by 730.71, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00236",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00239"
+      ],
+      "payment_id": "PAY-00236",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00236"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (25859.59) is short of the payment (26937.07) by 1077.48, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00237",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00240"
+      ],
+      "payment_id": "PAY-00237",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00237"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (6718.67) is short of the payment (7147.52) by 428.85, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00238",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00241"
+      ],
+      "payment_id": "PAY-00238",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00238"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (45374.16) is short of the payment (47264.75) by 1890.59, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00239",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00242"
+      ],
+      "payment_id": "PAY-00239",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00239"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (26143.62) is short of the payment (27232.94) by 1089.32, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00240",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00243"
+      ],
+      "payment_id": "PAY-00240",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00240"
+      ]
+    }
+  },
+  {
+    "archetype": "under_settlement",
+    "category": "under_settlement",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement (26404.84) is short of the payment (28700.91) by 2296.07, with zero-MDR UPI so no fee explains it.",
+    "order_id": "ORD-00241",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00244"
+      ],
+      "payment_id": "PAY-00241",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00241"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00242",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00245"
+      ],
+      "payment_id": "PAY-00242",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00242"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00243",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00246"
+      ],
+      "payment_id": "PAY-00243",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00243"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00244",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00247"
+      ],
+      "payment_id": "PAY-00244",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00244"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00245",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00248"
+      ],
+      "payment_id": "PAY-00245",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00245"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00246",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00249"
+      ],
+      "payment_id": "PAY-00246",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00246"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00247",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00250"
+      ],
+      "payment_id": "PAY-00247",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00247"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00248",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00251"
+      ],
+      "payment_id": "PAY-00248",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00248"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00249",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00252"
+      ],
+      "payment_id": "PAY-00249",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00249"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00250",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00253"
+      ],
+      "payment_id": "PAY-00250",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00250"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00251",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00254"
+      ],
+      "payment_id": "PAY-00251",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00251"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00252",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00255"
+      ],
+      "payment_id": "PAY-00252",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00252"
+      ]
+    }
+  },
+  {
+    "archetype": "reference_mismatch",
+    "category": "reference_mismatch",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Amount and date proximity agree, but the settlement's own UTR reference bears no resemblance to the payment's -- needs multi-field scoring, not reference matching alone.",
+    "order_id": "ORD-00253",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00256"
+      ],
+      "payment_id": "PAY-00253",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00253"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (5926.19 + 3950.79) that sum exactly to 9876.98.",
+    "order_id": "ORD-00254",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00257",
+        "BANKTXN-00258"
+      ],
+      "payment_id": "PAY-00254",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00254",
+        "STL-00255"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (3356.86 + 2237.91) that sum exactly to 5594.77.",
+    "order_id": "ORD-00255",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00259",
+        "BANKTXN-00260"
+      ],
+      "payment_id": "PAY-00255",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00256",
+        "STL-00257"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (2153.16 + 3229.73) that sum exactly to 5382.89.",
+    "order_id": "ORD-00256",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00261",
+        "BANKTXN-00262"
+      ],
+      "payment_id": "PAY-00256",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00258",
+        "STL-00259"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (6802.13 + 4534.75) that sum exactly to 11336.88.",
+    "order_id": "ORD-00257",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00263",
+        "BANKTXN-00264"
+      ],
+      "payment_id": "PAY-00257",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00260",
+        "STL-00261"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (2517.57 + 3776.36) that sum exactly to 6293.93.",
+    "order_id": "ORD-00258",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00265",
+        "BANKTXN-00266"
+      ],
+      "payment_id": "PAY-00258",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00262",
+        "STL-00263"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (1421.19 + 1421.19) that sum exactly to 2842.38.",
+    "order_id": "ORD-00259",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00267",
+        "BANKTXN-00268"
+      ],
+      "payment_id": "PAY-00259",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00264",
+        "STL-00265"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (2869.82 + 4304.74) that sum exactly to 7174.56.",
+    "order_id": "ORD-00260",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00269",
+        "BANKTXN-00270"
+      ],
+      "payment_id": "PAY-00260",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00266",
+        "STL-00267"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (6479.38 + 9719.08) that sum exactly to 16198.46.",
+    "order_id": "ORD-00261",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00271",
+        "BANKTXN-00272"
+      ],
+      "payment_id": "PAY-00261",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00268",
+        "STL-00269"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (6840.29 + 6840.28) that sum exactly to 13680.57.",
+    "order_id": "ORD-00262",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00273",
+        "BANKTXN-00274"
+      ],
+      "payment_id": "PAY-00262",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00270",
+        "STL-00271"
+      ]
+    }
+  },
+  {
+    "archetype": "split_settlement",
+    "category": "split_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "One payment split across two settlements (11942.12 + 7961.42) that sum exactly to 19903.54.",
+    "order_id": "ORD-00263",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00275",
+        "BANKTXN-00276"
+      ],
+      "payment_id": "PAY-00263",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00272",
+        "STL-00273"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (7157.70) aggregates two payments (1698.70 + 5459.00); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00264",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00277"
+      ],
+      "payment_id": "PAY-00264",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00274"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (7157.70) aggregates two payments (1698.70 + 5459.00); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00265",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00277"
+      ],
+      "payment_id": "PAY-00265",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00274"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (10219.70) aggregates two payments (6788.16 + 3431.54); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00266",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00278"
+      ],
+      "payment_id": "PAY-00266",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00275"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (10219.70) aggregates two payments (6788.16 + 3431.54); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00267",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00278"
+      ],
+      "payment_id": "PAY-00267",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00275"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (8409.70) aggregates two payments (3121.66 + 5288.04); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00268",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00279"
+      ],
+      "payment_id": "PAY-00268",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00276"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (8409.70) aggregates two payments (3121.66 + 5288.04); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00269",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00279"
+      ],
+      "payment_id": "PAY-00269",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00276"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (8409.13) aggregates two payments (1804.46 + 6604.67); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00270",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00280"
+      ],
+      "payment_id": "PAY-00270",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00277"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (8409.13) aggregates two payments (1804.46 + 6604.67); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00271",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00280"
+      ],
+      "payment_id": "PAY-00271",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00277"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (11131.40) aggregates two payments (7958.97 + 3172.43); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00272",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00281"
+      ],
+      "payment_id": "PAY-00272",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00278"
+      ]
+    }
+  },
+  {
+    "archetype": "aggregated_settlement",
+    "category": "aggregated_settlement",
+    "expected_action": "auto_resolve",
+    "is_adversarial": false,
+    "notes": "Settlement (11131.40) aggregates two payments (7958.97 + 3172.43); not linked via a single payment_id FK -- both must be matched to the same settlement.",
+    "order_id": "ORD-00273",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00281"
+      ],
+      "payment_id": "PAY-00273",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00278"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00274",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00282",
+        "BANKTXN-00283"
+      ],
+      "payment_id": "PAY-00274",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00279"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00275",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00284",
+        "BANKTXN-00285"
+      ],
+      "payment_id": "PAY-00275",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00280"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00276",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00286",
+        "BANKTXN-00287"
+      ],
+      "payment_id": "PAY-00276",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00281"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00277",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00288",
+        "BANKTXN-00289"
+      ],
+      "payment_id": "PAY-00277",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00282"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00278",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00290",
+        "BANKTXN-00291"
+      ],
+      "payment_id": "PAY-00278",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00283"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00279",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00292",
+        "BANKTXN-00293"
+      ],
+      "payment_id": "PAY-00279",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00284"
+      ]
+    }
+  },
+  {
+    "archetype": "reversed_transaction",
+    "category": "reversed_transaction",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement credited then reversed by an equal-amount debit; net position is zero and needs human confirmation of cause.",
+    "order_id": "ORD-00280",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00294",
+        "BANKTXN-00295"
+      ],
+      "payment_id": "PAY-00280",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00285"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": true,
+    "notes": "ADVERSARIAL variant of the ambiguous-match case: both candidates are plausible on amount alone; a system that only checks amount could pick either. Only Candidate B has a confirmed bank credit and merchant/reference consistency -- correct resolution requires weighing multiple signals, not just amount, and even then should not exceed human-review confidence.",
+    "order_id": "ORD-00281",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00296"
+      ],
+      "payment_id": "PAY-00281",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00286"
+      ],
+      "settlement_ids": [
+        "STL-00287"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00282",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00297"
+      ],
+      "payment_id": "PAY-00282",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00288"
+      ],
+      "settlement_ids": [
+        "STL-00289"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00283",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00298"
+      ],
+      "payment_id": "PAY-00283",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00290"
+      ],
+      "settlement_ids": [
+        "STL-00291"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00284",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00299"
+      ],
+      "payment_id": "PAY-00284",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00292"
+      ],
+      "settlement_ids": [
+        "STL-00293"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00285",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00300"
+      ],
+      "payment_id": "PAY-00285",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00294"
+      ],
+      "settlement_ids": [
+        "STL-00295"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00286",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00301"
+      ],
+      "payment_id": "PAY-00286",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00296"
+      ],
+      "settlement_ids": [
+        "STL-00297"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00287",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00302"
+      ],
+      "payment_id": "PAY-00287",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00298"
+      ],
+      "settlement_ids": [
+        "STL-00299"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00288",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00303"
+      ],
+      "payment_id": "PAY-00288",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00300"
+      ],
+      "settlement_ids": [
+        "STL-00301"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00289",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00304"
+      ],
+      "payment_id": "PAY-00289",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00302"
+      ],
+      "settlement_ids": [
+        "STL-00303"
+      ]
+    }
+  },
+  {
+    "archetype": "ambiguous_match",
+    "category": "ambiguous_match",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Two unlinked settlement candidates share the same amount. Candidate A: date differs by 4 days, reference unrelated, merchant mismatch. Candidate B: date differs by 1 day, reference closely resembles the canonical form, merchant matches, and has a confirmed bank credit -- B is the true match, but evidence is not overwhelming enough to clear the auto-resolve confidence threshold.",
+    "order_id": "ORD-00290",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00305"
+      ],
+      "payment_id": "PAY-00290",
+      "refund_ids": [],
+      "rejected_candidate_settlement_ids": [
+        "STL-00304"
+      ],
+      "settlement_ids": [
+        "STL-00305"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 3.75; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00291",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00306"
+      ],
+      "payment_id": "PAY-00291",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00306"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 5.99; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00292",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00307"
+      ],
+      "payment_id": "PAY-00292",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00307"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 5.46; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00293",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00308"
+      ],
+      "payment_id": "PAY-00293",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00308"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 8.02; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00294",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00309"
+      ],
+      "payment_id": "PAY-00294",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00309"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 3.25; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00295",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00310"
+      ],
+      "payment_id": "PAY-00295",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00310"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 7.42; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00296",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00311"
+      ],
+      "payment_id": "PAY-00296",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00311"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 5.96; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00297",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00312"
+      ],
+      "payment_id": "PAY-00297",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00312"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 4.79; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00298",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00313"
+      ],
+      "payment_id": "PAY-00298",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00313"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 5.64; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00299",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00314"
+      ],
+      "payment_id": "PAY-00299",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00314"
+      ]
+    }
+  },
+  {
+    "archetype": "unexplained_difference",
+    "category": "unexplained_difference",
+    "expected_action": "human_review",
+    "is_adversarial": false,
+    "notes": "Settlement's own net_amount doesn't reconcile against its stated fee/tax by 8.40; no fee rule, refund, or duplicate explains it.",
+    "order_id": "ORD-00300",
+    "true_matches": {
+      "bank_txn_ids": [
+        "BANKTXN-00315"
+      ],
+      "payment_id": "PAY-00300",
+      "refund_ids": [],
+      "settlement_ids": [
+        "STL-00315"
+      ]
+    }
+  }
+]
