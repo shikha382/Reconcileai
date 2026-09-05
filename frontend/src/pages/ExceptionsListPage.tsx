@@ -5,10 +5,11 @@ import { useState } from "react";
 import { useNavigate, Link } from "react-router-dom";
 import { api, ApiError } from "../api/client";
 import { DecisionBadge, RiskBadge } from "../components/Badges";
+import { PageHeader } from "../components/PageHeader";
 import { RunPicker } from "../components/RunPicker";
 import { EmptyState, ErrorState, LoadingState } from "../components/StatusStates";
 import { useRunContext } from "../context/RunContext";
-import { formatInr, titleCase } from "../lib/format";
+import { formatInr, titleCase, truncateId } from "../lib/format";
 import { useApi } from "../lib/useApi";
 
 const PAGE_SIZE = 25;
@@ -54,10 +55,12 @@ export function ExceptionsListPage() {
 
   return (
     <div className="page">
-      <div className="page__header">
-        <h1>Exceptions</h1>
-        <RunPicker runs={runs} />
-      </div>
+      <PageHeader
+        eyebrow="Evidence registry"
+        title="Reconciliation Records"
+        description="Inspect every evaluated record—including clean matches—and drill into its evidence, policy, and provenance."
+        actions={<RunPicker runs={runs} />}
+      />
 
       <form className="search-bar" role="search" onSubmit={runSearch}>
         <label htmlFor="exception-search" className="sr-only">
@@ -187,10 +190,10 @@ function ExceptionsTable({
               {items.map((item) => (
                 <tr key={item.exception_id}>
                   <td>
-                    <Link to={`/exceptions/${item.exception_id}`}>{item.exception_id}</Link>
+                    <Link to={`/exceptions/${item.exception_id}`} title={item.exception_id}>{truncateId(item.exception_id, 15)}</Link>
                   </td>
-                  <td>{item.order_id}</td>
-                  <td>{item.payment_id}</td>
+                  <td><span title={item.order_id}>{truncateId(item.order_id, 12)}</span></td>
+                  <td><span title={item.payment_id}>{truncateId(item.payment_id, 12)}</span></td>
                   <td>{titleCase(item.category)}</td>
                   <td className="num">{formatInr(item.financial_exposure)}</td>
                   <td>

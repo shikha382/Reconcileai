@@ -57,7 +57,7 @@ Live, per-run, ground-truth-compared (`GET /runs/{run_id}/safety-metrics`, `app.
 
 ## 11. Golden adversarial example
 
-The real ₹9.83 fee-mismatch case (expected settlement 7673.60, bank-confirmed 7663.77): AI proposes a card-fee explanation → deterministic verification finds the actual fee rule doesn't produce that residual → contradiction recorded → policy requires `HUMAN_REVIEW` via `POLICY-CONFLICT-001` → full audit trail. Reproduced this milestone via the full regression suite (`tests/audit/test_evaluation_m6.py`) and via the browser E2E smoke test (`frontend/e2e/smoke.spec.ts`).
+The synthetic ₹9.83 fee-mismatch case (expected settlement 7673.60, bank-confirmed 7663.77): AI proposes a card-fee explanation → deterministic verification finds the configured fee rule does not produce that residual → contradiction recorded → the BLOCK tier returns `REJECTED` via `POLICY-VERIFIER-FAIL-001` → no financial action, with a full audit trail. The policy result is asserted directly in `backend/tests/policy/test_resolution_service.py`.
 
 ## 12. Dataset description
 

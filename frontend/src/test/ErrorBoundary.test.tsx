@@ -6,7 +6,10 @@ import { RunProvider } from "../context/RunContext";
 import { RunsPage } from "../pages/RunsPage";
 import { installFetchMock } from "./fixtures";
 
-afterEach(() => vi.unstubAllGlobals());
+afterEach(() => {
+  vi.unstubAllGlobals();
+  vi.restoreAllMocks();
+});
 
 describe("malformed backend response handling", () => {
   it("shows a graceful fallback instead of a raw crash when a response is missing expected fields", async () => {

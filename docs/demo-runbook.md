@@ -37,13 +37,13 @@ npm run dev
 # open http://localhost:5173
 ```
 
-No internet access is required — the dataset is local (`data/synthetic/seeds`), and the AI provider used throughout is `MockAIProvider` (fully deterministic, zero network calls). This is stated plainly, not hidden: every demo screen that shows an "AI hypothesis" is showing a real, structured output from this deterministic mock provider, not a live LLM vendor call. See `docs/ai-controller.md`/`docs/ai-design.md` for the real-provider adapters (`GeminiProvider`/`OpenAICompatibleProvider`), which exist but are not exercised in this environment (no API key configured). The topbar's `DEMO · SYNTHETIC DATA` badge (and the System Health page's Data Sources table) make this explicit on every screen, not just here.
+After dependencies are installed, no internet access is required — the dataset is local (`data/synthetic/seeds`), and the AI provider used throughout is `MockAIProvider` (fully deterministic, zero network calls). This is stated plainly, not hidden: every demo screen that shows an "AI hypothesis" is showing a real, structured output from this deterministic mock provider, not a live LLM vendor call. See `docs/ai-controller.md`/`docs/ai-design.md` for the real-provider adapters (`GeminiProvider`/`OpenAICompatibleProvider`), which exist but are not exercised in this environment (no API key configured). The topbar's `DEMO · SYNTHETIC DATA` badge (and the System Health page's Data Sources table) make this explicit on every screen, not just here.
 
 **Milestone 16 finding, fixed:** a real bug was found while building this milestone's browser E2E smoke test — navigating (or refreshing) directly to `/runs`, `/health`, or `/exceptions` in a browser returned raw backend JSON instead of the React app, because Vite's dev-server proxy matched those paths as API prefixes even for full-page HTML navigations, not just `fetch()` calls. Fixed in `frontend/vite.config.ts` (a `bypass` check on the `Accept: text/html` header lets a real page load through to `index.html`; a real `fetch()` call, which never sends that header, still proxies normally). Confirmed fixed both via `curl -H "Accept: text/html"` and the full 14-step Playwright E2E test (`frontend/e2e/smoke.spec.ts`, `npm run test:e2e`) passing end-to-end, including a mid-demo page refresh.
 
 ### Demo reset (Phase 8)
 
-There is no "Reset Demo" button in the UI, and this was a deliberate choice, not an oversight: any such button would need a real mutation endpoint, and this project's own non-negotiable invariant (re-confirmed every milestone) is that no mutation endpoint exists anywhere in this API. The safest existing reset is a plain, local, non-mutating file operation:
+There is no "Reset Demo" button in the UI, and this was a deliberate choice, not an oversight: the public API has no financial-record mutation, force-resolve, refund, payout, or approval-bypass endpoint. The safest existing reset is an explicit local development operation that deletes only the demo SQLite file:
 
 ```bash
 # stop uvicorn (Ctrl+C), then:
@@ -60,13 +60,13 @@ Then click **Start reconciliation** on the Runs page again — a brand-new run a
 3. **Start frontend:** `cd frontend && npm run dev`, open `http://localhost:5173`.
 4. **Run/reset demo:** Runs page → **Start reconciliation** (or reset per above first, for a guaranteed-clean state).
 5. **Open dashboard:** Overview — "300 records processed," the hero **Unsafe Auto-Resolution Rate** metric, the full decision breakdown.
-6. **Select P0:** Work Queue → the visually-distinct top (P0) row, backend-ordered, never re-sorted client-side.
-7. **Open golden case:** click through to Exception Detail (see §6 below for how to recognize it if it isn't already on top).
+6. **Select the safe-block scenario:** Work Queue → set **Decision** to **Blocked**; the backend returns the rejected fee traps.
+7. **Open golden case:** open a `Fee Mismatch` row and confirm its unexplained residual is ₹9.83.
 8. **Explain AI hypothesis:** AI Investigation section — read the claim aloud, note the confidence is advisory only.
 9. **Show contradiction:** the dedicated contradiction callout — "actual fee rule does not explain the residual."
 10. **Show verification:** point out this is independent Decimal arithmetic, not a second AI opinion.
-11. **Show policy:** the named rule (`POLICY-CONFLICT-001`) and its reasons.
-12. **Show human-review decision:** the Final Decision badge — `HUMAN REVIEW`, plainly stated as the policy engine's decision, not the AI's.
+11. **Show policy:** the named BLOCK-tier rule (`POLICY-VERIFIER-FAIL-001`) and its reason.
+12. **Show blocked decision:** the Final Decision badge — `BLOCKED`, plainly stated as the policy engine's decision, not the AI's. Explain that no financial action or review request is created for this rejected proposal.
 13. **Show audit:** Audit & Provenance section — the real timeline and chain-validity confirmation.
 14. **Show competitive advantage:** open **Why ReconcileAI** (`/about`) — the cited M13 baseline table.
 15. **Show metrics:** back to Overview, or `docs/evaluation.md` for the full per-layer numbers.
@@ -75,7 +75,7 @@ Then click **Start reconciliation** on the Runs page again — a brand-new run a
 
 ## 6. Golden demo case
 
-The adversarial `fee_mismatch` record already named in M6/M10's own documentation: expected settlement value 7673.60, actual bank-confirmed value 7663.77, a **₹9.83** residual. The AI's fee-adjustment hypothesis is deterministically contradicted (the configured fee rule does not produce that residual), so the case reaches `HUMAN_REVIEW` via `POLICY-CONFLICT-001` — never auto-resolved. Because exception IDs are randomly generated per run, there is no fixed ID to search for; instead, in Work Queue, look for the top-priority (`P0`) item whose category is `fee_mismatch` and whose reason codes include `CONTRADICTORY_EVIDENCE`. This exact case was re-reproduced live during this milestone's own verification (see §12) — it is not a historical claim taken on faith.
+The adversarial `fee_mismatch` record already named in M6/M10's own documentation: expected settlement value 7673.60, actual bank-confirmed value 7663.77, a **₹9.83** residual. The AI's fee-adjustment hypothesis is deterministically contradicted (the configured fee rule does not produce that residual), so the BLOCK tier returns `REJECTED` via `POLICY-VERIFIER-FAIL-001` — never auto-resolved and with no downstream financial action. Because exception IDs are randomly generated per run, there is no fixed ID to search for. In Work Queue, set **Decision** to **Blocked**, then open a `Fee Mismatch` row and confirm the detail page shows an unexplained residual of ₹9.83. This exact case is synthetic and reproducible; it is not a real merchant transaction.
 
 ## 7. Metrics (re-measured 2026-08-29, this milestone)
 
@@ -95,7 +95,7 @@ The adversarial `fee_mismatch` record already named in M6/M10's own documentatio
 | Audit chain validity | Valid, 3,486 events | `verify_chain` | Every run of the real orchestrator |
 | Throughput | 300 records in ~3.9s (~77 records/sec) | Measured this milestone | MockAIProvider — **not production LLM latency** |
 | Backend regression | see §14 | pytest | Full suite |
-| Frontend regression | 14/14 passing | vitest | Full suite |
+| Frontend regression | 22/22 passing | vitest | Full suite |
 
 **All "100%"/"1.0000" figures above are on this project's own 300-record controlled evaluation dataset** — never claimed as a general production accuracy guarantee. See `docs/evaluation.md` for the full breakdown, including the distinction between matching correctness and decision safety (§13 there).
 

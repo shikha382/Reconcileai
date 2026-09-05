@@ -1,9 +1,10 @@
 import { useNavigate } from "react-router-dom";
 import { api } from "../api/client";
 import { StartRunPanel } from "../components/StartRunPanel";
+import { PageHeader } from "../components/PageHeader";
 import { EmptyState, ErrorState, LoadingState } from "../components/StatusStates";
 import { useRunContext } from "../context/RunContext";
-import { formatDateTime } from "../lib/format";
+import { formatDateTime, truncateId } from "../lib/format";
 import { useApi } from "../lib/useApi";
 import type { RunResponse } from "../api/types";
 
@@ -24,7 +25,7 @@ export function RunsPage() {
 
   return (
     <div className="page">
-      <h1>Runs</h1>
+      <PageHeader eyebrow="Execution" title="Reconciliation Runs" description="Launch the deterministic demo pipeline and inspect independently auditable run results." />
       <StartRunPanel onStarted={handleStarted} />
 
       {runsState.status === "loading" && <LoadingState label="Loading runs" />}
@@ -51,7 +52,7 @@ export function RunsPage() {
               {runsState.data.items.map((run) => (
                 <tr key={run.run_id}>
                   <td>
-                    <code>{run.run_id}</code>
+                    <code title={run.run_id}>{truncateId(run.run_id, 18)}</code>
                   </td>
                   <td>{formatDateTime(run.started_at)}</td>
                   <td>{formatDateTime(run.completed_at)}</td>

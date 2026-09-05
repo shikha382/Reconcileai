@@ -7,6 +7,7 @@ resulting `PipelineRunResult` into the public `RunResponse` DTO.
 from __future__ import annotations
 
 from pathlib import Path
+from threading import Lock
 
 from fastapi import APIRouter, Depends, status
 from sqlalchemy.orm import Session
@@ -24,6 +25,14 @@ from app.services.reconciliation_pipeline import PipelineRunResult, run_reconcil
 from app.services.safety_metrics import compute_safety_metrics
 
 router = APIRouter(tags=["runs"])
+
+# The audit ledger deliberately derives each hash-linked sequence number from
+# the previous committed event.  SQLite cannot make that read-then-append
+# operation safe across two simultaneous writers by itself, so the demo API
+# serializes its only write-heavy operation: starting a complete run.  This is
+# a process-local release safeguard for the documented single-process demo,
+# not a distributed lock or a production scalability claim.
+_run_execution_lock = Lock()
 
 
 def _to_run_response(result: PipelineRunResult) -> RunResponse:
@@ -73,8 +82,9 @@ def create_run(
     actor=Depends(require_capability(Capability.START_RECONCILIATION)),
 ) -> RunResponse:
     dataset_dir = _resolve_dataset_dir(body.dataset)
-    result = run_reconciliation_pipeline(session, dataset_dir, provider, ledger, approval_store)
-    registry.add(result)
+    with _run_execution_lock:
+        result = run_reconciliation_pipeline(session, dataset_dir, provider, ledger, approval_store)
+        registry.add(result)
     return _to_run_response(result)
 
 

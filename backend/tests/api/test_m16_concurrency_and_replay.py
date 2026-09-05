@@ -38,6 +38,27 @@ def test_repeated_post_runs_creates_independent_runs_not_corruption(api_client):
     assert ids == {first.json()["run_id"], second.json()["run_id"]}
 
 
+def test_concurrent_post_runs_are_serialized_without_audit_sequence_collision(api_client):
+    """Two callers may click Start at almost the same time.  Both requests
+    must complete as independent runs while the one process-local audit chain
+    remains contiguous and valid."""
+
+    def _start():
+        return api_client.post("/runs", json={"dataset": "seeds"})
+
+    with ThreadPoolExecutor(max_workers=2) as pool:
+        responses = list(pool.map(lambda _: _start(), range(2)))
+
+    assert [response.status_code for response in responses] == [201, 201]
+    run_ids = {response.json()["run_id"] for response in responses}
+    assert len(run_ids) == 2
+
+    for run_id in run_ids:
+        audit = api_client.get(f"/runs/{run_id}/audit")
+        assert audit.status_code == 200
+        assert audit.json()["chain_valid"] is True
+
+
 def test_concurrent_get_runs_list_returns_consistent_data(api_client_with_run):
     client, state = api_client_with_run
 
