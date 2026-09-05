@@ -36,12 +36,13 @@ All test-count badges above reflect a full local run against this exact reposito
 15. [Technology stack](#technology-stack)
 16. [Project structure](#project-structure)
 17. [Quick start](#quick-start)
-18. [Testing](#testing)
-19. [Demo](#demo)
-20. [Limitations / production-hardening boundary](#limitations--production-hardening-boundary)
-21. [Track 04 relevance](#track-04-relevance)
-22. [Documentation](#documentation)
-23. [Final positioning](#final-positioning)
+18. [Deployment](#deployment)
+19. [Testing](#testing)
+20. [Demo](#demo)
+21. [Limitations / production-hardening boundary](#limitations--production-hardening-boundary)
+22. [Track 04 relevance](#track-04-relevance)
+23. [Documentation](#documentation)
+24. [Final positioning](#final-positioning)
 
 ---
 
@@ -265,6 +266,20 @@ npm run dev -- --host 127.0.0.1
 
 Open `http://127.0.0.1:5173/`, go to **Runs**, and select **Start reconciliation**. After dependencies are installed, no internet access is required — the dataset is local (`data/synthetic/seeds`) and the AI provider is `MockAIProvider` (fully deterministic, zero network calls).
 
+## Deployment
+
+A `Dockerfile` and a Render Blueprint (`render.yaml`) are included at the repository root. Both describe a **single-origin** deployment: the frontend is built and served directly by the FastAPI backend (`backend/app/main.py` mounts `frontend/dist` when present, with a request-header check that tells a browser page-load apart from a real API call for the handful of paths — `/health`, `/runs`, `/exceptions`, `/sources` — that are both API routes and client-side routes). This was a deliberate, minimal architectural choice, not the only option: the frontend's API client (`frontend/src/api/client.ts`) only ever makes same-origin relative requests and has no configurable API base URL, so serving both from one origin needs no CORS configuration and no frontend build-time API URL, at the cost of not supporting a split frontend-host/backend-host deployment without further changes.
+
+```bash
+docker build -t reconcileai .
+docker run -p 8000:8000 reconcileai
+# open http://localhost:8000/
+```
+
+The image runs the same deterministic demo described throughout this README — `MockAIProvider`, the synthetic 300-record dataset, SQLite — and requires no credentials or environment variables to start. Setting `RAZORPAY_API_KEY`/`RAZORPAY_API_SECRET`/`PROVIDER_MODE=live` or a real `LLM_PROVIDER`/`LLM_API_KEY` is optional and untested against a live vendor in this project (see [Razorpay integration](#razorpay-integration) and [AI provider](#ai-provider)); no such credential is present anywhere in this repository.
+
+This Dockerfile/`render.yaml` pair has been verified by running the exact command Render's container will run (`uvicorn app.main:app --host 0.0.0.0 --port $PORT` against the built `frontend/dist`) locally, including the full Playwright judge-journey and ₹9.83 safety-case suite against that single-origin server — not by an actual `docker build` in this environment (no Docker daemon was available here) and not by an actual deployment to Render or any other host. **No public URL is claimed by this repository.** Deploying it publicly is a one-account-click action (connect the repo on [render.com](https://render.com), or any Docker-compatible host, and use this Blueprint) that requires a platform account this project does not have or claim to have exercised.
+
 ## Testing
 
 Commands as actually configured in this repository, and the exact counts confirmed by a full local run against this repository state on 2026-09-05:
@@ -314,7 +329,7 @@ Stated plainly, not hidden, and not framed as a failure — this is the document
 - SQLite and in-memory registries — a demo-scale architecture, not a production deployment.
 - `RunRegistry` and the approval workflow are in-memory and process-lifetime only; no persisted human-review workflow exists over HTTP.
 - Run creation is intentionally serialized by a process-local lock so simultaneous demo starts cannot race the single SQLite audit hash chain — correct for this documented single-process demo, not a distributed-worker scalability claim.
-- No deployment, monitoring, backup, or disaster-recovery infrastructure exists.
+- A `Dockerfile`/`render.yaml` deployment configuration exists (see [Deployment](#deployment)), verified by running its exact startup command locally — it has not been deployed to any public host from this project, and no public URL is claimed. No monitoring, backup, or disaster-recovery infrastructure exists.
 - The system is **not** claimed to be production-ready.
 
 Full detail, area-by-area (configuration, secrets, rate limits, observability, data retention, deployment, backups, DR): [`docs/production-readiness.md`](docs/production-readiness.md).
