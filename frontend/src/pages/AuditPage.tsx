@@ -4,6 +4,7 @@
 import { useState } from "react";
 import { api } from "../api/client";
 import { RunPicker } from "../components/RunPicker";
+import { PageHeader } from "../components/PageHeader";
 import { EmptyState, ErrorState, LoadingState } from "../components/StatusStates";
 import { useRunContext } from "../context/RunContext";
 import { formatDateTime, titleCase } from "../lib/format";
@@ -25,10 +26,12 @@ export function AuditPage() {
 
   return (
     <div className="page">
-      <div className="page__header">
-        <h1>Audit</h1>
-        <RunPicker runs={runs} />
-      </div>
+      <PageHeader
+        eyebrow="Decision provenance"
+        title="Audit Trail"
+        description="A read-only, tamper-evident timeline of evidence, verification, policy, and final outcomes."
+        actions={<RunPicker runs={runs} />}
+      />
       {!activeRunId && <EmptyState title="No run selected" hint="Start or select a reconciliation run to see its audit trail." />}
       {activeRunId && <AuditForRun runId={activeRunId} eventTypeFilter={eventTypeFilter} setEventTypeFilter={setEventTypeFilter} page={page} setPage={setPage} />}
     </div>
@@ -63,7 +66,7 @@ function AuditForRun({
 
   return (
     <>
-      <section className="card" aria-label="Audit chain status">
+      <section className={`card audit-status ${status.chain_valid ? "audit-status--valid" : "audit-status--invalid"}`} aria-label="Audit chain status">
         <div className="financial-grid">
           <div>
             <span className="label">Chain Validity</span>
@@ -137,7 +140,7 @@ function AuditForRun({
                     {titleCase(event.entity_type)} {event.entity_id}
                   </td>
                   <td>
-                    <code>{event.correlation_id}</code>
+                    <code title={event.correlation_id}>{event.correlation_id.slice(0, 12)}…</code>
                   </td>
                   <td>
                     <details>

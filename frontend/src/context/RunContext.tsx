@@ -3,7 +3,7 @@
 // not a second source of truth -- every screen still re-fetches the real
 // run/exception/queue data for whatever run_id is selected here; nothing is
 // cached as if it were authoritative.
-import { createContext, useContext, useMemo, useState, type ReactNode } from "react";
+import { createContext, useCallback, useContext, useMemo, useState, type ReactNode } from "react";
 
 const STORAGE_KEY = "reconcileai.currentRunId";
 
@@ -23,7 +23,7 @@ export function RunProvider({ children }: { children: ReactNode }) {
     }
   });
 
-  const setCurrentRunId = (runId: string | null) => {
+  const setCurrentRunId = useCallback((runId: string | null) => {
     setCurrentRunIdState(runId);
     try {
       if (runId) localStorage.setItem(STORAGE_KEY, runId);
@@ -31,9 +31,9 @@ export function RunProvider({ children }: { children: ReactNode }) {
     } catch {
       // Private-mode/blocked storage -- the in-memory state above still works for this session.
     }
-  };
+  }, []);
 
-  const value = useMemo(() => ({ currentRunId, setCurrentRunId }), [currentRunId]);
+  const value = useMemo(() => ({ currentRunId, setCurrentRunId }), [currentRunId, setCurrentRunId]);
 
   return <RunContext.Provider value={value}>{children}</RunContext.Provider>;
 }

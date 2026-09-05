@@ -20,7 +20,7 @@ describe("AboutPage", () => {
     expect(screen.getByText("0.0000% unsafe auto-resolution rate")).toBeInTheDocument();
 
     expect(screen.getByText("Security")).toBeInTheDocument();
-    expect(screen.getByText(/No financial mutation endpoint exists/)).toBeInTheDocument();
+    expect(screen.getByText(/No financial-record mutation/)).toBeInTheDocument();
   });
 
   it("never renders a mutation control", () => {

@@ -100,7 +100,7 @@ cd frontend && npm install && npm run dev
 
 ## Demo flow (Phase 27) and golden case (Phase 28)
 
-The demo dataset is the same fixed-seed, 300-record `data/synthetic/seeds` used throughout M1–M11 — nothing was changed to make the demo "look better." The strongest existing case remains the adversarial `fee_mismatch` record already named in M6/M10's own documentation (a real ₹9.83 residual: expected 7673.60, observed 7663.77) — it reaches `HUMAN_REVIEW` because the AI's fee-adjustment hypothesis is deterministically contradicted. In the running UI: Overview → Work Queue (sorted P0-first, real backend order) → click the top item → Exception Detail shows AI Investigation → Deterministic Verification (CONTRADICTED) → Policy (`POLICY-CONFLICT-001`) → Human Review → Audit & Provenance (the real, verifiable chain).
+The demo dataset is the same fixed-seed, 300-record `data/synthetic/seeds` used throughout M1–M11 — nothing was changed to make the demo "look better." The strongest existing case remains the adversarial `fee_mismatch` record already named in M6/M10's own documentation (a synthetic ₹9.83 residual: expected 7673.60, observed 7663.77). It reaches `REJECTED` because the AI's fee-adjustment hypothesis is deterministically contradicted. In the running UI: Overview → Work Queue (filter Blocked + `fee_mismatch`) → Exception Detail shows AI Investigation → Deterministic Verification (CONTRADICTED) → Policy (`POLICY-VERIFIER-FAIL-001`) → Blocked/no action → Audit & Provenance (the real, verifiable chain).
 
 ## Testing (Phase 30)
 

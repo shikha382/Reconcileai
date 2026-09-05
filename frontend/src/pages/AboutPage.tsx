@@ -5,6 +5,7 @@
 // it were static, and never a number invented for this page.
 import { Link } from "react-router-dom";
 import { AiAuthorityDiagram } from "../components/AiAuthorityDiagram";
+import { PageHeader } from "../components/PageHeader";
 
 const PIPELINE_STAGES = [
   "Sources", "Provider Adapters", "Validation + Normalization", "Deterministic Reconciliation",
@@ -15,11 +16,11 @@ const PIPELINE_STAGES = [
 export function AboutPage() {
   return (
     <div className="page">
-      <h1>Why ReconcileAI Is Different</h1>
-      <p className="muted">
-        An explainable multi-source settlement reconciliation agent that investigates financial exceptions but cannot
-        override the verification and policy controls that decide the outcome.
-      </p>
+      <PageHeader
+        eyebrow="Product thesis"
+        title="Why ReconcileAI Is Different"
+        description="AI investigates financial exceptions; independent verification and deterministic policy retain decision authority."
+      />
 
       <section className="card" aria-label="AI is not the decision authority">
         <h2>AI Proposes. Policy Decides. Audit Remembers.</h2>
@@ -70,10 +71,10 @@ export function AboutPage() {
                 </td>
               </tr>
               <tr>
-                <td>LLM-only recommendation, no deterministic authority</td>
+                <td>Mock-AI direct-trust proxy</td>
                 <td className="num">—</td>
                 <td className="num">—</td>
-                <td>No independent verification — trusts the model's own self-report</td>
+                <td>0 direct auto-resolve recommendations; no measured lift or unsafe rate</td>
               </tr>
               <tr>
                 <td>
@@ -103,7 +104,7 @@ export function AboutPage() {
         </ol>
         <p className="muted">
           <strong>AI</strong> is the investigation layer only. <strong>Policy</strong> is the sole decision authority.{" "}
-          <strong>Audit</strong> is the immutable evidence/provenance layer. See <code>docs/architecture.md</code> for the full
+          <strong>Audit</strong> is the tamper-evident evidence/provenance layer. See <code>docs/architecture.md</code> for the full
           per-milestone breakdown.
         </p>
       </section>
@@ -111,9 +112,8 @@ export function AboutPage() {
       <section className="card" aria-label="Security story">
         <h2>Security</h2>
         <ul className="plain-list">
-          <li>No financial mutation endpoint exists anywhere in this API (verified directly, not merely by convention).</li>
+          <li>No financial-record mutation, force-resolve, refund, payout, or approval-bypass endpoint exists.</li>
           <li>The AI actor cannot start a reconciliation run and cannot override a policy decision.</li>
-          <li>No force-resolve or approval-bypass endpoint exists anywhere.</li>
           <li>Every API error uses one structured contract — never a stack trace, a secret, or an internal path.</li>
           <li>No secret (API key, database credential) is ever logged, returned, or sent to the frontend.</li>
           <li>Audit-ledger tampering is detected — 8+ tamper types tested directly.</li>

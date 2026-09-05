@@ -5,10 +5,11 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { api } from "../api/client";
 import { PriorityBadge, RiskBadge, SlaBadge, DecisionBadge } from "../components/Badges";
+import { PageHeader } from "../components/PageHeader";
 import { RunPicker } from "../components/RunPicker";
 import { EmptyState, ErrorState, LoadingState } from "../components/StatusStates";
 import { useRunContext } from "../context/RunContext";
-import { formatInr, titleCase } from "../lib/format";
+import { formatInr, titleCase, truncateId } from "../lib/format";
 import { useApi } from "../lib/useApi";
 
 const PRIORITIES = ["P0", "P1", "P2", "P3"];
@@ -34,10 +35,12 @@ export function WorkQueuePage() {
 
   return (
     <div className="page">
-      <div className="page__header">
-        <h1>Work Queue</h1>
-        <RunPicker runs={runs} />
-      </div>
+      <PageHeader
+        eyebrow="Operations"
+        title="Work Queue"
+        description="Backend-ranked records ordered by priority, exposure, and age—never re-ranked in the browser."
+        actions={<RunPicker runs={runs} />}
+      />
 
       {!activeRunId && <EmptyState title="No run selected" hint="Start or select a reconciliation run to see its work queue." />}
       {activeRunId && (
@@ -160,9 +163,11 @@ function QueueTable({ runId, filters, onFilterChange }: { runId: string; filters
         </label>
       </div>
 
-      <p className="muted">
-        {summary.total} exceptions — {summary.counts_by_priority["P0"] ?? 0} critical, total exposure {formatInr(summary.total_financial_exposure)}
-      </p>
+      <div className="queue-summary" aria-label="Queue summary">
+        <span><strong>{summary.total}</strong> evaluated</span>
+        <span><strong>{summary.counts_by_priority["P0"] ?? 0}</strong> P0 critical</span>
+        <span><strong>{formatInr(summary.total_financial_exposure)}</strong> gross exposure</span>
+      </div>
 
       {items.length === 0 ? (
         <EmptyState title="No exceptions match these filters" />
@@ -191,7 +196,7 @@ function QueueTable({ runId, filters, onFilterChange }: { runId: string; filters
                   </td>
                   <td>
                     <Link to={`/exceptions/${item.exception_id}`} state={{ priorityItem: item }}>
-                      {item.exception_id}
+                      <span title={item.exception_id}>{truncateId(item.exception_id, 15)}</span>
                     </Link>
                   </td>
                   <td>{titleCase(item.exception_category)}</td>
@@ -204,13 +209,18 @@ function QueueTable({ runId, filters, onFilterChange }: { runId: string; filters
                   </td>
                   <td className="num">{item.age_days}d</td>
                   <td>
-                    <ul className="reason-list">
-                      {item.reason_codes.map((code) => (
-                        <li key={code}>{titleCase(code)}</li>
+                    <div className="reason-chips">
+                      {item.reason_codes.slice(0, 3).map((code) => (
+                        <span className="reason-chip" key={code}>{titleCase(code)}</span>
                       ))}
-                    </ul>
+                      {item.reason_codes.length > 3 && (
+                        <span className="reason-chip reason-chip--more" title={item.reason_codes.slice(3).map(titleCase).join(", ")}>
+                          +{item.reason_codes.length - 3} more
+                        </span>
+                      )}
+                    </div>
                   </td>
-                  <td>{titleCase(item.recommended_action)}</td>
+                  <td className="recommended-action">{titleCase(item.recommended_action)}</td>
                   <td>
                     <DecisionBadge decision={item.decision_status} />
                   </td>

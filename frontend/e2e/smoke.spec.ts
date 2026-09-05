@@ -48,7 +48,7 @@ test("the 14-step judge demo journey works end-to-end in a real browser", async 
 
   // 12. Open Audit page.
   await page.goto("/audit");
-  await expect(page.getByRole("heading", { name: "Audit" })).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Audit Trail", exact: true })).toBeVisible();
 
   // 13. Open About and confirm the competitive baseline numbers.
   await page.goto("/about");
@@ -61,4 +61,23 @@ test("the 14-step judge demo journey works end-to-end in a real browser", async 
     const text = (await button.textContent())?.toLowerCase() ?? "";
     expect(text).not.toMatch(/force.?resolve|force.?approve|override|delete|mutate/);
   }
+});
+
+test("the synthetic ₹9.83 fee trap is rejected by policy with no financial action", async ({ page }) => {
+  await page.goto("/runs");
+  await page.getByRole("button", { name: "Start reconciliation" }).click();
+  await expect(page.getByRole("table")).toBeVisible({ timeout: 20_000 });
+
+  await page.goto("/work-queue");
+  await page.getByLabel("Decision").selectOption("REJECTED");
+  const blockedFeeRow = page.locator("tbody tr").filter({ hasText: "Fee Mismatch" }).first();
+  await expect(blockedFeeRow).toBeVisible({ timeout: 15_000 });
+  await blockedFeeRow.getByRole("link").click();
+
+  await expect(page.getByText("Unexplained Residual", { exact: true })).toBeVisible({ timeout: 15_000 });
+  await expect(page.getByText("₹9.83", { exact: true }).first()).toBeVisible();
+  await expect(page.getByText(/actively disproven by deterministic verification/i)).toBeVisible();
+  await expect(page.getByRole("heading", { name: "Final Decision" })).toBeVisible();
+  await expect(page.locator(".decision-flow__final")).toContainText("Blocked");
+  await expect(page.getByText(/Review .*state/i)).toHaveCount(0);
 });

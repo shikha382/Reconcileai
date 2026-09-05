@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import type { RunResponse } from "../api/types";
 import { formatDateTime } from "../lib/format";
@@ -6,6 +7,14 @@ import { useRunContext } from "../context/RunContext";
 export function RunPicker({ runs }: { runs: RunResponse[] }) {
   const { currentRunId, setCurrentRunId } = useRunContext();
   const navigate = useNavigate();
+
+  const selectedRunId = currentRunId && runs.some((run) => run.run_id === currentRunId)
+    ? currentRunId
+    : runs[0]?.run_id ?? null;
+
+  useEffect(() => {
+    if (selectedRunId && selectedRunId !== currentRunId) setCurrentRunId(selectedRunId);
+  }, [currentRunId, selectedRunId, setCurrentRunId]);
 
   if (runs.length === 0) {
     return (
@@ -23,7 +32,7 @@ export function RunPicker({ runs }: { runs: RunResponse[] }) {
       <label htmlFor="run-picker-select">Run</label>
       <select
         id="run-picker-select"
-        value={currentRunId ?? ""}
+        value={selectedRunId ?? ""}
         onChange={(e) => setCurrentRunId(e.target.value || null)}
       >
         <option value="" disabled>

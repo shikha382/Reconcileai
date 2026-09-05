@@ -26,7 +26,7 @@ Two columns: "AI investigates" (root-cause hypothesis for the ~25% residual) vs.
 The AI Authority diagram (already built in the product, `frontend/src/components/AiAuthorityDiagram.tsx`) — reuse the actual in-product visual rather than redrawing it, for consistency between deck and demo. State the 0.0000% unsafe auto-resolution rate here, sourced to `docs/final-validation.md` §10.
 
 **Slide 8 — Demo**
-A single screenshot of the ₹9.83 golden case's Exception Detail page (real, not mocked up) with an arrow pointing at the contradiction callout. This slide exists to anchor the live demo, not replace it — keep text to a caption only.
+A single screenshot of the synthetic ₹9.83 golden case's Exception Detail page (captured from the running product, not mocked up) with an arrow pointing at the contradiction and BLOCK-tier outcome. This slide exists to anchor the live demo, not replace it — keep text to a caption only.
 
 **Slide 9 — Results**
 The real 300-record distribution (219/67/2/12) and the competitive baseline table from `docs/final-validation.md` §9, re-verified fresh in `docs/final-winning-audit.md` §7 this session. This is a numbers slide — do not decorate it with unrelated icons or animation.

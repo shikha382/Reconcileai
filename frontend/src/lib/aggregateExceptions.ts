@@ -28,7 +28,7 @@ export interface CategoryCount {
 export function countByCategory(items: ExceptionListItem[]): CategoryCount[] {
   const counts = new Map<string, number>();
   for (const item of items) {
-    const key = item.category ?? "uncategorized";
+    const key = item.category ?? "clean / exact match";
     counts.set(key, (counts.get(key) ?? 0) + 1);
   }
   return Array.from(counts.entries())

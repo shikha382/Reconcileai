@@ -42,6 +42,8 @@ describe("ExceptionDetailPage", () => {
 
     // Final decision is visible and unambiguous.
     expect(screen.getByText("Final Decision")).toBeInTheDocument();
+    expect(screen.getAllByText("Blocked").length).toBeGreaterThan(0);
+    expect(screen.getByText(/actively disproven/i)).toBeInTheDocument();
   });
 
   it("never renders a financial mutation control", async () => {

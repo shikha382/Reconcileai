@@ -7,6 +7,7 @@
 // fixture-mode adapter is always shown honestly as SYNTHETIC DATA.
 import { api } from "../api/client";
 import { ErrorState, LoadingState } from "../components/StatusStates";
+import { PageHeader } from "../components/PageHeader";
 import { useApi } from "../lib/useApi";
 
 const MODE_TONE: Record<string, string> = {
@@ -22,7 +23,7 @@ export function HealthPage() {
 
   return (
     <div className="page">
-      <h1>System Health</h1>
+      <PageHeader eyebrow="Runtime visibility" title="System Health" description="Credential-safe status for the API and every configured data source." />
       {healthState.status === "loading" && <LoadingState label="Checking API" />}
       {healthState.status === "error" && <ErrorState error={healthState.error} onRetry={healthState.reload} />}
       {healthState.status === "ready" && (

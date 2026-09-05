@@ -8,11 +8,11 @@ A tight, timed walkthrough for a judge session. Everything shown is the real run
 
 ## 0:20–0:45 — Dashboard
 
-Open **Overview**. Point at the top of the screen: **"300 records processed."** Then the hero metric: **"Unsafe Auto-Resolution Rate: 0.00%"** — read live from the API, compared against real ground truth, not a slide. Then the breakdown: 219 auto-resolved, 67 human review, 2 blocked, 12 unresolved.
+Open **Overview**. Point at the top of the screen: **"300 records processed."** Then the hero metric: **"Unsafe Auto-Resolution Rate: 0.00%"** — read live from the API, compared against the run's synthetic ground truth, not a slide. Then the breakdown: 219 auto-resolved, 67 human review, 2 blocked, 12 unresolved.
 
 ## 0:45–1:10 — High-risk exception
 
-Open **Work Queue**. Point at the P0 row — visually distinct (red-bordered), not relying on color alone (the "P0" text and badge are both present). Click it.
+Open **Work Queue**. Set the **Decision** filter to **Blocked**, then open a `Fee Mismatch` row. Confirm the detail page shows the synthetic ₹9.83 unexplained residual.
 
 ## 1:10–1:45 — AI investigation
 
@@ -24,7 +24,7 @@ Point at the contradiction callout: **"Actual fee rule does not explain the resi
 
 ## 2:10–2:30 — Policy decision
 
-Scroll to **Policy**: name the rule (`POLICY-CONFLICT-001`), then **Final Decision: HUMAN REVIEW**. Say: **"The policy engine decided this — not the AI."**
+Scroll to **Policy**: name the BLOCK-tier rule (`POLICY-VERIFIER-FAIL-001`), then **Final Decision: BLOCKED**. Say: **"The policy engine rejected the disproven proposal — not the AI. No financial action or review request was created."**
 
 ## 2:30–2:45 — Audit/provenance
 

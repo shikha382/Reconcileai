@@ -792,6 +792,31 @@ Date: 2026-08-29
 DO NOT FORGET
 ==================================================
 
+Release-hardening correction (2026-09-04): current code and policy tests are
+authoritative for the adversarial ₹9.83 fee-mismatch case. A contradicted
+verifier status fires BLOCK-tier `POLICY-VERIFIER-FAIL-001`, producing
+`REJECTED`/no action; it does not produce `HUMAN_REVIEW` or a review request.
+Earlier milestone prose that described this exact case as
+`POLICY-CONFLICT-001` → `HUMAN_REVIEW` is superseded by this correction. The
+case and all financial outcomes are synthetic. Baseline D is a
+MockAIProvider proxy that recommended zero direct auto-resolutions, so no
+live-model effectiveness or AI-driven accuracy lift is claimed.
+
+Release-hardening verification (2026-09-04): the premium responsive UI and
+the corrected ₹9.83 browser journey pass 22/22 Vitest tests and 2/2 real
+Playwright end-to-end tests. The backend passes 862/862 tests.
+These counts describe the current release-hardening branch; older milestone
+entries retain their historical test totals.
+
+Release-hardening concurrency correction (2026-09-04): runtime verification
+reproduced a real concurrent `POST /runs` race in which two SQLite writers
+derived the same next audit sequence. The API's only write-heavy operation is
+now protected by one process-local run-execution lock, preserving both
+independent runs and one contiguous hash chain. A genuine two-thread API test
+proves both requests return 201 and both audit views report a valid chain.
+This is a single-process demo safeguard, not a distributed-lock or production
+scalability claim.
+
 This is a hackathon project.
 
 A smaller correct system beats a giant incomplete system.

@@ -7,11 +7,12 @@ import { useNavigate } from "react-router-dom";
 import { api } from "../api/client";
 import { BarChart } from "../components/BarChart";
 import { MetricCard } from "../components/MetricCard";
+import { PageHeader } from "../components/PageHeader";
 import { RunPicker } from "../components/RunPicker";
 import { EmptyState, ErrorState, LoadingState } from "../components/StatusStates";
 import { useRunContext } from "../context/RunContext";
 import { countByCategory, fetchAllExceptionsForRun } from "../lib/aggregateExceptions";
-import { formatInr } from "../lib/format";
+import { formatInr, titleCase, truncateId } from "../lib/format";
 import { useApi } from "../lib/useApi";
 import type { QueueSummary, RunResponse } from "../api/types";
 
@@ -29,7 +30,7 @@ export function OverviewPage() {
   if (!activeRunId) {
     return (
       <div className="page">
-        <h1>Overview</h1>
+        <PageHeader eyebrow="Control center" title="Overview" description="A live, evidence-backed view of reconciliation safety, outcomes, and operational exposure." />
         <EmptyState title="No reconciliation runs yet" hint="Start one from the Runs page to see live metrics here." />
         <button type="button" className="btn btn--primary" onClick={() => navigate("/runs")}>
           Go to Runs
@@ -73,10 +74,12 @@ function OverviewForRun({ runId, runs }: { runId: string; runs: RunResponse[] })
 
   return (
     <div className="page">
-      <div className="page__header">
-        <h1>Overview</h1>
-        <RunPicker runs={runs} />
-      </div>
+      <PageHeader
+        eyebrow="Control center"
+        title="Overview"
+        description="A live, evidence-backed view of reconciliation safety, outcomes, and operational exposure."
+        actions={<RunPicker runs={runs} />}
+      />
 
       <section aria-label="Safety" className="hero-metric-wrap">
         {safetyState.status === "ready" && safetyState.data.available && (
@@ -85,7 +88,7 @@ function OverviewForRun({ runId, runs }: { runId: string; runs: RunResponse[] })
             <span className="hero-metric__value">{(safetyState.data.false_auto_resolution_rate * 100).toFixed(2)}%</span>
             <span className="hero-metric__hint">
               {safetyState.data.false_auto_resolutions} of {safetyState.data.graded} graded exceptions incorrectly auto-resolved — the single most
-              important safety number in this system, measured against real ground truth, never hardcoded.
+              important safety number in this system, measured against the run's synthetic ground truth, never hardcoded.
             </span>
           </div>
         )}
@@ -115,25 +118,33 @@ function OverviewForRun({ runId, runs }: { runId: string; runs: RunResponse[] })
         </div>
       </section>
 
-      <section aria-label="Financial impact" className="card">
-        <h2>Financial Impact</h2>
+      <div className="overview-grid">
+      <section aria-label="Financial impact" className="card card--feature">
+        <div className="section-heading">
+          <div><span className="section-heading__eyebrow">Portfolio view</span><h2>Financial Impact</h2></div>
+          <span className="section-heading__meta">Synthetic evaluation</span>
+        </div>
         <div className="financial-grid">
-          <MetricCard label="Total Exposure Requiring Attention" value={formatInr(summary.total_financial_exposure)} tone="warning" />
-          <MetricCard label="Highest Single Exposure" value={summary.highest_exposure_exception_id ?? "—"} hint="Exception ID" />
-          <MetricCard label="SLA Breached" value={summary.sla_breached_count} tone="danger" />
-          <MetricCard label="SLA At Risk" value={summary.sla_at_risk_count} tone="warning" />
+          <MetricCard label="Gross Exposure Evaluated" value={formatInr(summary.total_financial_exposure)} tone="warning" hint="All evaluated records, including resolved items" />
+          <MetricCard label="Highest Single Exposure" value={summary.highest_exposure_exception_id ? truncateId(summary.highest_exposure_exception_id, 15) : "—"} hint={summary.highest_exposure_exception_id ?? "Exception ID"} />
+          <MetricCard label="Age Threshold Exceeded" value={summary.sla_breached_count} tone="danger" hint="All evaluated records; not open cases only" />
+          <MetricCard label="Age Threshold At Risk" value={summary.sla_at_risk_count} tone="warning" hint="All evaluated records; not open cases only" />
           <MetricCard label="P0 Critical Exceptions" value={summary.counts_by_priority["P0"] ?? 0} tone="danger" />
-          <MetricCard label="Most Common Category" value={summary.most_common_category ?? "—"} />
+          <MetricCard label="Most Common Category" value={titleCase(summary.most_common_category)} />
         </div>
       </section>
 
-      <section aria-label="Exception health" className="card">
-        <h2>Exception Health</h2>
-        <p className="muted">Distribution of exception categories across this run's {run.exceptions} exceptions.</p>
+      <section aria-label="Reconciliation outcome mix" className="card card--feature">
+        <div className="section-heading">
+          <div><span className="section-heading__eyebrow">Data quality</span><h2>Reconciliation Outcome Mix</h2></div>
+          <span className="section-heading__meta">{run.records_processed} records</span>
+        </div>
+        <p className="muted">Classification mix across all evaluated records. Clean exact matches are labelled explicitly.</p>
         {categoriesError && <p className="state-panel state-panel--error">{categoriesError}</p>}
         {!categoriesError && categories === null && <LoadingState label="Loading category breakdown" />}
         {!categoriesError && categories !== null && <BarChart data={categories.map((c) => ({ label: c.category, value: c.count }))} caption="Exception count by category" />}
       </section>
+      </div>
     </div>
   );
 }
