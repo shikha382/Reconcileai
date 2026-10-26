@@ -1,0 +1,1167 @@
+{
+  "timestamp": "2026-10-26T13:41:24.965306+00:00",
+  "model": "granite4:3b",
+  "commit": "daa56af06a539b653477ae96db9e4844cf39b086",
+  "working_tree": "uncommitted Granite implementation",
+  "hardware": "macOS-26.5.2-arm64-arm-64bit",
+  "configuration": {
+    "context": 2048,
+    "output_limit": 256,
+    "temperature": 0,
+    "keep_alive": "60s"
+  },
+  "rows": [
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "This exception concerns fee mismatch. Expected: INR 7842.54; observed: INR 7663.77; unexplained residual: INR 9.83. Verification: CONTRADICTED. The existing policy decision remains REJECTED. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 9343,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 3399
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected fee amount was 7842.54 INR, but the observed amount was 7663.77 INR. The residual difference was 9.83 INR. The reconciliation was contradicted by the verification process. The decision is rejected.\", \"decision\": \"REJECTED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "28390.21",
+        "observed": "28390.21",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "This exception concerns clean match. Expected: INR 28390.21; observed: INR 28390.21; unexplained residual: INR 0.00. Verification: NOT_NEEDED. The existing policy decision remains SAFE_TO_RESOLVE. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 4643,
+        "snapshot_fingerprint": "ba704efcc2e4f3e568bbea789ebe70784e41acf48813a0a17a04f046f2dfa136",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 11
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 28390.21, resulting in a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 1,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "13276.80",
+        "observed": "0.00",
+        "residual": "13276.80",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 5737,
+        "snapshot_fingerprint": "54f3307a4753e5db4be7f1d32274287c0ee99c5717b22da4d8ac71e12babdfaa",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.\", \"decision\": \"UNRESOLVED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 1,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "39112.77",
+        "observed": "0.00",
+        "residual": "39112.77",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns ambiguous match. Expected: INR 39112.77; observed: INR 0.00; unexplained residual: INR 39112.77. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 5972,
+        "snapshot_fingerprint": "3cbdb349097c6ff2ea87dba94eb40ca9a96c9934f87ff011cce1071883f36da8",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 39112.77 INR, but the observed amount is 0.00 INR. The residual amount is 39112.77 INR. The reconciliation verification was contradicted. The decision requires human review due to policy ambiguities, conflicts, and category issues.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 1,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "21654.62",
+        "observed": "21654.62",
+        "residual": "21654.62",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns duplicate. Expected: INR 21654.62; observed: INR 21654.62; unexplained residual: INR 21654.62. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 5334,
+        "snapshot_fingerprint": "9a3ab45e4e5245600651e72fefa60f3c9c434fc6ab78363c80c5a43cdafd61ec",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR category are equal at 21654.62. Verification of the amounts contradicted the policy codes POLICY-AMBIG-001, POLICY-CONFLICT-001, and POLICY-CATEGORY-001. A human review is required due to the contradictions in the policy codes.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 1,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "17395.81",
+        "observed": "9567.70",
+        "residual": "7828.11",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns partial settlement. Expected: INR 17395.81; observed: INR 9567.70; unexplained residual: INR 7828.11. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 5552,
+        "snapshot_fingerprint": "79a450f4253706d4fce6f3cb6fa32db48ffe05c9c4bd483b300c595c1893ccb4",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 17395.81 INR, but the observed amount is 9567.70 INR. The residual amount is 7828.11 INR. The reconciliation verification was contradicted, indicating issues with policy conflicts, category, or unclear reasons. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 1,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "46775.99",
+        "observed": "47711.51",
+        "residual": "935.52",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns over settlement. Expected: INR 46775.99; observed: INR 47711.51; unexplained residual: INR 935.52. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 5422,
+        "snapshot_fingerprint": "a3bbaec25784917d3a598ade16930ab6ee1e1ab76f522bfcc2f879cb0d987731",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 46775.99 INR, but the observed amount is 47711.51 INR. This results in a residual of 935.52 INR. The reconciliation was contradicted during verification, indicating a policy conflict or unresolved issue. A human review is required to resolve this discrepancy.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 1,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "30661.23",
+        "observed": "28821.56",
+        "residual": "1839.67",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns under settlement. Expected: INR 30661.23; observed: INR 28821.56; unexplained residual: INR 1839.67. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 5100,
+        "snapshot_fingerprint": "3a0b77bee94c10b41c6f40416838fc0638c14bf24eb848744cff49d930cc8ab1",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 29
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 30661.23 INR, but the observed amount is 28821.56 INR. There is a residual of 1839.67 INR. The reconciliation verification was contradicted, indicating a policy conflict or unresolved issue. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 1,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4173.38",
+        "observed": "4173.38",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4045,
+        "snapshot_fingerprint": "cc0817da309159de11cd672ed96c494681ce66ae1dcbdfac1095a0960bdcd3fb",
+        "fallback_reason": null,
+        "load_ms": 20
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 1,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "30307.73",
+        "observed": "30307.73",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4434,
+        "snapshot_fingerprint": "bb69f106e6711759f69de02600482a2a2af701cc7b15dce7fdaf95ff1d3f4e30",
+        "fallback_reason": null,
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 2,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "This exception concerns fee mismatch. Expected: INR 7842.54; observed: INR 7663.77; unexplained residual: INR 9.83. Verification: CONTRADICTED. The existing policy decision remains REJECTED. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 4424,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected fee amount was 7842.54 INR, but the observed amount was 7663.77 INR. The residual difference was 9.83 INR. The reconciliation was contradicted by the verification process. The decision is rejected.\", \"decision\": \"REJECTED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 2,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "28390.21",
+        "observed": "28390.21",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "This exception concerns clean match. Expected: INR 28390.21; observed: INR 28390.21; unexplained residual: INR 0.00. Verification: NOT_NEEDED. The existing policy decision remains SAFE_TO_RESOLVE. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 8997,
+        "snapshot_fingerprint": "ba704efcc2e4f3e568bbea789ebe70784e41acf48813a0a17a04f046f2dfa136",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 28390.21, resulting in a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 2,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "13276.80",
+        "observed": "0.00",
+        "residual": "13276.80",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 7519,
+        "snapshot_fingerprint": "54f3307a4753e5db4be7f1d32274287c0ee99c5717b22da4d8ac71e12babdfaa",
+        "fallback_reason": null,
+        "load_ms": 4
+      },
+      "raw_model_output": [
+        "{\"summary\": \"A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.\", \"decision\": \"UNRESOLVED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 2,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "39112.77",
+        "observed": "0.00",
+        "residual": "39112.77",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns ambiguous match. Expected: INR 39112.77; observed: INR 0.00; unexplained residual: INR 39112.77. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 8578,
+        "snapshot_fingerprint": "3cbdb349097c6ff2ea87dba94eb40ca9a96c9934f87ff011cce1071883f36da8",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 39112.77 INR, but the observed amount is 0.00 INR. The residual amount is 39112.77 INR. The reconciliation verification was contradicted. The decision requires human review due to policy ambiguities, conflicts, and category issues.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 2,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "21654.62",
+        "observed": "21654.62",
+        "residual": "21654.62",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns duplicate. Expected: INR 21654.62; observed: INR 21654.62; unexplained residual: INR 21654.62. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 12167,
+        "snapshot_fingerprint": "9a3ab45e4e5245600651e72fefa60f3c9c434fc6ab78363c80c5a43cdafd61ec",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR category are equal at 21654.62. Verification of the amounts contradicted the policy codes POLICY-AMBIG-001, POLICY-CONFLICT-001, and POLICY-CATEGORY-001. A human review is required due to the contradictions in the policy codes.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 2,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "17395.81",
+        "observed": "9567.70",
+        "residual": "7828.11",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns partial settlement. Expected: INR 17395.81; observed: INR 9567.70; unexplained residual: INR 7828.11. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 11812,
+        "snapshot_fingerprint": "79a450f4253706d4fce6f3cb6fa32db48ffe05c9c4bd483b300c595c1893ccb4",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 30
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 17395.81 INR, but the observed amount is 9567.70 INR. The residual amount is 7828.11 INR. The reconciliation verification was contradicted, indicating issues with policy conflicts, category, or unclear reasons. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 2,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "46775.99",
+        "observed": "47711.51",
+        "residual": "935.52",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns over settlement. Expected: INR 46775.99; observed: INR 47711.51; unexplained residual: INR 935.52. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 10981,
+        "snapshot_fingerprint": "a3bbaec25784917d3a598ade16930ab6ee1e1ab76f522bfcc2f879cb0d987731",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 18
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 46775.99 INR, but the observed amount is 47711.51 INR. This results in a residual of 935.52 INR. The reconciliation was contradicted during verification, indicating a policy conflict or unresolved issue. A human review is required to resolve this discrepancy.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 2,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "30661.23",
+        "observed": "28821.56",
+        "residual": "1839.67",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns under settlement. Expected: INR 30661.23; observed: INR 28821.56; unexplained residual: INR 1839.67. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 10376,
+        "snapshot_fingerprint": "3a0b77bee94c10b41c6f40416838fc0638c14bf24eb848744cff49d930cc8ab1",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 15
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 30661.23 INR, but the observed amount is 28821.56 INR. There is a residual of 1839.67 INR. The reconciliation verification was contradicted, indicating a policy conflict or unresolved issue. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 2,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4173.38",
+        "observed": "4173.38",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 7789,
+        "snapshot_fingerprint": "cc0817da309159de11cd672ed96c494681ce66ae1dcbdfac1095a0960bdcd3fb",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 2,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "30307.73",
+        "observed": "30307.73",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 8589,
+        "snapshot_fingerprint": "bb69f106e6711759f69de02600482a2a2af701cc7b15dce7fdaf95ff1d3f4e30",
+        "fallback_reason": null,
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 3,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "This exception concerns fee mismatch. Expected: INR 7842.54; observed: INR 7663.77; unexplained residual: INR 9.83. Verification: CONTRADICTED. The existing policy decision remains REJECTED. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 7975,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 6
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected fee amount was 7842.54 INR, but the observed amount was 7663.77 INR. The residual difference was 9.83 INR. The reconciliation was contradicted by the verification process. The decision is rejected.\", \"decision\": \"REJECTED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 3,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "28390.21",
+        "observed": "28390.21",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "This exception concerns clean match. Expected: INR 28390.21; observed: INR 28390.21; unexplained residual: INR 0.00. Verification: NOT_NEEDED. The existing policy decision remains SAFE_TO_RESOLVE. Approval required: false. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 8447,
+        "snapshot_fingerprint": "ba704efcc2e4f3e568bbea789ebe70784e41acf48813a0a17a04f046f2dfa136",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 28390.21, resulting in a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 3,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "13276.80",
+        "observed": "0.00",
+        "residual": "13276.80",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 9618,
+        "snapshot_fingerprint": "54f3307a4753e5db4be7f1d32274287c0ee99c5717b22da4d8ac71e12babdfaa",
+        "fallback_reason": null,
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"A transaction is missing from the records. The expected amount is 13276.80 INR, but the observed amount is 0.00 INR. The residual amount is 13276.80 INR, indicating the missing transaction. The verification process confirmed the hypothesis that the transaction is missing. The decision is currently unresolved.\", \"decision\": \"UNRESOLVED\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 3,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "39112.77",
+        "observed": "0.00",
+        "residual": "39112.77",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns ambiguous match. Expected: INR 39112.77; observed: INR 0.00; unexplained residual: INR 39112.77. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 11329,
+        "snapshot_fingerprint": "3cbdb349097c6ff2ea87dba94eb40ca9a96c9934f87ff011cce1071883f36da8",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 39112.77 INR, but the observed amount is 0.00 INR. The residual amount is 39112.77 INR. The reconciliation verification was contradicted. The decision requires human review due to policy ambiguities, conflicts, and category issues.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 3,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "21654.62",
+        "observed": "21654.62",
+        "residual": "21654.62",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "This exception concerns duplicate. Expected: INR 21654.62; observed: INR 21654.62; unexplained residual: INR 21654.62. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 11526,
+        "snapshot_fingerprint": "9a3ab45e4e5245600651e72fefa60f3c9c434fc6ab78363c80c5a43cdafd61ec",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 18
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR category are equal at 21654.62. Verification of the amounts contradicted the policy codes POLICY-AMBIG-001, POLICY-CONFLICT-001, and POLICY-CATEGORY-001. A human review is required due to the contradictions in the policy codes.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 3,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "17395.81",
+        "observed": "9567.70",
+        "residual": "7828.11",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns partial settlement. Expected: INR 17395.81; observed: INR 9567.70; unexplained residual: INR 7828.11. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 11433,
+        "snapshot_fingerprint": "79a450f4253706d4fce6f3cb6fa32db48ffe05c9c4bd483b300c595c1893ccb4",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 15
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 17395.81 INR, but the observed amount is 9567.70 INR. The residual amount is 7828.11 INR. The reconciliation verification was contradicted, indicating issues with policy conflicts, category, or unclear reasons. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\", \"reason_codes\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 3,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "46775.99",
+        "observed": "47711.51",
+        "residual": "935.52",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns over settlement. Expected: INR 46775.99; observed: INR 47711.51; unexplained residual: INR 935.52. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 11299,
+        "snapshot_fingerprint": "a3bbaec25784917d3a598ade16930ab6ee1e1ab76f522bfcc2f879cb0d987731",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 46775.99 INR, but the observed amount is 47711.51 INR. This results in a residual of 935.52 INR. The reconciliation was contradicted during verification, indicating a policy conflict or unresolved issue. A human review is required to resolve this discrepancy.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 3,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "30661.23",
+        "observed": "28821.56",
+        "residual": "1839.67",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "This exception concerns under settlement. Expected: INR 30661.23; observed: INR 28821.56; unexplained residual: INR 1839.67. Verification: CONTRADICTED. The existing policy decision remains HUMAN_REVIEW. Approval required: true. No financial record was changed.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision",
+          "approval_required",
+          "reason_codes"
+        ],
+        "model": "granite4:3b",
+        "source": "deterministic_fallback",
+        "elapsed_ms": 10339,
+        "snapshot_fingerprint": "3a0b77bee94c10b41c6f40416838fc0638c14bf24eb848744cff49d930cc8ab1",
+        "fallback_reason": "Model unavailable, timed out, or response failed validation.",
+        "load_ms": 21
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected settlement amount is 30661.23 INR, but the observed amount is 28821.56 INR. There is a residual of 1839.67 INR. The reconciliation verification was contradicted, indicating a policy conflict or unresolved issue. A human review is required to proceed.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 3,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4173.38",
+        "observed": "4173.38",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 7311,
+        "snapshot_fingerprint": "cc0817da309159de11cd672ed96c494681ce66ae1dcbdfac1095a0960bdcd3fb",
+        "fallback_reason": null,
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed amounts for the refund are equal, with a residual of 0.00. No verification was needed, and the decision is to safely resolve the reconciliation.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 3,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "30307.73",
+        "observed": "30307.73",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.",
+        "fact_ids": [
+          "category",
+          "currency",
+          "expected",
+          "observed",
+          "residual",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 8410,
+        "snapshot_fingerprint": "bb69f106e6711759f69de02600482a2a2af701cc7b15dce7fdaf95ff1d3f4e30",
+        "fallback_reason": null,
+        "load_ms": 7
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The expected and observed settlement amounts for the INR transaction are equal at 30307.73, with a residual of 0.00. No verification was needed as the amounts match. The reconciliation is safe to resolve.\", \"decision\": \"SAFE_TO_RESOLVE\", \"fact_ids\": [\"category\", \"currency\", \"expected\", \"observed\", \"residual\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    }
+  ]
+}

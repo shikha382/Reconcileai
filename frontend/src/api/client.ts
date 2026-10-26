@@ -75,6 +75,16 @@ function query(params: Record<string, string | number | boolean | undefined>): s
 }
 
 export const api = {
+  graniteStatus: (signal?: AbortSignal) => request<{
+    available: boolean; model: string; reason: string | null;
+  }>("/granite/status", { signal }),
+
+  explainWithGranite: (id: string, signal: AbortSignal) => request<{
+    explanation: string; model: string; source: "granite" | "deterministic_fallback";
+    elapsed_ms: number; snapshot_fingerprint: string; fact_ids: string[];
+    fallback_reason: string | null;
+  }>(`/exceptions/${encodeURIComponent(id)}/granite-explanation`, { method: "POST", signal }),
+
   health: () => request<HealthResponse>("/health"),
 
   sourcesStatus: () => request<SourcesStatusResponse>("/sources/status"),

@@ -1,5 +1,8 @@
 # ReconcileAI
 
+Optional development-only feature: [IBM Granite exception explanations](docs/local-granite.md).
+This does not change the deterministic public demo or financial decision pipeline.
+
 **Deterministic-Gated Exception & Settlement Controller** — an explainable, multi-source settlement reconciliation agent built for the **Razorpay AI Buildathon 2026, Track 04: AI Finance Controller**.
 
 > ReconcileAI doesn't ask you to trust AI with your money.
