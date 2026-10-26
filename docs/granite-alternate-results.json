@@ -1,0 +1,1016 @@
+{
+  "timestamp": "2026-10-26T13:53:29.004331+00:00",
+  "model": "granite4:3b",
+  "commit": "daa56af06a539b653477ae96db9e4844cf39b086",
+  "working_tree": "uncommitted Granite implementation",
+  "hardware": "macOS-26.5.2-arm64-arm-64bit",
+  "configuration": {
+    "context": 2048,
+    "output_limit": 256,
+    "temperature": 0,
+    "keep_alive": "60s"
+  },
+  "adapter_sha256": "3468c827eccbe58fe7d5eca78bd9ae06914d216eaaefb6e06bffe156ee448da3",
+  "holdout": true,
+  "rows": [
+    {
+      "scenario": 1,
+      "repeat": 1,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2865,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": null,
+        "load_ms": 19
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.\",\n  \"decision\": \"REJECTED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 1,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "26853.89",
+        "observed": "26853.89",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3040,
+        "snapshot_fingerprint": "30e9e211ac059d6eda9a77120e6bc860b70fba9f1818c1c0658a3db26c1fd995",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 1,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "12686.28",
+        "observed": "0.00",
+        "residual": "12686.28",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "The case remains unresolved under the existing policy. It has not been cleared.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2204,
+        "snapshot_fingerprint": "e7eb998db011abc2a5eb195478e645e830036d17c133f69757e9303b318dc18e",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case remains unresolved under the existing policy. It has not been cleared.\",\n  \"decision\": \"UNRESOLVED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 1,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "42468.55",
+        "observed": "0.00",
+        "residual": "42468.55",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2514,
+        "snapshot_fingerprint": "77851e0850c430e2bda8555b2cd658e938ca3c5348d08112f380107f469fa466",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 1,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "13492.17",
+        "observed": "13492.17",
+        "residual": "13492.17",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2621,
+        "snapshot_fingerprint": "b305d79821e7cf1f53f7a14e4af7b84f0bc4d5126a350f705d411fdc79c177bc",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 1,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "4372.35",
+        "observed": "3279.26",
+        "residual": "1093.09",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2667,
+        "snapshot_fingerprint": "864062f9effbdfc472bbbb433d008eceb36e1baa9669f028b7a425748e47508c",
+        "fallback_reason": null,
+        "load_ms": 0
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 1,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "7426.53",
+        "observed": "7575.06",
+        "residual": "148.53",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2668,
+        "snapshot_fingerprint": "53cd4dab86b7bcdd14ce26b1c69aca6daf6d52ddf21f2aee293a0b844d7ea3e2",
+        "fallback_reason": null,
+        "load_ms": 2
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 1,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "25958.20",
+        "observed": "23881.54",
+        "residual": "2076.66",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2412,
+        "snapshot_fingerprint": "6b6fb7102097c4998645384c8bed4e741a0d59c3e5b843c3afcfe329761b25d2",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 1,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4974.34",
+        "observed": "4974.34",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 2997,
+        "snapshot_fingerprint": "b8200628709136c6e79dc17d68487778e05cfcaad8917de05b6005fb1c4e1435",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 1,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "35908.28",
+        "observed": "35908.28",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3494,
+        "snapshot_fingerprint": "64d57bc769a2c751e5dae88457fd82c7a24534a86d13c076d20e0166e8573a0f",
+        "fallback_reason": null,
+        "load_ms": 0
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 2,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3434,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": null,
+        "load_ms": 1
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.\",\n  \"decision\": \"REJECTED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 2,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "26853.89",
+        "observed": "26853.89",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 5233,
+        "snapshot_fingerprint": "30e9e211ac059d6eda9a77120e6bc860b70fba9f1818c1c0658a3db26c1fd995",
+        "fallback_reason": null,
+        "load_ms": 18
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 2,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "12686.28",
+        "observed": "0.00",
+        "residual": "12686.28",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "The case remains unresolved under the existing policy. It has not been cleared.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4145,
+        "snapshot_fingerprint": "e7eb998db011abc2a5eb195478e645e830036d17c133f69757e9303b318dc18e",
+        "fallback_reason": null,
+        "load_ms": 43
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case remains unresolved under the existing policy. It has not been cleared.\",\n  \"decision\": \"UNRESOLVED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 2,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "42468.55",
+        "observed": "0.00",
+        "residual": "42468.55",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3375,
+        "snapshot_fingerprint": "77851e0850c430e2bda8555b2cd658e938ca3c5348d08112f380107f469fa466",
+        "fallback_reason": null,
+        "load_ms": 30
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 2,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "13492.17",
+        "observed": "13492.17",
+        "residual": "13492.17",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3511,
+        "snapshot_fingerprint": "b305d79821e7cf1f53f7a14e4af7b84f0bc4d5126a350f705d411fdc79c177bc",
+        "fallback_reason": null,
+        "load_ms": 36
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 2,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "4372.35",
+        "observed": "3279.26",
+        "residual": "1093.09",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3974,
+        "snapshot_fingerprint": "864062f9effbdfc472bbbb433d008eceb36e1baa9669f028b7a425748e47508c",
+        "fallback_reason": null,
+        "load_ms": 13
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 2,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "7426.53",
+        "observed": "7575.06",
+        "residual": "148.53",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3952,
+        "snapshot_fingerprint": "53cd4dab86b7bcdd14ce26b1c69aca6daf6d52ddf21f2aee293a0b844d7ea3e2",
+        "fallback_reason": null,
+        "load_ms": 73
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 2,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "25958.20",
+        "observed": "23881.54",
+        "residual": "2076.66",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4557,
+        "snapshot_fingerprint": "6b6fb7102097c4998645384c8bed4e741a0d59c3e5b843c3afcfe329761b25d2",
+        "fallback_reason": null,
+        "load_ms": 34
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 2,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4974.34",
+        "observed": "4974.34",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 5586,
+        "snapshot_fingerprint": "b8200628709136c6e79dc17d68487778e05cfcaad8917de05b6005fb1c4e1435",
+        "fallback_reason": null,
+        "load_ms": 39
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 2,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "35908.28",
+        "observed": "35908.28",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 7635,
+        "snapshot_fingerprint": "64d57bc769a2c751e5dae88457fd82c7a24534a86d13c076d20e0166e8573a0f",
+        "fallback_reason": null,
+        "load_ms": 49
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 1,
+      "repeat": 3,
+      "facts": {
+        "category": "fee_mismatch",
+        "currency": "INR",
+        "expected": "7842.54",
+        "observed": "7663.77",
+        "residual": "9.83",
+        "verification": "CONTRADICTED",
+        "decision": "REJECTED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-VERIFIER-FAIL-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4366,
+        "snapshot_fingerprint": "bf615914f3adaadb664ac60aaeecef6d203bc267ad800f375605f170a4cfc6ff",
+        "fallback_reason": null,
+        "load_ms": 30
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The recorded classification is a fee mismatch. An AI hypothesis was checked and rejected. The existing policy rejected this case, and automatic resolution is not authorized.\",\n  \"decision\": \"REJECTED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 2,
+      "repeat": 3,
+      "facts": {
+        "category": "clean_match",
+        "currency": "INR",
+        "expected": "26853.89",
+        "observed": "26853.89",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4259,
+        "snapshot_fingerprint": "30e9e211ac059d6eda9a77120e6bc860b70fba9f1818c1c0658a3db26c1fd995",
+        "fallback_reason": null,
+        "load_ms": 23
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked as safe to resolve based on the existing policy. No AI hypothesis checking was required for this clean match classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 3,
+      "repeat": 3,
+      "facts": {
+        "category": "missing_transaction",
+        "currency": "INR",
+        "expected": "12686.28",
+        "observed": "0.00",
+        "residual": "12686.28",
+        "verification": "PASSED",
+        "decision": "UNRESOLVED",
+        "approval_required": "false",
+        "reason_codes": "POLICY-MISSING-RECORD-001"
+      },
+      "response": {
+        "explanation": "The case remains unresolved under the existing policy. It has not been cleared.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4232,
+        "snapshot_fingerprint": "e7eb998db011abc2a5eb195478e645e830036d17c133f69757e9303b318dc18e",
+        "fallback_reason": null,
+        "load_ms": 4
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case remains unresolved under the existing policy. It has not been cleared.\",\n  \"decision\": \"UNRESOLVED\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 4,
+      "repeat": 3,
+      "facts": {
+        "category": "ambiguous_match",
+        "currency": "INR",
+        "expected": "42468.55",
+        "observed": "0.00",
+        "residual": "42468.55",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4490,
+        "snapshot_fingerprint": "77851e0850c430e2bda8555b2cd658e938ca3c5348d08112f380107f469fa466",
+        "fallback_reason": null,
+        "load_ms": 33
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is ambiguous match. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 5,
+      "repeat": 3,
+      "facts": {
+        "category": "duplicate",
+        "currency": "INR",
+        "expected": "13492.17",
+        "observed": "13492.17",
+        "residual": "13492.17",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-AMBIG-001, POLICY-CONFLICT-001, POLICY-CATEGORY-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3418,
+        "snapshot_fingerprint": "b305d79821e7cf1f53f7a14e4af7b84f0bc4d5126a350f705d411fdc79c177bc",
+        "fallback_reason": null,
+        "load_ms": 31
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is duplicate. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 6,
+      "repeat": 3,
+      "facts": {
+        "category": "partial_settlement",
+        "currency": "INR",
+        "expected": "4372.35",
+        "observed": "3279.26",
+        "residual": "1093.09",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-CATEGORY-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3735,
+        "snapshot_fingerprint": "864062f9effbdfc472bbbb433d008eceb36e1baa9669f028b7a425748e47508c",
+        "fallback_reason": null,
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is partial settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 7,
+      "repeat": 3,
+      "facts": {
+        "category": "over_settlement",
+        "currency": "INR",
+        "expected": "7426.53",
+        "observed": "7575.06",
+        "residual": "148.53",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision",
+          "approval_required"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3539,
+        "snapshot_fingerprint": "53cd4dab86b7bcdd14ce26b1c69aca6daf6d52ddf21f2aee293a0b844d7ea3e2",
+        "fallback_reason": null,
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is over settlement. An AI hypothesis was checked and rejected. The existing policy requires human review. Automatic resolution is not authorized.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\", \"approval_required\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 8,
+      "repeat": 3,
+      "facts": {
+        "category": "under_settlement",
+        "currency": "INR",
+        "expected": "25958.20",
+        "observed": "23881.54",
+        "residual": "2076.66",
+        "verification": "CONTRADICTED",
+        "decision": "HUMAN_REVIEW",
+        "approval_required": "true",
+        "reason_codes": "POLICY-CONFLICT-001, POLICY-UNEXPLAINED-001"
+      },
+      "response": {
+        "explanation": "The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 3839,
+        "snapshot_fingerprint": "6b6fb7102097c4998645384c8bed4e741a0d59c3e5b843c3afcfe329761b25d2",
+        "fallback_reason": null,
+        "load_ms": 3
+      },
+      "raw_model_output": [
+        "{\"summary\": \"The recorded classification is under settlement. An AI hypothesis was checked and rejected. The existing policy requires human review and approval.\", \"decision\": \"HUMAN_REVIEW\", \"fact_ids\": [\"category\", \"verification\", \"decision\"]}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 9,
+      "repeat": 3,
+      "facts": {
+        "category": "refund_mismatch",
+        "currency": "INR",
+        "expected": "4974.34",
+        "observed": "4974.34",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 4317,
+        "snapshot_fingerprint": "b8200628709136c6e79dc17d68487778e05cfcaad8917de05b6005fb1c4e1435",
+        "fallback_reason": null,
+        "load_ms": 34
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve based on the existing policy. No AI hypothesis checking was required for this refund mismatch classification.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    },
+    {
+      "scenario": 10,
+      "repeat": 3,
+      "facts": {
+        "category": "timing_mismatch",
+        "currency": "INR",
+        "expected": "35908.28",
+        "observed": "35908.28",
+        "residual": "0.00",
+        "verification": "NOT_NEEDED",
+        "decision": "SAFE_TO_RESOLVE",
+        "approval_required": "false",
+        "reason_codes": "POLICY-AUTO-001"
+      },
+      "response": {
+        "explanation": "The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.",
+        "fact_ids": [
+          "category",
+          "verification",
+          "decision"
+        ],
+        "model": "granite4:3b",
+        "source": "granite",
+        "elapsed_ms": 5413,
+        "snapshot_fingerprint": "64d57bc769a2c751e5dae88457fd82c7a24534a86d13c076d20e0166e8573a0f",
+        "fallback_reason": null,
+        "load_ms": 5
+      },
+      "raw_model_output": [
+        "{\n  \"summary\": \"The case is marked safe to resolve according to the existing policy. No AI hypothesis checking was required for this category. The approval flag is not set, confirming the policy decision stands.\",\n  \"decision\": \"SAFE_TO_RESOLVE\",\n  \"fact_ids\": [\n    \"category\",\n    \"verification\",\n    \"decision\"\n  ]\n}"
+      ],
+      "human_review": null
+    }
+  ]
+}

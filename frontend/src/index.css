@@ -1871,3 +1871,6 @@ code {
     transition-duration: 0.01ms !important;
   }
 }
+/* Local-only experiment: reuse existing cards; wrap controls on small screens. */
+.granite-panel__controls { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+.granite-panel p { overflow-wrap: anywhere; }

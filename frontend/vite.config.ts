@@ -39,6 +39,7 @@ export default defineConfig({
       "/runs": apiProxy(),
       "/exceptions": apiProxy(),
       "/sources": apiProxy(),
+      "/granite": apiProxy(),
     },
   },
   test: {

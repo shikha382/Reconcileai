@@ -5,6 +5,7 @@
 // own; every fact shown is read directly from one of those three responses.
 import { Link, useLocation, useParams } from "react-router-dom";
 import { api } from "../api/client";
+import { GraniteExplanation } from "../components/GraniteExplanation";
 import { AiAuthorityDiagram } from "../components/AiAuthorityDiagram";
 import { AiHypothesisContradiction, ContradictionItemRow } from "../components/ContradictionCallout";
 import { CalculationRow, EvidenceItemRow } from "../components/EvidenceRow";
@@ -120,6 +121,11 @@ export function ExceptionDetailPage() {
           </div>
         </div>
       </section>
+
+      {import.meta.env.DEV && import.meta.env.VITE_GRANITE_ENABLED === "1" &&
+        ["localhost", "127.0.0.1", "[::1]"].includes(window.location.hostname) && (
+        <GraniteExplanation key={exceptionId} exceptionId={exceptionId} />
+      )}
 
       <section className="card" aria-label="Source records">
         <h2>Source Records</h2>
