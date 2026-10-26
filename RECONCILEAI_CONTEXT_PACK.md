@@ -1,7 +1,7 @@
 # ReconcileAI — Complete Context Pack
 
 Status: RESEARCH + PRODUCT DEFINITION ONLY. No code written. No application scaffold created. No milestone started.
-Purpose: a single source-of-truth document another LLM/Codex session (or a human) can read and immediately understand the project, its evidence base, and its plan.
+Purpose: a single source-of-truth document another AI-assisted session (or a human) can read and immediately understand the project, its evidence base, and its plan.
 Research date: 2026-08-25. All web-sourced claims below were verified on this date; product pages change over time — re-verify before relying on this for a live submission close to a deadline.
 
 Epistemic labeling used throughout: **FACT** (directly sourced, URL given), **INFERENCE** (a reasonable conclusion drawn from facts, explicitly mine), **HYPOTHESIS** (an unverified guess), **SECONDARY SOURCE** (from a non-official source — review site, blog, aggregator — treated with reduced confidence).

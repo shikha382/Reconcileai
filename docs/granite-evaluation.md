@@ -16,7 +16,7 @@ was used. An independent human quality review remains outstanding.
 ## Environment and method
 
 - Base: GitHub master `daa56af06a539b653477ae96db9e4844cf39b086`;
-  uncommitted local implementation on `codex/granite-explanation`.
+  local experiment implementation, subsequently committed as `39f58a8`.
 - Model: Ollama `granite4:3b`, model ID `89962fcc7523`, 2.1 GB package.
 - Mac M1 / 8 GB; Ollama reported 2.3 GB runner memory, GPU, 2048 context.
   A system-memory observation reported 19% free; this is not continuous memory
@@ -52,7 +52,7 @@ No cold p95 or generation-throughput claim is made from one cold sample.
 
 ## Evidence review and limitations
 
-Codex inspected every final response against its recorded facts. The nine
+An AI-assisted evidence review inspected every final response against its recorded facts. The nine
 accepted answers preserve the supplied amounts and final decisions. Missing-record
 answers distinguish the supported hypothesis from the still-unresolved case.
 Refund/timing answers retain the existing safe-to-resolve decision. This is an
@@ -123,7 +123,7 @@ Results on the original ten scenarios, three repetitions each:
 - Raw outputs and adapter source hash: `granite-grounded-results.json`.
 - This is successful output validation, **not 100% accuracy**. These are the
   same development examples that informed the prompt improvement, not holdout data.
-- Codex evidence review found no amount/decision contradiction in the accepted
+- AI-assisted evidence review found no amount/decision contradiction in the accepted
   outputs. The missing-record answer is accurate but under-explained: it only
   says the case remains unresolved, omitting the category and hypothesis detail.
   Treat its three repetitions as weak explanations rather than claiming a
@@ -142,7 +142,7 @@ paraphrase of verified states; the model no longer explains numeric calculations
 or diagnoses new root causes. That deliberate scope reduction is part of the
 improvement, not a general model-performance claim.
 
-Codex reviewed all 60 responses against the recorded states. No critical policy
+An AI-assisted review checked all 60 responses against the recorded states. No critical policy
 or amount contradictions were found in that review. Across both runs, six
 missing-record responses omit useful classification/hypothesis context and
 remain weak. Do not convert the 60 accepted outputs into a 100% accuracy claim,
